@@ -19,15 +19,15 @@
    ],
    "templates": {
     "complaint": {
-     "body": "I am a New Jersey resident. On {{sent_date}} I asked {{source_name}} ({{source_website}}) to delete my personal data and stop selling it, under the New Jersey Data Privacy Act ({{citation}}). The response period ended on {{due_date}}. On {{recheck_date}} my personal data was still shown at {{profile_url}}.\n\nAttached: my request, its date, and screenshots of the listing before the request and after the deadline.\n\n{{full_name}}\n{{email}}",
+     "body": "I am a New Jersey resident. I asked {{source_name}} ({{source_website}}) to delete my personal data and stop selling it, under the New Jersey Data Privacy Act ({{citation}}). As far as I can tell, the company did not complete or answer the request within the response period. I ask the Division to review it.\n\nRequest sent on: {{sent_date}}\nResponse period ended on: {{due_date}}\nListing still shown on: {{recheck_date}}\nListing address: {{profile_url}}\n\nI can provide a copy of my request, its date, and screenshots of the listing taken before the request and after the response period.\n\n{{full_name}}\nContact email: {{email}}",
      "subject": "Complaint: {{source_name}} did not act on a data privacy request"
     },
     "followUp": {
-     "body": "To {{source_name}},\n\nOn {{sent_date}} I sent you a request under the New Jersey Data Privacy Act ({{citation}}) to delete my personal data and stop selling it. The {{response_days}}-day response period ended on {{due_date}}, and I have not received a response.\n\nListing on your site: {{profile_url}}\n\nPlease complete the deletion and confirm in writing. If I do not hear from you, I will file a complaint with the New Jersey Division of Consumer Affairs.\n\n{{full_name}}\n{{date}}",
-     "subject": "Follow-up: deletion request sent {{sent_date}} — {{full_name}}"
+     "body": "To {{source_name}},\n\nI am following up on my request under the New Jersey Data Privacy Act ({{citation}}) to delete my personal data and stop selling it.\n\nRequest sent on: {{sent_date}}\nResponse period ended on: {{due_date}}\nListing on your site: {{profile_url}}\n\nI have not received a response, an extension notice or a decision I can appeal. Please complete the deletion and confirm in writing, or tell me why you cannot and how I can appeal. If I do not hear from you, I may file a complaint with the New Jersey Division of Consumer Affairs.\n\n{{full_name}}\n{{date}}",
+     "subject": "Follow-up: data deletion request — {{full_name}}"
     },
     "request": {
-     "body": "To {{source_name}},\n\nI am a New Jersey resident. Under the New Jersey Data Privacy Act ({{citation}}), I request that you:\n\n1. Delete all personal data you hold about me.\n2. Stop selling my personal data, and stop processing it for targeted advertising and profiling.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nThe law requires a response within {{response_days}} days of receipt. Please confirm in writing when the deletion is complete.\n\nThank you,\n{{full_name}}\n{{date}}",
+     "body": "To {{source_name}},\n\nI am a New Jersey resident. Under the New Jersey Data Privacy Act ({{citation}}), I request that you:\n\n1. Delete the personal data you hold about me.\n2. Stop selling my personal data, and stop processing it for targeted advertising and profiling.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nIf you need more information to verify that this request comes from me, please tell me what you need. The law asks for a response within {{response_days}} days of receiving a verified request. If you need more time, please tell me within that period and explain why. If you decline any part of this request, please tell me why and how I can appeal.\n\nPlease confirm in writing when the deletion is complete.\n\nThank you,\n{{full_name}}\n{{date}}",
      "subject": "Personal data deletion and opt-out request — {{full_name}}"
     }
    }
@@ -45,15 +45,15 @@
    "states": [],
    "templates": {
     "complaint": {
-     "body": "On {{sent_date}} I asked {{source_name}} ({{source_website}}) to remove my personal information under its own published opt-out policy. On {{recheck_date}} it was still shown at {{profile_url}}.\n\nAttached: my request, its date, and screenshots of the listing.\n\n{{full_name}}\n{{email}}",
+     "body": "I asked {{source_name}} ({{source_website}}) to remove my personal information under its own published opt-out policy. As far as I can tell, it did not do so.\n\nRequest sent on: {{sent_date}}\nListing still shown on: {{recheck_date}}\nListing address: {{profile_url}}\n\nI can provide a copy of my request, its date, and screenshots of the listing.\n\n{{full_name}}\nContact email: {{email}}",
      "subject": "Complaint: {{source_name}} did not honor its own opt-out policy"
     },
     "followUp": {
-     "body": "To {{source_name}},\n\nOn {{sent_date}} I asked you to remove my personal information under your published opt-out policy. It is still shown at {{profile_url}}. Please complete the removal and confirm in writing.\n\n{{full_name}}\n{{date}}",
-     "subject": "Follow-up: removal request sent {{sent_date}} — {{full_name}}"
+     "body": "To {{source_name}},\n\nI am following up on my request to remove my personal information under your published opt-out policy.\n\nRequest sent on: {{sent_date}}\nListing on your site: {{profile_url}}\n\nPlease complete the removal and confirm in writing, or tell me why you cannot.\n\n{{full_name}}\n{{date}}",
+     "subject": "Follow-up: removal request — {{full_name}}"
     },
     "request": {
-     "body": "To {{source_name}},\n\nUnder your published privacy and opt-out policy, I request that you remove my personal information from your website and records, and stop selling or sharing it.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nPlease confirm in writing when the removal is complete.\n\nThank you,\n{{full_name}}\n{{date}}",
+     "body": "To {{source_name}},\n\nUnder your published privacy and opt-out policy, I request that you remove my personal information from your website and records, and stop selling or sharing it.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nIf you need more information to verify that this request comes from me, please tell me what you need. Please confirm in writing when the removal is complete.\n\nThank you,\n{{full_name}}\n{{date}}",
      "subject": "Personal data removal request — {{full_name}}"
     }
    }
@@ -5793,5 +5793,5 @@
    "website": "https://zosearch.com"
   }
  ],
- "version": 202611082037
+ "version": 202611082142
 }
