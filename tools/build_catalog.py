@@ -40,6 +40,26 @@ def fail(msg):
     sys.exit(1)
 
 
+# Values the app always has when it writes a letter. Any other value may be missing, and the app then
+# drops the whole line that holds it, so such a value must sit on its own short "Label: {{value}}" line,
+# never inside a sentence that would vanish with it.
+ALWAYS_PRESENT = {"full_name", "source_name", "date", "source_website", "citation", "response_days"}
+PLACEHOLDER = re.compile(r"\{\{([a-z_]+)\}\}")
+
+
+def check_template_lines(law_id, kind, t):
+    for p in PLACEHOLDER.findall(t["subject"]):
+        if p not in ALWAYS_PRESENT:
+            fail(f"law {law_id}: {kind} subject uses {p}, which may be missing")
+    for line in t["body"].split("\n"):
+        optional = [p for p in PLACEHOLDER.findall(line) if p not in ALWAYS_PRESENT]
+        if not optional:
+            continue
+        rest = PLACEHOLDER.sub("", line).strip()
+        if len(optional) > 1 or len(rest) > 40 or not (rest == "" or rest.endswith(":")):
+            fail(f"law {law_id}: {kind} line must be 'Label: {{{{value}}}}': {line!r}")
+
+
 def check_source(s):
     for key in ("id", "name", "website", "category", "channel", "requiredFields", "verification", "confidence"):
         if key not in s:
@@ -132,6 +152,7 @@ def main():
             t = law["templates"][kind]
             if not t["subject"] or not t["body"]:
                 fail(f"law {law['id']}: empty {kind} template")
+            check_template_lines(law["id"], kind, t)
     if not any(l["id"] == "GENERIC" for l in laws):
         fail("GENERIC law profile is required")
 
