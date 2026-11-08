@@ -1,0 +1,128 @@
+[
+  {
+    "id": "beenverified", "name": "BeenVerified", "website": "https://www.beenverified.com",
+    "category": "people_search", "priority": "crucial", "owner": "BeenVerified",
+    "sisterSites": ["PeopleLooker", "PeopleSmart"],
+    "channel": "web_form", "optOutUrl": "https://www.beenverified.com/app/optout/search",
+    "searchUrl": "https://www.beenverified.com/app/optout/search",
+    "requiredFields": ["full_name", "city_state", "email"], "verification": "email_link",
+    "flags": ["one_optout_per_email"],
+    "notes": "Separate opt-outs for people search and property search (https://www.beenverified.com/app/optout/address-search). One opt-out per email address; confirm by email link."
+  },
+  {
+    "id": "checkpeople", "name": "CheckPeople", "website": "https://checkpeople.com",
+    "category": "people_search", "priority": "crucial",
+    "channel": "web_form", "optOutUrl": "https://checkpeople.com/opt-out",
+    "requiredFields": ["full_name", "email", "birth_date"], "verification": "none",
+    "flags": ["asks_birth_date"],
+    "notes": "Check first with a Right to Know request at https://checkpeople.com/privacy-rights. The opt-out asks for full legal name and birth date."
+  },
+  {
+    "id": "clustal", "name": "Clustal", "website": "https://www.clustal.org",
+    "category": "people_search", "priority": "crucial",
+    "channel": "web_form", "optOutUrl": "https://www.clustal.org/privacy-control",
+    "searchUrl": "https://www.clustal.org",
+    "requiredFields": ["profile_url", "email"], "verification": "email_link",
+    "flags": ["one_optout_per_email"],
+    "notes": "Use the URL from 'view full record', not the search result URL. One email address per listing."
+  },
+  {
+    "id": "intelius", "name": "Intelius", "website": "https://www.intelius.com",
+    "category": "people_search", "priority": "crucial", "owner": "PeopleConnect",
+    "sisterSites": ["Addresses.com", "AnyWho", "Classmates", "Instant Checkmate", "PeopleFinder", "PeopleLookup", "TruthFinder", "US Search", "ZabaSearch"],
+    "channel": "email", "email": "support@mailer.intelius.com", "phone": "1-888-245-1655",
+    "optOutUrl": "https://suppression.peopleconnect.us/login",
+    "requiredFields": ["full_name", "email", "address"], "verification": "email_link",
+    "notes": "One suppression covers the PeopleConnect family of sites. May ask to confirm address, phone or past emails; send only what the site already shows."
+  },
+  {
+    "id": "menstoppingviolence", "name": "Men Stopping Violence (people pages)", "website": "https://www.menstoppingviolence.org",
+    "category": "people_search", "priority": "crucial",
+    "channel": "web_form", "optOutUrl": "https://www.menstoppingviolence.org/opt-out/",
+    "searchUrl": "https://www.menstoppingviolence.org/people/",
+    "requiredFields": ["profile_url", "email"], "verification": "email_link",
+    "notes": "Find the listing URL, paste it in the opt-out page, then confirm by email link."
+  },
+  {
+    "id": "mylife", "name": "MyLife", "website": "https://www.mylife.com",
+    "category": "people_search", "priority": "crucial",
+    "channel": "email", "email": "privacy@mylife.com", "phone": "(888) 704-1900",
+    "optOutUrl": "https://www.mylife.com/privacyrequest",
+    "requiredFields": ["full_name", "profile_url"], "verification": "phone_call",
+    "flags": ["may_ask_id", "may_require_phone_call"],
+    "notes": "Email the request with name and profile link. The site may push for an account or ID; do not send ID by default."
+  },
+  {
+    "id": "smartbackgroundchecks", "name": "SmartBackgroundChecks", "website": "https://www.smartbackgroundchecks.com",
+    "category": "people_search", "priority": "crucial",
+    "sisterSites": ["PeopleFinders"],
+    "channel": "web_form", "optOutUrl": "https://www.smartbackgroundchecks.com/optout",
+    "requiredFields": ["profile_url"], "verification": "none",
+    "notes": "Removal here likely also removes the PeopleFinders listing."
+  },
+  {
+    "id": "spokeo", "name": "Spokeo", "website": "https://www.spokeo.com",
+    "category": "people_search", "priority": "crucial",
+    "channel": "web_form", "optOutUrl": "https://www.spokeo.com/optout",
+    "searchUrl": "https://www.spokeo.com/search",
+    "requiredFields": ["profile_url", "email"], "verification": "email_link",
+    "flags": ["paid_access"],
+    "notes": "Enter the profile URL and an email in the 'opt out your information' section, then confirm by email link. Paid views may keep data after removal."
+  },
+  {
+    "id": "thatsthem", "name": "That's Them", "website": "https://thatsthem.com",
+    "category": "people_search", "priority": "crucial",
+    "channel": "web_form", "optOutUrl": "https://thatsthem.com/optout",
+    "requiredFields": ["full_name", "address", "phone", "email"], "verification": "none",
+    "notes": "Ignore the paid identity-protection offer on the page."
+  },
+  {
+    "id": "whitepages", "name": "Whitepages", "website": "https://www.whitepages.com",
+    "category": "people_search", "priority": "crucial",
+    "sisterSites": ["411.com"],
+    "channel": "web_form", "optOutUrl": "https://www.whitepages.com/suppression_requests",
+    "requiredFields": ["profile_url", "phone"], "verification": "phone_code",
+    "flags": ["paid_access", "phone_code"],
+    "notes": "An automated call gives a code to enter. Premium listings may stay; check 411.com too."
+  },
+  {
+    "id": "acxiom", "name": "Acxiom", "website": "https://www.acxiom.com",
+    "category": "marketing", "priority": "high",
+    "channel": "web_form", "optOutUrl": "https://www.acxiom.com/optout/", "phone": "(877) 774-2094",
+    "requiredFields": ["full_name", "address", "email"], "verification": "email_link",
+    "notes": "Marketing data broker; listings are not searchable for free, so removal cannot be re-checked."
+  },
+  {
+    "id": "ancestry", "name": "Ancestry", "website": "https://www.ancestry.com",
+    "category": "people_search", "priority": "high",
+    "channel": "guided", "email": "privacy@ancestry.com",
+    "optOutUrl": "https://support.ancestry.com/s/reportissue?language=en_US",
+    "requiredFields": ["profile_url", "email"], "verification": "none",
+    "flags": ["needs_account"],
+    "notes": "Needs a free account (not a trial) to find record URLs; email the URLs or use the removal form."
+  },
+  {
+    "id": "familytreenow", "name": "FamilyTreeNow", "website": "https://www.familytreenow.com",
+    "category": "people_search", "priority": "high",
+    "channel": "web_form", "optOutUrl": "https://www.familytreenow.com/optout",
+    "requiredFields": ["full_name", "profile_url"], "verification": "none",
+    "notes": "Search, then remove the record from the opt-out page."
+  },
+  {
+    "id": "fastpeoplesearch", "name": "FastPeopleSearch", "website": "https://www.fastpeoplesearch.com",
+    "category": "people_search", "priority": "high",
+    "channel": "web_form", "optOutUrl": "https://www.fastpeoplesearch.com/optout",
+    "searchUrl": "https://www.fastpeoplesearch.com",
+    "requiredFields": ["email", "profile_url"], "verification": "email_link",
+    "flags": ["captcha"],
+    "notes": "Usually shows a CAPTCHA; becomes a Needs-you task."
+  },
+  {
+    "id": "usphonebook", "name": "USPhoneBook", "website": "https://www.usphonebook.com",
+    "category": "people_search", "priority": "high",
+    "channel": "web_form", "optOutUrl": "https://www.usphonebook.com/opt-out/",
+    "email": "support+optout@usphonebook.com",
+    "requiredFields": ["phone", "profile_url"], "verification": "none",
+    "notes": "If the opt-out page hangs, email the support address."
+  }
+]

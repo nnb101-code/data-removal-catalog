@@ -1,0 +1,5797 @@
+{
+ "attribution": [
+  "Optery Data Brokers Directory — https://github.com/optery/optery-data-brokers-directory (CC BY-NC-SA 4.0)",
+  "Big Ass Data Broker Opt-Out List (BADBOOL) — https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List (CC BY-NC-SA)"
+ ],
+ "laws": [
+  {
+   "citation": "P.L. 2023, c. 266",
+   "extensionDays": 45,
+   "freeRequestsPerYear": 1,
+   "id": "NJ",
+   "name": "New Jersey Data Privacy Act",
+   "regulatorName": "New Jersey Division of Consumer Affairs",
+   "regulatorUrl": "https://njconsumeraffairs.nj.gov/file-a-complaint/",
+   "responseDays": 45,
+   "sourceUrl": "https://njconsumeraffairs.gov/ocp/Pages/NJ-Data-Privacy-Law-FAQ.aspx",
+   "states": [
+    "NJ"
+   ],
+   "templates": {
+    "complaint": {
+     "body": "I am a New Jersey resident. On {{sent_date}} I asked {{source_name}} ({{source_website}}) to delete my personal data and stop selling it, under the New Jersey Data Privacy Act ({{citation}}). The response period ended on {{due_date}}. On {{recheck_date}} my personal data was still shown at {{profile_url}}.\n\nAttached: my request, its date, and screenshots of the listing before the request and after the deadline.\n\n{{full_name}}\n{{email}}",
+     "subject": "Complaint: {{source_name}} did not act on a data privacy request"
+    },
+    "followUp": {
+     "body": "To {{source_name}},\n\nOn {{sent_date}} I sent you a request under the New Jersey Data Privacy Act ({{citation}}) to delete my personal data and stop selling it. The {{response_days}}-day response period ended on {{due_date}}, and I have not received a response.\n\nListing on your site: {{profile_url}}\n\nPlease complete the deletion and confirm in writing. If I do not hear from you, I will file a complaint with the New Jersey Division of Consumer Affairs.\n\n{{full_name}}\n{{date}}",
+     "subject": "Follow-up: deletion request sent {{sent_date}} — {{full_name}}"
+    },
+    "request": {
+     "body": "To {{source_name}},\n\nI am a New Jersey resident. Under the New Jersey Data Privacy Act ({{citation}}), I request that you:\n\n1. Delete all personal data you hold about me.\n2. Stop selling my personal data, and stop processing it for targeted advertising and profiling.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nThe law requires a response within {{response_days}} days of receipt. Please confirm in writing when the deletion is complete.\n\nThank you,\n{{full_name}}\n{{date}}",
+     "subject": "Personal data deletion and opt-out request — {{full_name}}"
+    }
+   }
+  },
+  {
+   "citation": "",
+   "extensionDays": 0,
+   "freeRequestsPerYear": 0,
+   "id": "GENERIC",
+   "name": "No state privacy law profile yet",
+   "regulatorName": "Federal Trade Commission",
+   "regulatorUrl": "https://reportfraud.ftc.gov/",
+   "responseDays": 45,
+   "sourceUrl": "",
+   "states": [],
+   "templates": {
+    "complaint": {
+     "body": "On {{sent_date}} I asked {{source_name}} ({{source_website}}) to remove my personal information under its own published opt-out policy. On {{recheck_date}} it was still shown at {{profile_url}}.\n\nAttached: my request, its date, and screenshots of the listing.\n\n{{full_name}}\n{{email}}",
+     "subject": "Complaint: {{source_name}} did not honor its own opt-out policy"
+    },
+    "followUp": {
+     "body": "To {{source_name}},\n\nOn {{sent_date}} I asked you to remove my personal information under your published opt-out policy. It is still shown at {{profile_url}}. Please complete the removal and confirm in writing.\n\n{{full_name}}\n{{date}}",
+     "subject": "Follow-up: removal request sent {{sent_date}} — {{full_name}}"
+    },
+    "request": {
+     "body": "To {{source_name}},\n\nUnder your published privacy and opt-out policy, I request that you remove my personal information from your website and records, and stop selling or sharing it.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nPlease confirm in writing when the removal is complete.\n\nThank you,\n{{full_name}}\n{{date}}",
+     "subject": "Personal data removal request — {{full_name}}"
+    }
+   }
+  }
+ ],
+ "schemaVersion": 1,
+ "sources": [
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "one_optout_per_email"
+   ],
+   "id": "beenverified",
+   "name": "BeenVerified",
+   "notes": "Separate opt-outs for people search and property search (https://www.beenverified.com/app/optout/address-search). One opt-out per email address; confirm by email link.",
+   "optOutUrl": "https://www.beenverified.com/app/optout/search",
+   "owner": "BeenVerified",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "city_state",
+    "email"
+   ],
+   "searchUrl": "https://www.beenverified.com/app/optout/search",
+   "sisterSites": [
+    "PeopleLooker",
+    "PeopleSmart"
+   ],
+   "verification": "email_link",
+   "website": "https://www.beenverified.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "asks_birth_date"
+   ],
+   "id": "checkpeople",
+   "name": "CheckPeople",
+   "notes": "Check first with a Right to Know request at https://checkpeople.com/privacy-rights. The opt-out asks for full legal name and birth date.",
+   "optOutUrl": "https://checkpeople.com/opt-out",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "email",
+    "birth_date"
+   ],
+   "verification": "none",
+   "website": "https://checkpeople.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "one_optout_per_email"
+   ],
+   "id": "clustal",
+   "name": "Clustal",
+   "notes": "Use the URL from 'view full record', not the search result URL. One email address per listing.",
+   "optOutUrl": "https://www.clustal.org/privacy-control",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "profile_url",
+    "email"
+   ],
+   "searchUrl": "https://www.clustal.org",
+   "verification": "email_link",
+   "website": "https://www.clustal.org"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "untested",
+   "email": "support@mailer.intelius.com",
+   "id": "intelius",
+   "name": "Intelius",
+   "notes": "One suppression covers the PeopleConnect family of sites. May ask to confirm address, phone or past emails; send only what the site already shows.",
+   "optOutUrl": "https://suppression.peopleconnect.us/login",
+   "owner": "PeopleConnect",
+   "phone": "1-888-245-1655",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "email",
+    "address"
+   ],
+   "sisterSites": [
+    "Addresses.com",
+    "AnyWho",
+    "Classmates",
+    "Instant Checkmate",
+    "PeopleFinder",
+    "PeopleLookup",
+    "TruthFinder",
+    "US Search",
+    "ZabaSearch"
+   ],
+   "verification": "email_link",
+   "website": "https://www.intelius.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "id": "menstoppingviolence",
+   "name": "Men Stopping Violence (people pages)",
+   "notes": "Find the listing URL, paste it in the opt-out page, then confirm by email link.",
+   "optOutUrl": "https://www.menstoppingviolence.org/opt-out/",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "profile_url",
+    "email"
+   ],
+   "searchUrl": "https://www.menstoppingviolence.org/people/",
+   "verification": "email_link",
+   "website": "https://www.menstoppingviolence.org"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "untested",
+   "email": "privacy@mylife.com",
+   "flags": [
+    "may_ask_id",
+    "may_require_phone_call"
+   ],
+   "id": "mylife",
+   "name": "MyLife",
+   "notes": "Email the request with name and profile link. The site may push for an account or ID; do not send ID by default.",
+   "optOutUrl": "https://www.mylife.com/privacyrequest",
+   "phone": "(888) 704-1900",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "profile_url"
+   ],
+   "verification": "phone_call",
+   "website": "https://www.mylife.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "id": "smartbackgroundchecks",
+   "name": "SmartBackgroundChecks",
+   "notes": "Removal here likely also removes the PeopleFinders listing.",
+   "optOutUrl": "https://www.smartbackgroundchecks.com/optout",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "profile_url"
+   ],
+   "sisterSites": [
+    "PeopleFinders"
+   ],
+   "verification": "none",
+   "website": "https://www.smartbackgroundchecks.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "paid_access"
+   ],
+   "id": "spokeo",
+   "name": "Spokeo",
+   "notes": "Enter the profile URL and an email in the 'opt out your information' section, then confirm by email link. Paid views may keep data after removal.",
+   "optOutUrl": "https://www.spokeo.com/optout",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "profile_url",
+    "email"
+   ],
+   "searchUrl": "https://www.spokeo.com/search",
+   "verification": "email_link",
+   "website": "https://www.spokeo.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "id": "thatsthem",
+   "name": "That's Them",
+   "notes": "Ignore the paid identity-protection offer on the page.",
+   "optOutUrl": "https://thatsthem.com/optout",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "address",
+    "phone",
+    "email"
+   ],
+   "verification": "none",
+   "website": "https://thatsthem.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "paid_access",
+    "phone_code"
+   ],
+   "id": "whitepages",
+   "name": "Whitepages",
+   "notes": "An automated call gives a code to enter. Premium listings may stay; check 411.com too.",
+   "optOutUrl": "https://www.whitepages.com/suppression_requests",
+   "priority": "crucial",
+   "relistDays": 90,
+   "requiredFields": [
+    "profile_url",
+    "phone"
+   ],
+   "sisterSites": [
+    "411.com"
+   ],
+   "verification": "phone_code",
+   "website": "https://www.whitepages.com"
+  },
+  {
+   "category": "marketing",
+   "channel": "web_form",
+   "confidence": "untested",
+   "id": "acxiom",
+   "name": "Acxiom",
+   "notes": "Marketing data broker; listings are not searchable for free, so removal cannot be re-checked.",
+   "optOutUrl": "https://www.acxiom.com/optout/",
+   "phone": "(877) 774-2094",
+   "priority": "high",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "address",
+    "email"
+   ],
+   "verification": "email_link",
+   "website": "https://www.acxiom.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "untested",
+   "email": "privacy@ancestry.com",
+   "flags": [
+    "needs_account"
+   ],
+   "id": "ancestry",
+   "name": "Ancestry",
+   "notes": "Needs a free account (not a trial) to find record URLs; email the URLs or use the removal form.",
+   "optOutUrl": "https://support.ancestry.com/s/reportissue?language=en_US",
+   "priority": "high",
+   "relistDays": 90,
+   "requiredFields": [
+    "profile_url",
+    "email"
+   ],
+   "verification": "none",
+   "website": "https://www.ancestry.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "id": "familytreenow",
+   "name": "FamilyTreeNow",
+   "notes": "Search, then remove the record from the opt-out page.",
+   "optOutUrl": "https://www.familytreenow.com/optout",
+   "priority": "high",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name",
+    "profile_url"
+   ],
+   "verification": "none",
+   "website": "https://www.familytreenow.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "captcha"
+   ],
+   "id": "fastpeoplesearch",
+   "name": "FastPeopleSearch",
+   "notes": "Usually shows a CAPTCHA; becomes a Needs-you task.",
+   "optOutUrl": "https://www.fastpeoplesearch.com/optout",
+   "priority": "high",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "profile_url"
+   ],
+   "searchUrl": "https://www.fastpeoplesearch.com",
+   "verification": "email_link",
+   "website": "https://www.fastpeoplesearch.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "email": "support+optout@usphonebook.com",
+   "id": "usphonebook",
+   "name": "USPhoneBook",
+   "notes": "If the opt-out page hangs, email the support address.",
+   "optOutUrl": "https://www.usphonebook.com/opt-out/",
+   "priority": "high",
+   "relistDays": 90,
+   "requiredFields": [
+    "phone",
+    "profile_url"
+   ],
+   "verification": "none",
+   "website": "https://www.usphonebook.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@whitepages.com",
+   "id": "411-com",
+   "name": "411.com",
+   "optOutUrl": "https://www.whitepages.com/suppression-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.411.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@411.info",
+   "id": "411-info",
+   "name": "411.info",
+   "optOutUrl": "https://411.info/manage/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://411.info"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@addressscoop.com",
+   "id": "addressscoop-com",
+   "name": "Address Scoop",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.addressscoop.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "priorityoptout@intelius.com",
+   "id": "addresses-com",
+   "name": "Addresses.com",
+   "optOutUrl": "https://www.intelius.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.addresses.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "addrhistory-com",
+   "name": "AddrHistory",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://addrhistory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy.officer@adstradata.com",
+   "id": "adstradata-com",
+   "name": "Adstra (American List Counsel)",
+   "optOutUrl": "https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/f54a1b10-bb5d-4c99-9521-3e08dc527583",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://adstradata.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "advancedbackgroundchecks-com",
+   "name": "AdvancedBackgroundChecks",
+   "optOutUrl": "https://www.advancedbackgroundchecks.com/removal",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.advancedbackgroundchecks.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "affordablebackgroundchecks-com",
+   "name": "Affordable Background Checks",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://affordablebackgroundchecks.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "alabamaarrests-org",
+   "name": "Alabama Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.alabamaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "alabamacourtrecords-us",
+   "name": "AlabamaCourtRecords.us",
+   "optOutUrl": "https://alabamacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://alabamacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "alarmscalifornia-org",
+   "name": "AlarmsCalifornia",
+   "optOutUrl": "https://www.alarmscalifornia.org/about",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.alarmscalifornia.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "alaskaarrests-org",
+   "name": "Alaska Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.alaskaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "alaskacourtrecords-us",
+   "name": "AlaskaCourtRecords.us",
+   "optOutUrl": "https://alaskacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://alaskacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "press@allhighschools.com",
+   "id": "allhighschools-com",
+   "name": "AllHighSchools.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://allhighschools.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "alumnius-net",
+   "name": "Alumni US",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://alumnius.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "americaphonebook-com",
+   "name": "AmericaPhonebook",
+   "optOutUrl": "https://www.americaphonebook.com/contact.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.americaphonebook.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "customercare@peoplefinders.com",
+   "id": "answerlady-com",
+   "name": "AnswerLady",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://answerlady.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "anywho-com",
+   "name": "AnyWho",
+   "optOutUrl": "https://www.intelius.com/suppression-center/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.anywho.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "arizonaarrests-org",
+   "name": "Arizona Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.arizonaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "arizonacourtrecords-us",
+   "name": "ArizonaCourtRecords.us",
+   "optOutUrl": "https://arizonacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://arizonacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "arkansasarrests-org",
+   "name": "Arkansas Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.arkansasarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "arkansascourtrecords-us",
+   "name": "ArkansasCourtRecords.us",
+   "optOutUrl": "https://arkansascourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://arkansascourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@arrests.org",
+   "id": "arrests-org",
+   "name": "Arrests.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://arrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@verifyrecords.com",
+   "id": "arrestwarrant-org",
+   "name": "ArrestWarrant.org",
+   "optOutUrl": "https://ms.arrestwarrant.org/InfoPayOpt-OutNew.pdf",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://arrestwarrant.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@atdata.com",
+   "id": "atdata-com",
+   "name": "AtData",
+   "optOutUrl": "https://instantdata.atdata.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.atdata.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@BackgroundAlert.com",
+   "id": "backgroundalert-com",
+   "name": "Background Alert, Inc.",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://backgroundalert.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "backgroundchecks-org",
+   "name": "Background Checks.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://backgroundchecks.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "backgroundhawk-com",
+   "name": "Background Hawk",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://backgroundhawk.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@backgroundcheckers.net",
+   "id": "backgroundcheckers-net",
+   "name": "BackgroundCheckers",
+   "optOutUrl": "https://www.backgroundcheckers.net/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.backgroundcheckers.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "backgroundcheckme-org",
+   "name": "Backgroundcheckme.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.backgroundcheckme.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "backgroundchecks-me",
+   "name": "BackgroundChecks.me",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://backgroundchecks.me/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@baycollective.com",
+   "id": "bayparcels-com",
+   "name": "Bay Collective IP, LLC",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://bayparcels.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@besthistorysites.net",
+   "id": "besthistorysites-net",
+   "name": "BestHistorySites.net",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://besthistorysites.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@bumper.com",
+   "id": "bumper-com",
+   "name": "Bumper",
+   "optOutUrl": "https://www.bumper.com/svc/optout/search/comprehensive_optouts",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.bumper.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "californiaarrests-org",
+   "name": "California Arrests",
+   "optOutUrl": "https://www.californiaarrests.org/ccpaOptOut/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.californiaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "californiacriminalrecords-org",
+   "name": "California Criminal Records Search",
+   "optOutUrl": "https://californiacriminalrecords.org/contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.californiacriminalrecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "californiabrokers-org",
+   "name": "CaliforniaBrokers.org",
+   "optOutUrl": "https://www.californiabrokers.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.californiabrokers.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "californiacourtrecords-us",
+   "name": "CaliforniaCourtRecords.us",
+   "optOutUrl": "https://californiacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://californiacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "californiaengineering-org",
+   "name": "CaliforniaEngineering.org",
+   "optOutUrl": "https://www.californiaengineering.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://californiaengineering.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "californialicensing-org",
+   "name": "CaliforniaLicensing.org",
+   "optOutUrl": "https://www.californialicensing.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://californialicensing.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "californianursing-org",
+   "name": "CaliforniaNursing.org",
+   "optOutUrl": "https://www.californianursing.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.californianursing.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "californiapharmacists-org",
+   "name": "CaliforniaPharmacists.org",
+   "optOutUrl": "https://www.californiapharmacists.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.californiapharmacists.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "census-info-us",
+   "name": "census-info.us",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://census-info.us"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@checksecrets.com",
+   "id": "checksecrets-com",
+   "name": "Checksecrets",
+   "optOutUrl": "https://www.checksecrets.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.checksecrets.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "others@city-data.com",
+   "id": "city-data-com",
+   "name": "City-Data.com",
+   "optOutUrl": "https://www.city-data.com/delrequest/form.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.city-data.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "cityzor-com",
+   "name": "Cityzor",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://cityzor.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@classmates.com",
+   "id": "classmates-com",
+   "name": "Classmates.com",
+   "optOutUrl": "https://www.classmates.com/about/privacy#p-8",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.classmates.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@clicksearchsolutions.com",
+   "id": "clicksearch-us",
+   "name": "Click Search LLC",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://clicksearch.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@clustermaps.net",
+   "id": "clustermaps-net",
+   "name": "Clustermaps.NET",
+   "optOutUrl": "https://clustermaps.net/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://clustermaps.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@clustrmaps.com",
+   "id": "clustrmaps-com",
+   "name": "ClustrMaps",
+   "optOutUrl": "https://clustrmaps.com/bl/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://clustrmaps.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@cocofinder.net",
+   "id": "cocofinder-net",
+   "name": "CocoFinder",
+   "optOutUrl": "https://cocofinder.net/remove-my-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://cocofinder.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "coloradoarrests-org",
+   "name": "Colorado Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.coloradoarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "coloradocourtrecords-us",
+   "name": "ColoradoCourtRecords.us",
+   "optOutUrl": "https://coloradocourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://coloradocourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "coloradoresidentdirectory-com",
+   "name": "ColoradoResidentDirectory",
+   "optOutUrl": "https://www.coloradoresidentdirectory.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.coloradoresidentdirectory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "ctarrests-org",
+   "name": "Connecticut Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ctarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "connecticutresidentdirectory-com",
+   "name": "Connecticut Resident Directory",
+   "optOutUrl": "https://www.connecticutresidentdirectory.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.connecticutresidentdirectory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "connecticutcourtrecords-us",
+   "name": "ConnecticutCourtRecords.us",
+   "optOutUrl": "https://connecticutcourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://connecticutcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "contractorscalifornia-org",
+   "name": "ContractorsCalifornia.org",
+   "optOutUrl": "https://www.contractorscalifornia.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://contractorscalifornia.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "corporationwiki-com",
+   "name": "CorporationWiki",
+   "optOutUrl": "https://www.corporationwiki.com/profiles/public",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.corporationwiki.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtcasefinder.com",
+   "id": "courtcasefinder-com",
+   "name": "CourtCaseFinder",
+   "optOutUrl": "https://courtcasefinder.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://courtcasefinder.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@courtrec.com",
+   "id": "courtrec-com",
+   "name": "CourtRec.com",
+   "optOutUrl": "https://dashboard.courtrec.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.courtrec.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@cisnationwide.com",
+   "id": "courtrecordfinder-com",
+   "name": "CourtRecordFinder.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://courtrecordfinder.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "courtrecords-us",
+   "name": "CourtRecords.us",
+   "optOutUrl": "https://courtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://courtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@crimeinformer.com",
+   "id": "crimeinformer-com",
+   "name": "Crime Informer",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://crimeinformer.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "feedback@criminal.com",
+   "id": "criminal-com",
+   "name": "Criminal.com",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://criminal.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@criminaldatacheck.com",
+   "id": "criminaldatacheck-com",
+   "name": "CriminalDataCheck",
+   "optOutUrl": "https://www.intelius.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://criminaldatacheck.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "new-members-criminalpages-com",
+   "name": "CriminalPages.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://new-members.criminalpages.com/customer/login?path=%2Fcustomer"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@mailer.intelius.com",
+   "id": "criminalrecords-com",
+   "name": "CriminalRecords.com",
+   "optOutUrl": "https://www.intelius.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.criminalrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "criminalregistry-org",
+   "name": "CriminalRegistry.org",
+   "optOutUrl": "https://criminalregistry.org/remove.php?fn=&ln=",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://criminalregistry.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "cuitonline-com",
+   "name": "Cuit Online",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.cuitonline.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "cyberbackgroundchecks-com",
+   "name": "CyberBackgroundChecks",
+   "optOutUrl": "https://www.cyberbackgroundchecks.com/removal",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://cyberbackgroundchecks.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "info@thedatatrust.com",
+   "id": "thedatatrust-com",
+   "name": "Data Trust",
+   "optOutUrl": "https://thedatatrust.com/do-not-sell-my-personal-information/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://thedatatrust.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "consultas.es@dateas.com",
+   "id": "dateas-com",
+   "name": "Dateas",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.dateas.com/es"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "dewarrants-org",
+   "name": "Delaware Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.dewarrants.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "delawarecourtrecords-us",
+   "name": "DelawareCourtRecords.us",
+   "optOutUrl": "https://delawarecourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://delawarecourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "dentistscalifornia-org",
+   "name": "DentistsCalifornia.org",
+   "optOutUrl": "https://www.dentistscalifornia.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.dentistscalifornia.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "clientcareemail@thryv.com",
+   "id": "dexknows-com",
+   "name": "DexKnows.com",
+   "optOutUrl": "https://privacyportal-cdn.onetrust.com/dsarwebform/dd6500c7-03cb-45b0-8bed-97ece55a892d/cfcefb69-41db-4aee-bd00-c702df72ee0f.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.dexknows.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "dobsearch-com",
+   "name": "DOBsearch.com",
+   "optOutUrl": "https://www.dobsearch.com/people-finder/block-record-request.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.dobsearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "downingandlahey-com",
+   "name": "Downing &#038; Lahey Mortuaries &#038; Crematory",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://downingandlahey.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "drunkdrivers.org@aol.com",
+   "id": "drunkdrivers-org",
+   "name": "Drunk Drivers",
+   "optOutUrl": "https://drunkdrivers.org/remove-my-info/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://drunkdrivers.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "priorityoptout@intelius.com",
+   "id": "easybackgroundchecks-com",
+   "name": "EasyBackgroundChecks",
+   "optOutUrl": "https://www.intelius.com/suppression-center/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://easybackgroundchecks.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@eniro.com",
+   "id": "eniro-se",
+   "name": "Eniro AB",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.eniro.se/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "facecheck-id",
+   "name": "FaceCheck.ID",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://facecheck.id/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "nasupport@familysearch.org",
+   "id": "familysearch-org",
+   "name": "FamilySearch",
+   "optOutUrl": "https://www.familysearch.org/en/help/helpcenter/article/how-do-i-remove-vitals-information-in-family-tree",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.familysearch.org/en/united-states/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@fastbackgroundcheck.com",
+   "id": "fastbackgroundcheck-com",
+   "name": "FastBackgroundCheck",
+   "optOutUrl": "https://www.fastbackgroundcheck.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://fastbackgroundcheck.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@fastpeoplesearch.io",
+   "id": "fastpeoplesearch-io",
+   "name": "FastPeopleSearch.io",
+   "optOutUrl": "https://fastpeoplesearch.io/remove-my-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://fastpeoplesearch.io/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@findpeoplefast.net",
+   "id": "findpeoplefast-net",
+   "name": "FindPeopleFast.net",
+   "optOutUrl": "https://findpeoplefast.net/company/remove-my-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://findpeoplefast.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "firearmscalifornia-org",
+   "name": "FireArmsCalifornia.org",
+   "optOutUrl": "https://www.firearmscalifornia.org/about#contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.firearmscalifornia.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "flarrests-org",
+   "name": "Florida Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.flarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "floridaresidentsdirectory-com",
+   "name": "Florida Residents",
+   "optOutUrl": "https://www.floridaresidentsdirectory.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://floridaresidentsdirectory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "floridavoterdirectory-com",
+   "name": "Florida Voter Directory",
+   "optOutUrl": "https://www.floridavoterdirectory.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.floridavoterdirectory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "floridacourtrecords-us",
+   "name": "FloridaCourtRecords.us",
+   "optOutUrl": "https://floridacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://floridacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "info@areaplot.com",
+   "id": "floridaparcels-com",
+   "name": "FloridaParcels.com",
+   "optOutUrl": "https://floridaparcels.com/redaction/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://floridaparcels.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "freepeopledirectory-com",
+   "name": "Free People Directory",
+   "optOutUrl": "https://www.freepeopledirectory.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://freepeopledirectory.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@freebackgroundcheck.org",
+   "id": "freebackgroundcheck-org",
+   "name": "FreeBackgroundCheck.org",
+   "optOutUrl": "https://new-members.freebackgroundcheck.org/removeMyData/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://freebackgroundcheck.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@freebackgroundchecks.com",
+   "id": "freebackgroundchecks-com",
+   "name": "FreeBackgroundChecks.com",
+   "optOutUrl": "https://freebackgroundchecks.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://freebackgroundchecks.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@freepeoplesearch.com",
+   "id": "freepeoplesearch-com",
+   "name": "FreePeopleSearch",
+   "optOutUrl": "https://freepeoplesearch.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://freepeoplesearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "freepeople-search-com",
+   "name": "FreePeopleSearch.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.freepeople-search.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "contact@freepeoplesearch.com",
+   "id": "freepeoplesearch-io",
+   "name": "FreePeopleSearch.io",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://freepeoplesearch.io"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@beenverified.com",
+   "id": "freephonetracer-com",
+   "name": "FreePhoneTracer",
+   "optOutUrl": "https://www.beenverified.com/app/optout/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.freephonetracer.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@verticalscope.com",
+   "id": "furyforums-com",
+   "name": "FuryForums.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.furyforums.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "genealogic-review",
+   "name": "Genealogic.review",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://genealogic.review/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "georgiaarrests-org",
+   "name": "Georgia Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.georgiaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "georgiacourtrecords-us",
+   "name": "GeorgiaCourtRecords.us",
+   "optOutUrl": "https://georgiacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://georgiacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@gladiknow.com",
+   "id": "gladiknow-com",
+   "name": "Glad I Know",
+   "optOutUrl": "https://gladiknow.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://gladiknow.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@governmentregistry.org",
+   "id": "governmentregistry-org",
+   "name": "GovernmentRegistry.org",
+   "optOutUrl": "https://www.governmentregistry.org/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.governmentregistry.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "govwarrantsearch-org",
+   "name": "GOVWARRANTSEARCH.ORG",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.govwarrantsearch.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "h1bdata-info",
+   "name": "h1bdata.info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://h1bdata.info/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "hawaiiarrests-org",
+   "name": "Hawaii Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.hawaiiarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "kundservice@hitta.se",
+   "id": "hitta-se",
+   "name": "hitta.se",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.hitta.se/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@har.com",
+   "id": "har-com",
+   "name": "Houston Association of REALTORS®",
+   "optOutUrl": "https://www.har.com/question/27460_how-can-i-opt-out-of-the-zillow-listing",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.har.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "removals-hudwayglass@hudwayglass.com",
+   "id": "hudwayglass-com",
+   "name": "HudwayGlass",
+   "optOutUrl": "https://hudwayglass.com/page/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://hudwayglass.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "idahoarrests-org",
+   "name": "Idaho Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.idahoarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "idahocourtrecords-us",
+   "name": "IdahoCourtRecords.us",
+   "optOutUrl": "https://idahocourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://idahocourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@idcrawl.com",
+   "id": "idcrawl-com",
+   "name": "IDCrawl",
+   "optOutUrl": "https://www.idcrawl.com/remove-my-information",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.idcrawl.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@idstrong.com",
+   "id": "idstrong-com",
+   "name": "IDStrong",
+   "optOutUrl": "https://www.idstrong.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.idstrong.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "illinoisarrests-org",
+   "name": "Illinois Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.illinoisarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "illinoisprisontalk-org",
+   "name": "Illinois Prison Talk",
+   "optOutUrl": "https://illinoisprisontalk.org/remove-my-info.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://illinoisprisontalk.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "illinoiscourtrecords-us",
+   "name": "IllinoisCourtRecords.us",
+   "optOutUrl": "https://illinoiscourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://illinoiscourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "image-maps-com",
+   "name": "image-maps.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://image-maps.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "indianaarrests-org",
+   "name": "Indiana Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.indianaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "indianacourtrecords-us",
+   "name": "IndianaCourtRecords.us",
+   "optOutUrl": "https://indianacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://indianacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "mwahba@infobel.com",
+   "id": "infobel-com",
+   "name": "Infobel S.A.",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.infobel.com/fr/world"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@information.com",
+   "id": "information-com",
+   "name": "Information.com",
+   "optOutUrl": "https://information.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://information.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "infotracer-com",
+   "name": "InfoTracer",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://infotracer.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@inmatessearcher.com",
+   "id": "inmatessearcher-com",
+   "name": "InmatesSearcher",
+   "optOutUrl": "https://www.inmatessearcher.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.inmatessearcher.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@InstantCheckmate.com",
+   "id": "instantcheckmate-com",
+   "name": "InstantCheckmate",
+   "optOutUrl": "https://www.instantcheckmate.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.instantcheckmate.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@truthfinder.com",
+   "id": "instantcheckspy-com",
+   "name": "InstantCheckSpy",
+   "optOutUrl": "https://www.truthfinder.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://instantcheckspy.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "iowaarrests-org",
+   "name": "Iowa Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.iowaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "iowacourtrecords-us",
+   "name": "IowaCourtRecords.us",
+   "optOutUrl": "https://iowacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://iowacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "jailbase-com",
+   "name": "JailBase",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://jailbase.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "kansasarrests-org",
+   "name": "Kansas Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.kansasarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "kansascourtrecords-us",
+   "name": "KansasCourtRecords.us",
+   "optOutUrl": "https://kansascourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://kansascourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "kentuckyarrests-org",
+   "name": "Kentucky Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.kentuckyarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "kentuckycourtrecords-us",
+   "name": "KentuckyCourtRecords.us",
+   "optOutUrl": "https://kentuckycourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://kentuckycourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@kidslivesafe.com",
+   "id": "kidslivesafe-com",
+   "name": "Kids Live Safe",
+   "optOutUrl": "https://www.kidslivesafe.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.kidslivesafe.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "knsee-com",
+   "name": "knsee.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://knsee.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "lacountyarrestrecords-org",
+   "name": "LA County Arrest Records",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.lacountyarrestrecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@lenso.ai",
+   "id": "lenso-ai",
+   "name": "LENSO AI SPÓŁKA AKCYJNA",
+   "optOutUrl": "https://lenso.ai/en/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://lenso.ai/en"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "panchamithracreators@gmail.com",
+   "id": "locate-friend-com",
+   "name": "Locate-Friend",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://locate-friend.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "locatefamily-com",
+   "name": "LocateFamily.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://locatefamily.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@locatepeople.org",
+   "id": "locatepeople-org",
+   "name": "LocatePeople.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://locatepeople.org"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "louisianaarrests-org",
+   "name": "Louisiana Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.louisianaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "louisianacourtrecords-us",
+   "name": "LouisianaCourtRecords.us",
+   "optOutUrl": "https://louisianacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://louisianacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "mainearrests-org",
+   "name": "Maine Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.mainearrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "mainecourtrecords-us",
+   "name": "MaineCourtRecords.us",
+   "optOutUrl": "https://mainecourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://mainecourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "contact@mansionquest.com",
+   "id": "mansionquest-com",
+   "name": "MansionQuest.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://mansionquest.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "marylandarrests-org",
+   "name": "Maryland Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.marylandarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "marylandcourtrecords-us",
+   "name": "MarylandCourtRecords.us",
+   "optOutUrl": "https://marylandcourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://marylandcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "massachusettscourtrecords-us",
+   "name": "MassachusetssCourtRecords.us",
+   "optOutUrl": "https://courtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://massachusettscourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "maarrests-org",
+   "name": "Massachusetts Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.maarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "massachusettspeoplerecords-org",
+   "name": "Massachusetts People Records",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://massachusettspeoplerecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "michiganarrests-org",
+   "name": "Michigan Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.michiganarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "michiganresidentdatabase-com",
+   "name": "Michigan Residents",
+   "optOutUrl": "https://www.michiganresidentdatabase.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.michiganresidentdatabase.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "michigancourtrecords-us",
+   "name": "MichiganCourtRecords.us",
+   "optOutUrl": "https://michigancourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://michigancourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@mineralholders.com",
+   "id": "mineralholders-com",
+   "name": "MineralHolders",
+   "optOutUrl": "https://www.mineralholders.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.mineralholders.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "minnesotaarrests-org",
+   "name": "Minnesota Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.minnesotaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "minnesotacourtrecords-us",
+   "name": "MinnesotaCourtRecords.us",
+   "optOutUrl": "https://minnesotacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://minnesotacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "msarrests-org",
+   "name": "Mississippi Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.msarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@mississippi.org",
+   "id": "mississippipeoplerecords-org",
+   "name": "Mississippi People Records",
+   "optOutUrl": "https://mississippipeoplerecords.org/privacy-policy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://mississippipeoplerecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "mississippicourtrecords-us",
+   "name": "MississippiCourtRecords.us",
+   "optOutUrl": "https://mississippicourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://mississippicourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "missouriarrests-org",
+   "name": "Missouri Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.missouriarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "missouricourtrecords-us",
+   "name": "MissouriCourtRecords.us",
+   "optOutUrl": "https://missouricourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://missouricourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@moneybot5000.com",
+   "id": "moneybot5000-com",
+   "name": "MoneyBot5000",
+   "optOutUrl": "https://www.moneybot5000.com/svc/optout/search/optouts",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.moneybot5000.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "montanaarrests-org",
+   "name": "Montana Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.montanaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "montanacourtrecords-us",
+   "name": "MontanaCourtRecords.us",
+   "optOutUrl": "https://montanacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://montanacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@mugshotlook.com",
+   "id": "mugshotlook-com",
+   "name": "MUGSHOTLOOK",
+   "optOutUrl": "https://www.mugshotlook.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.mugshotlook.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "myfunnyprofile-com",
+   "name": "My Funny Profile",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://myfunnyprofile.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@namesandfacts.com",
+   "id": "namesandfacts-com",
+   "name": "Names and Facts",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://namesandfacts.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@nationalpublicdata.com",
+   "id": "nationalpublicdata-com",
+   "name": "National Public Data",
+   "optOutUrl": "https://nationalpublicdata.com/optout.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://nationalpublicdata.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@nativeamericannetroots.net",
+   "id": "nativeamericannetroots-net",
+   "name": "Native American Netroots",
+   "optOutUrl": "https://nativeamericannetroots.net/diary/51",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://nativeamericannetroots.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@ncprofiles.com",
+   "id": "ncprofiles-com",
+   "name": "ncprofiles.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://ncprofiles.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "nebraskaarrests-org",
+   "name": "Nebraska Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.nebraskaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "nebraskacourtrecords-us",
+   "name": "NebraskaCourtRecords.us",
+   "optOutUrl": "https://nebraskacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://nebraskacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "help@neighbor.report",
+   "id": "neighbor-report",
+   "name": "Neighbor.Report",
+   "optOutUrl": "https://neighbor.report/remove",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://neighbor.report/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@neighborwho.com",
+   "id": "neighborwho-com",
+   "name": "NeighborWho",
+   "optOutUrl": "https://www.beenverified.com/app/optout/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.neighborwho.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "nevadaarrests-org",
+   "name": "Nevada Arrests",
+   "optOutUrl": "https://www.nevadaarrests.org/contact-form",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.nevadaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "nevadacourtrecords-us",
+   "name": "NevadaCourtRecords.us",
+   "optOutUrl": "https://nevadacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://nevadacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "nharrests-org",
+   "name": "New Hampshire Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.nharrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "njarrests-org",
+   "name": "New Jersey Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.njarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "nmarrests-org",
+   "name": "New Mexico Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.nmarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "nyarrests-org",
+   "name": "New York Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.nyarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "newhampshirecourtrecords-us",
+   "name": "NewHampshireCourtRecords.us",
+   "optOutUrl": "https://newhampshirecourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://newhampshirecourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "newjerseycourtrecords-us",
+   "name": "NewJerseyCourtRecords.us",
+   "optOutUrl": "https://newjerseycourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://newjerseycourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "newmexicocourtrecords-us",
+   "name": "NewMexicoCourtRecords.us",
+   "optOutUrl": "https://newmexicocourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://newmexicocourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "newyorkcourtrecords-us",
+   "name": "NewYorkCourtRecords.us",
+   "optOutUrl": "https://newyorkcourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://newyorkcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "newyorkpublicrecords-org",
+   "name": "NewYorkPublicRecords.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://newyorkpublicrecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "Support@NJPropertyRecords.com",
+   "id": "njpropertyrecords-com",
+   "name": "NJPropertyRecords",
+   "optOutUrl": "https://njpropertyrecords.com/redaction",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://njpropertyrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "ncarrests-org",
+   "name": "North Carolina Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ncarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "northcarolinaresidentdatabase-com",
+   "name": "North Carolina Residents",
+   "optOutUrl": "https://northcarolinaresidentdatabase.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://northcarolinaresidentdatabase.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "ndarrests-org",
+   "name": "North Dakota Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ndarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "northdakotapeoplerecords-org",
+   "name": "North Dakota People Records",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://northdakotapeoplerecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "northcarolinacourtrecords-us",
+   "name": "NorthCarolinaCourtRecords.us",
+   "optOutUrl": "https://northcarolinacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://northcarolinacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "northcarolinapublicrecords-org",
+   "name": "NorthCarolinaPublicRecords.org",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://northcarolinapublicrecords.org"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "northdakotacourtrecords-us",
+   "name": "NorthDakotaCourtRecords.us",
+   "optOutUrl": "https://northdakotacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://northdakotacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@licensedata.org",
+   "id": "notariescalifornia-com",
+   "name": "NotariesCalifornia.com",
+   "optOutUrl": "https://www.notariescalifornia.com/about",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://notariescalifornia.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@numberguru.com",
+   "id": "numberguru-com",
+   "name": "NumberGuru",
+   "optOutUrl": "https://www.numberguru.com/svc/optout/search/optouts/search_person_result",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.numberguru.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "hello@numlookup.com",
+   "id": "numlookup-com",
+   "name": "NumLookup",
+   "optOutUrl": "https://www.numlookup.com/opt_out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.numlookup.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@nuwber.com",
+   "id": "nuwber-com",
+   "name": "Nuwber",
+   "optOutUrl": "https://nuwber.com/removal/link",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://nuwber.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@officialusa.com",
+   "id": "officialusa-com",
+   "name": "OfficialUSA",
+   "optOutUrl": "https://www.officialusa.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.officialusa.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "ohioarrests-org",
+   "name": "Ohio Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ohioarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "ohioresidentdirectory-com",
+   "name": "Ohio Resident Directory",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ohioresidentdirectory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "ohioresidentdatabase-com",
+   "name": "Ohio Residents",
+   "optOutUrl": "https://www.ohioresidentdatabase.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ohioresidentdatabase.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "ohiocourtrecords-us",
+   "name": "OhioCourtRecords.us",
+   "optOutUrl": "https://ohiocourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://ohiocourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "oklahomaarrests-org",
+   "name": "Oklahoma Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.oklahomaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "oklahomacourtrecords-us",
+   "name": "OklahomaCourtRecords.us",
+   "optOutUrl": "https://oklahomacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://oklahomacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "old-friends-co",
+   "name": "Old-Friends.co",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://old-friends.co/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "oldphonebook-com",
+   "name": "OldPhoneBook.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://oldphonebook.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@peopleconnect.us",
+   "id": "onlinesearches-com",
+   "name": "OnlineSearches.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://onlinesearches.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "opendatausa-com",
+   "name": "OpenDataUSA",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://opendatausa.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "info@openpeoplesearch.com",
+   "id": "openpeoplesearch-com",
+   "name": "OpenPeopleSearch",
+   "optOutUrl": "https://openpeoplesearch.com/Consumer",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://openpeoplesearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "open-public-records-com",
+   "name": "OpenPublicRecords",
+   "optOutUrl": "https://www.open-public-records.com/records_removal.htm",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.open-public-records.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "oregonarrest-org",
+   "name": "Oregon Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.oregonarrest.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "oregoncourtrecords-us",
+   "name": "OregonCourtRecords.us",
+   "optOutUrl": "https://oregoncourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://oregoncourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "oregonpublicrecords-org",
+   "name": "OregonPublicRecords.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://oregonpublicrecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@ownerly.com",
+   "id": "ownerly-com",
+   "name": "Ownerly",
+   "optOutUrl": "https://www.beenverified.com/svc/optout/search/comprehensive_optouts",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ownerly.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "parcellookup-com",
+   "name": "ParcelLookup.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://parcellookup.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "peeplookup-com",
+   "name": "PeepLookup",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peeplookup.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@peepslocator.com",
+   "id": "peepslocator-com",
+   "name": "PeepsLocator",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peepslocator.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "pennsylvaniaarrests-org",
+   "name": "Pennsylvania Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.pennsylvaniaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "pennsylvaniacourtrecords-us",
+   "name": "PennsylvaniaCourtRecords.us",
+   "optOutUrl": "https://pennsylvaniacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://pennsylvaniacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "peoplesearchexpert-com",
+   "name": "People Search Expert",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplesearchexpert.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@peoplesearch.org",
+   "id": "people-search-org",
+   "name": "People-Search.org",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.people-search.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplebyname.com",
+   "id": "peoplebyname-com",
+   "name": "PeopleByName",
+   "optOutUrl": "https://www.peoplebyname.com/remove.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplebyname.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@peopleconnect.us",
+   "id": "peopleconnect-us",
+   "name": "PeopleConnect, Inc.",
+   "optOutUrl": "https://peopleconnect.us/california-privacy-rights-disclosure",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peopleconnect.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "peoplefastfind-com",
+   "name": "PeopleFastFind",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peoplefastfind.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "peoplefind-com",
+   "name": "PeopleFind.com",
+   "optOutUrl": "https://www.intelius.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplefind.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@mailer.intelius.com",
+   "id": "peoplefinder-com",
+   "name": "PeopleFinder",
+   "optOutUrl": "https://suppression.peopleconnect.us/login",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplefinder.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplefinder.info",
+   "id": "peoplefinder-info",
+   "name": "PeopleFinder.Info",
+   "optOutUrl": "https://peoplefinder.info/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peoplefinder.info/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "peoplefinders-com",
+   "name": "PeopleFinders",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplefinders.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplelooker.com",
+   "id": "peoplelooker-com",
+   "name": "PeopleLooker",
+   "optOutUrl": "https://www.peoplelooker.com/app/optout/form",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplelooker.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@whitepages.com",
+   "id": "peoplesearch-com",
+   "name": "PeopleSearch",
+   "optOutUrl": "https://www.whitepages.com/privacy/ccpa",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peoplesearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplesearch123.com",
+   "id": "peoplesearch123-com",
+   "name": "PeopleSearch123",
+   "optOutUrl": "https://www.peoplesearch123.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplesearch123.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplesearcher.com",
+   "id": "peoplesearcher-com",
+   "name": "PeopleSearcher",
+   "optOutUrl": "https://www.peoplesearcher.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplesearcher.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplesearchnow.zendesk.com",
+   "id": "peoplesearchnow-com",
+   "name": "PeopleSearchNow",
+   "optOutUrl": "https://www.peoplesearchnow.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplesearchnow.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplesearchUSA.org",
+   "id": "peoplesearchusa-org",
+   "name": "PeopleSearchUSA",
+   "optOutUrl": "https://www.peoplesearchusa.org/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplesearchusa.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@peoplesmart.com",
+   "id": "peoplesmart-com",
+   "name": "PeopleSmart",
+   "optOutUrl": "https://www.peoplesmart.com/app/optout/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplesmart.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplewhiz.com",
+   "id": "peoplewhiz-com",
+   "name": "PeopleWhiz.com",
+   "optOutUrl": "https://www.peoplewhiz.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplewhiz.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@peoplewhizr.com",
+   "id": "peoplewhizr-com",
+   "name": "peoplewhizr.com",
+   "optOutUrl": "https://www.peoplewhizr.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.peoplewhizr.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "peoplewin-com",
+   "name": "PeopleWin",
+   "optOutUrl": "https://peoplewin.com/privacy/control",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://peoplewin.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@personsearchers.com",
+   "id": "personsearchers-com",
+   "name": "PersonSearchers",
+   "optOutUrl": "https://www.personsearchers.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.personsearchers.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@persopo.com",
+   "id": "persopo-com",
+   "name": "Persopo.com",
+   "optOutUrl": "https://info.persopo.com/opt-out.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://persopo.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@phonebooks.com",
+   "id": "phonebooks-com",
+   "name": "PhoneBooks.com",
+   "optOutUrl": "https://www.phonebooks.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.phonebooks.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "info@phonenumberinfo.us",
+   "id": "phonenumberinfo-us",
+   "name": "PhoneNumberInfo.us",
+   "optOutUrl": "https://phonenumberinfo.us/contact.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://phonenumberinfo.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "pininthemap-com",
+   "name": "pininthemap.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://pininthemap.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "csr@plcom.net",
+   "id": "plcom-net",
+   "name": "PLCom.net",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://plcom.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "pplchecker-com",
+   "name": "pplChecker",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://pplchecker.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@privateeye.com",
+   "id": "privateeye-com",
+   "name": "PrivateEye",
+   "optOutUrl": "https://www.privateeye.com/removal",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.privateeye.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@privatenumberchecker.com",
+   "id": "privatenumberchecker-com",
+   "name": "PrivateNumberChecker.com",
+   "optOutUrl": "https://www.privatenumberchecker.com/removal-request/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.privatenumberchecker.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@privaterecords.net",
+   "id": "privaterecords-net",
+   "name": "PrivateRecords",
+   "optOutUrl": "https://www.privaterecords.net/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://privaterecords.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@privatereports.com",
+   "id": "privatereports-com",
+   "name": "PrivateReports",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.privatereports.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "profile-systems",
+   "name": "PROFILE.SYSTEMS",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://profile.systems/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@propertychecker.com",
+   "id": "propertychecker-com",
+   "name": "PropertyChecker.com",
+   "optOutUrl": "https://propertychecker.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://propertychecker.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "compliance@propertyreach.com",
+   "id": "propertyreach-com",
+   "name": "PropertyReach",
+   "optOutUrl": "https://www.propertyreach.com/privacy-rights",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.propertyreach.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "andy@Propertyrecord.com",
+   "id": "propertyrecord-com",
+   "name": "PropertyRecord.com",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.propertyrecord.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@publicdatacheck.com",
+   "id": "publicdatacheck-com",
+   "name": "Public Data Check",
+   "optOutUrl": "https://www.publicdatacheck.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicdatacheck.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@publicinfoservices.com",
+   "id": "publicinfoservices-com",
+   "name": "Public Information Services",
+   "optOutUrl": "https://www.publicinfoservices.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicinfoservices.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "netadmin@publiclibraries.com",
+   "id": "publiclibraries-com",
+   "name": "Public Libraries",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publiclibraries.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@publicrecordreports.com",
+   "id": "publicrecordreports-com",
+   "name": "Public Record Reports",
+   "optOutUrl": "https://www.publicrecordreports.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicrecordreports.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@usa-official.com",
+   "id": "publicdatausa-com",
+   "name": "PublicDataUSA",
+   "optOutUrl": "https://publicdatausa.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publicdatausa.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "publicrecordcenter-com",
+   "name": "PublicRecordCenter.com",
+   "optOutUrl": "https://www.publicrecordcenter.com/remove.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicrecordcenter.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@mailer.intelius.com",
+   "id": "publicrecords-com",
+   "name": "PublicRecords.com",
+   "optOutUrl": "https://suppression.peopleconnect.us/login",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publicrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@publicrecords.info",
+   "id": "publicrecords-info",
+   "name": "PublicRecords.info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicrecords.info/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@publicrecords.us",
+   "id": "publicrecords-us",
+   "name": "PublicRecords.us",
+   "optOutUrl": "https://dashboard.publicrecords.us/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "publicrecordscenter-org",
+   "name": "PublicRecordsCenter",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publicrecordscenter.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "publicrecordsnow-com",
+   "name": "PublicRecordsNow",
+   "optOutUrl": "https://www.publicrecordsnow.com/static/view/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicrecordsnow.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "publicrecordsreviews-com",
+   "name": "PublicRecordsReviews",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicrecordsreviews.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@searchpublicrecords.com",
+   "id": "publicrecordssearcher-com",
+   "name": "PublicRecordsSearcher.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publicrecordssearcher.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@publicsearcher.com",
+   "id": "publicsearcher-com",
+   "name": "PublicSearcher",
+   "optOutUrl": "https://www.publicsearcher.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.publicsearcher.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "publicsrecords-com",
+   "name": "PublicsRecords",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publicsrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "clients@quickpeopletrace.com",
+   "id": "quickpeopletrace-com",
+   "name": "Quick People Trace",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.quickpeopletrace.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@quickpublicrecords.com",
+   "id": "quickpublicrecords-com",
+   "name": "Quick Public Records",
+   "optOutUrl": "https://www.quickpublicrecords.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.quickpublicrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "customer-service@radaris.com",
+   "id": "radaris-com",
+   "name": "Radaris",
+   "optOutUrl": "https://radaris.com/control-privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://radaris.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "customer-service@radaris.com",
+   "id": "radaris-de",
+   "name": "Radaris Germany",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://radaris.de/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@arrestfacts.com",
+   "id": "rain-street-org",
+   "name": "Rain Street",
+   "optOutUrl": "https://rain-street.org/page/contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://rain-street.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@realpeoplesearch.com",
+   "id": "realpeoplesearch-com",
+   "name": "RealPeopleSearch",
+   "optOutUrl": "https://realpeoplesearch.com/about/remove-my-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://realpeoplesearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy-realtyhop@renthop.com",
+   "id": "realtyhop-com",
+   "name": "Realtyhop.com",
+   "optOutUrl": "https://www.realtyhop.com/resources/realtyhop-redaction-request-system/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.realtyhop.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "realtyverify-com",
+   "name": "RealtyVerify",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://realtyverify.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@recordsfinder.com",
+   "id": "recordsfinder-com",
+   "name": "RecordsFinder",
+   "optOutUrl": "https://recordsfinder.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://recordsfinder.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "recordspage-org",
+   "name": "RecordsPage",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://recordspage.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "help@truthfinder.com",
+   "id": "recordsquarry-com",
+   "name": "RecordsQuarry",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://recordsquarry.com/public-records/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "removals-rehold@rehold.com",
+   "id": "rehold-com",
+   "name": "Rehold",
+   "optOutUrl": "https://rehold.com/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://rehold.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "reunion-com",
+   "name": "Reunion.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://reunion.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@reversephone.com",
+   "id": "reversephone-com",
+   "name": "ReversePhone",
+   "optOutUrl": "https://www.reversephone.com/svc/optout/search/optouts",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.reversephone.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "riarrests-org",
+   "name": "Rhode Island Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.riarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "rhodeislandcourtrecords-us",
+   "name": "RhodeIslandCourtRecord.us",
+   "optOutUrl": "https://rhodeislandcourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://rhodeislandcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@rhodeislandpeoplerecord.org",
+   "id": "rhodeislandpeoplerecords-org",
+   "name": "RhodeIslandPeopleRecords.org",
+   "optOutUrl": "https://rhodeislandpeoplerecords.org/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://rhodeislandpeoplerecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@sealedrecords.net",
+   "id": "sealedrecords-net",
+   "name": "SealedRecords",
+   "optOutUrl": "https://www.sealedrecords.net/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.sealedrecords.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@searchquarry.com",
+   "id": "searchquarry-com",
+   "name": "Search Quarry",
+   "optOutUrl": "https://members.searchquarry.com/terms?tab=optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.searchquarry.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@searchbug.zohodesk.com",
+   "id": "searchbug-com",
+   "name": "Searchbug, Inc.",
+   "optOutUrl": "https://www.searchbug.com/ccpa.aspx",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.searchbug.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "searchpeoplefree-com",
+   "name": "SearchPeopleFree",
+   "optOutUrl": "https://www.searchpeoplefree.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.searchpeoplefree.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@searchpeoplefree.net",
+   "id": "searchpeoplefree-net",
+   "name": "SearchPeopleFree.net",
+   "optOutUrl": "https://searchpeoplefree.net/resource/remove-my-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://searchpeoplefree.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@searchpublicrecords.com",
+   "id": "searchpublicrecords-com",
+   "name": "SearchPublicRecords.com",
+   "optOutUrl": "https://www.searchpublicrecords.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.searchpublicrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "webmaster@searchsystems.net",
+   "id": "publicrecords-searchsystems-net",
+   "name": "SearchSystems Public Records",
+   "optOutUrl": "https://publicrecords.searchsystems.net/opt-out.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://publicrecords.searchsystems.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "searchusapeople-com",
+   "name": "SearchUSAPeople",
+   "optOutUrl": "https://www.searchusapeople.com/data-removal-request/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://searchusapeople.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@searqle.com",
+   "id": "searqle-com",
+   "name": "Searqle",
+   "optOutUrl": "https://searqle.com/opt-out-information/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://searqle.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@secretinfo.org",
+   "id": "secretinfo-org",
+   "name": "Secretinfo",
+   "optOutUrl": "https://www.secretinfo.org/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.secretinfo.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@seekhd.com",
+   "id": "seekhd-com",
+   "name": "SeekHD",
+   "optOutUrl": "https://www.seekhd.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.seekhd.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@empirecenter.org",
+   "id": "opengovny-com",
+   "name": "SeeThroughNY",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://opengovny.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "rivacy@truthfinder.com",
+   "id": "sheriffsdepartment-net",
+   "name": "SheriffsDepartment.net",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://sheriffsdepartment.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@simplecontacts.com",
+   "id": "simplecontacts-com",
+   "name": "SimpleContacts",
+   "optOutUrl": "https://www.simplecontacts.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.simplecontacts.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@simunix.com",
+   "id": "ukphonebook-com",
+   "name": "Simunix Ltd",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ukphonebook.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@mailer.intelius.com",
+   "id": "snoopstation-com",
+   "name": "Snoopstation",
+   "optOutUrl": "https://www.intelius.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://snoopstation.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacyrequests@socialcatfish.com",
+   "id": "socialcatfish-com",
+   "name": "SocialCatfish",
+   "optOutUrl": "https://socialcatfish.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://socialcatfish.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "scarrests-org",
+   "name": "South Carolina Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.scarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "sdarrests-org",
+   "name": "South Dakota Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.sdarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "southcarolinacourtrecords-us",
+   "name": "SouthCarolinaCourtRecords.us",
+   "optOutUrl": "https://southcarolinacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://southcarolinacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "southcarolinapublicrecords-com",
+   "name": "SouthCarolinaPublicRecords.com",
+   "optOutUrl": "https://www.truthfinder.com/opt-out/v2/submit/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://southcarolinapublicrecords.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "southdakotacourtrecords-us",
+   "name": "SouthDakotaCourtRecords.us",
+   "optOutUrl": "https://southdakotacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://southdakotacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "spydialer-com",
+   "name": "SpyDialer",
+   "optOutUrl": "https://spydialer.com/Consumers/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://spydialer.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "deletemyinfo@spyfly.com",
+   "id": "spyfly-com",
+   "name": "SpyFly",
+   "optOutUrl": "https://www.spyfly.com/help-center/privacy-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.spyfly.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "stage-research-net",
+   "name": "StageResearch",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://stage-research.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@statecourts.org",
+   "id": "statecourts-org",
+   "name": "StateCourts",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://statecourts.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@staterecords.org",
+   "id": "staterecords-org",
+   "name": "StateRecords.org",
+   "optOutUrl": "https://staterecords.org/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://staterecords.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@sync.me",
+   "id": "sync-me",
+   "name": "Sync.ME",
+   "optOutUrl": "https://sync.me/unsubscribe/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://sync.me/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@sysoon.com",
+   "id": "sysoon-com",
+   "name": "Sysoon",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.sysoon.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@telephonedirectories.us",
+   "id": "telephonedirectories-us",
+   "name": "Telephone Directories",
+   "optOutUrl": "https://www.telephonedirectories.us/Edit_Records",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.telephonedirectories.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "tennesseearrests-org",
+   "name": "Tennessee Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.tennesseearrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "tennesseecourtrecords-us",
+   "name": "TennesseeCourtRecords.us",
+   "optOutUrl": "https://tennesseecourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://tennesseecourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "texasarrestwarrants-org",
+   "name": "Texas Arrest Warrants Search",
+   "optOutUrl": "https://texasarrestwarrants.org/contact",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://texasarrestwarrants.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "texasarrests-org",
+   "name": "Texas Arrests",
+   "optOutUrl": "https://infotracer.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.texasarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "texascourtrecords-us",
+   "name": "TexasCourtRecords.us",
+   "optOutUrl": "https://texascourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://texascourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@VerifyRecords.com",
+   "id": "texaswarrantroundup-org",
+   "name": "TexasWarrantRoundup.org",
+   "optOutUrl": "https://texaswarrantroundup.org/InfoPayOpt-OutNew.pdf",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://texaswarrantroundup.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "Support@TheGeorgiaGazette.com",
+   "id": "thegeorgiagazette-com",
+   "name": "The Georgia Gazette, LLC",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://thegeorgiagazette.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@thepublicindex.org",
+   "id": "thepublicindex-org",
+   "name": "ThePublicIndex",
+   "optOutUrl": "https://thepublicindex.org/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://thepublicindex.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "top4backgroundchecks-com",
+   "name": "Top4Backgroundchecks",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.top4backgroundchecks.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "office@npri.org",
+   "id": "transparentnevada-com",
+   "name": "Transparent Nevada",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://transparentnevada.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@truepeoplesearch.com",
+   "id": "truepeoplesearch-com",
+   "name": "TruePeopleSearch",
+   "optOutUrl": "https://www.truepeoplesearch.com/removal",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://truepeoplesearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@truepeoplesearch.net",
+   "id": "truepeoplesearch-net",
+   "name": "TruePeopleSearch.net",
+   "optOutUrl": "https://truepeoplesearch.net/remove-my-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://truepeoplesearch.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@truthfinder.com",
+   "id": "truthfinder-com",
+   "name": "TruthFinder",
+   "optOutUrl": "https://www.truthfinder.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.truthfinder.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@truthrecord.org",
+   "id": "truthrecord-org",
+   "name": "TruthRecord",
+   "optOutUrl": "https://www.truthrecord.org/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.truthrecord.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "truthviewer-com",
+   "name": "TruthViewer",
+   "optOutUrl": "https://www.truthviewer.com/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.truthviewer.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@ufind.name",
+   "id": "ufind-name",
+   "name": "uFind.name",
+   "optOutUrl": "https://ufind.name/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://ufind.name/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "unitedstatesphonebook-com",
+   "name": "UnitedStatesPhonebook.com",
+   "optOutUrl": "https://www.unitedstatesphonebook.com/contact.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.unitedstatesphonebook.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "contact@unmask.com",
+   "id": "unmask-com",
+   "name": "Unmask",
+   "optOutUrl": "https://unmask.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://unmask.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "contact@uspeoplesearch.net",
+   "id": "uspeoplesearch-com",
+   "name": "US People Search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://uspeoplesearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@ussearch.com",
+   "id": "ussearch-com",
+   "name": "US Search",
+   "optOutUrl": "https://www.ussearch.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.ussearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "usa-people-search-com",
+   "name": "USA People Search",
+   "optOutUrl": "https://www.usa-people-search.com/removal",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://usa-people-search.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@usa-official.com",
+   "id": "usa-official-com",
+   "name": "USA Public Data Search",
+   "optOutUrl": "https://usa-official.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://usa-official.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "usaphonesbook-com",
+   "name": "USAPhonesBook",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.usaphonesbook.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "research@usatrace.com",
+   "id": "usatrace-com",
+   "name": "USATrace",
+   "optOutUrl": "https://www.usatrace.com/contact-us/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://usatrace.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "guided",
+   "confidence": "listed",
+   "id": "usawhitepages-com",
+   "name": "USAWhitepages",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://usawhitepages.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "admin@user-searcher.com",
+   "id": "user-searcher-com",
+   "name": "User-Searcher",
+   "optOutUrl": "https://blog.user-searcher.com/policy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.user-searcher.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "usrecords-net",
+   "name": "USRECORDS",
+   "optOutUrl": "https://infotracer.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.usrecords.net/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "uswarrants-org",
+   "name": "USWARRANTS",
+   "optOutUrl": "https://infotracer.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.uswarrants.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "utaharrests-org",
+   "name": "Utah Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.utaharrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "utahcourtrecords-us",
+   "name": "UtahCourtRecords.us",
+   "optOutUrl": "https://utahcourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://utahcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@verifyrecords.com",
+   "id": "verifypublicrecords-com",
+   "name": "VerifyPublicRecords.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://verifypublicrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@verifyrecords.com",
+   "id": "verifyrecords-com",
+   "name": "VerifyRecords",
+   "optOutUrl": "https://members.verifyrecords.com/customer/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://verifyrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@veripages.com",
+   "id": "veripages-com",
+   "name": "Veripages",
+   "optOutUrl": "https://veripages.com/inner/control-privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://veripages.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@infotracer.com",
+   "id": "vtarrests-org",
+   "name": "Vermont Arrests",
+   "optOutUrl": "https://members.infotracer.com/removeMyData",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.vtarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "vermontcourtrecords-us",
+   "name": "VermontCourtRecords.us",
+   "optOutUrl": "https://vermontcourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://vermontcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "virginiaarrests-org",
+   "name": "Virginia Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.virginiaarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "virginiacourtrecords-us",
+   "name": "VirginiaCourtRecords.us",
+   "optOutUrl": "https://virginiacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://virginiacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "admin@voterrecords.com",
+   "id": "voterrecords-com",
+   "name": "VoterRecords.com",
+   "optOutUrl": "https://voterrecords.com/faq",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://voterrecords.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "washingtonarrests-org",
+   "name": "Washington Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.washingtonarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "dcarrests-org",
+   "name": "Washington DC Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.dcarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "washingtoncourtrecords-us",
+   "name": "WashingtonCourtRecords.us",
+   "optOutUrl": "https://washingtoncourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://washingtoncourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@weinform.org",
+   "id": "weinform-org",
+   "name": "WeInform",
+   "optOutUrl": "https://www.weinform.org/api/helper/optOutLight/search",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.weinform.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "wvarrests-org",
+   "name": "West Virginia Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.wvarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "westvirginiacourtrecords-us",
+   "name": "WestVirginiaCourtRecords.us",
+   "optOutUrl": "https://westvirginiacourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://westvirginiacourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "wisconsinarrests-org",
+   "name": "Wisconsin Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.wisconsinarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "wisconsincourtrecords-us",
+   "name": "WisconsinCourtRecords.us",
+   "optOutUrl": "https://wisconsincourtrecords.us/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://wisconsincourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "privacy@infotracer.com",
+   "id": "wyomingarrests-org",
+   "name": "Wyoming Arrests",
+   "optOutUrl": "https://infotracer.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.wyomingarrests.org/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@courtrecords.us",
+   "id": "wyomingcourtrecords-us",
+   "name": "WyomingCourtRecords.us",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://wyomingcourtrecords.us/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@wyty.com",
+   "id": "wyty-com",
+   "name": "Wyty",
+   "optOutUrl": "https://www.wyty.com/remove/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.wyty.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "support@x-ray.contact",
+   "id": "x-ray-contact",
+   "name": "X-Ray Contact",
+   "optOutUrl": "https://x-ray.contact/blog/x-ray-contact-privacy-policy-update-account-deletion/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://x-ray.contact/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "id": "yellowpagesdirectory-com",
+   "name": "Yellow Pages Directory Inc.",
+   "optOutUrl": "https://www.yellowpagesdirectory.com/support.php",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.yellowpagesdirectory.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy.officerUS@hibu.com",
+   "id": "yellowbook-com",
+   "name": "Yellowbook",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://yellowbook.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "priorityoptout@intelius.com",
+   "id": "zabasearch-com",
+   "name": "ZabaSearch",
+   "optOutUrl": "https://suppression.peopleconnect.us/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.zabasearch.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "listed",
+   "email": "hello@ZLOOKUP.com",
+   "id": "zlookup-com",
+   "name": "Zlookup",
+   "optOutUrl": "https://www.zlookup.com/opt_out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://www.zlookup.com/"
+  },
+  {
+   "category": "people_search",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@zosearch.com",
+   "id": "zosearch-com",
+   "name": "ZoSearch",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "none",
+   "website": "https://zosearch.com"
+  }
+ ],
+ "version": 202611082037
+}

@@ -1,0 +1,58 @@
+# Rebuilds and signs catalog.json when the curated sources or the law profiles change,
+# and once a week to pick up changes in the Optery directory. Commits only when content changed.
+name: Publish catalog
+
+on:
+  push:
+    branches: [main]
+    paths: ["sources/**", "tools/**", ".github/workflows/publish.yml"]
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-catalog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install signing library
+        run: pip install --quiet "cryptography>=43"
+
+      - name: Fetch the Optery directory
+        run: git clone --depth 1 https://github.com/optery/optery-data-brokers-directory /tmp/optery
+
+      - name: Build, compare, sign
+        env:
+          CATALOG_SIGNING_KEY: ${{ secrets.CATALOG_SIGNING_KEY }}
+        run: |
+          set -e
+          python3 tools/build_catalog.py --optery /tmp/optery/data/data-brokers.json --out /tmp/new.json --version 0
+          # Same content as the published catalog (ignoring the version number)? Then publish nothing.
+          if [ -f catalog.json ] && python3 -c '
+          import json, sys
+          old = json.load(open("catalog.json")); new = json.load(open("/tmp/new.json"))
+          old["version"] = new["version"] = 0
+          sys.exit(0 if old == new else 1)'; then
+            echo "::notice title=catalog::No content change — nothing to publish."
+            exit 0
+          fi
+          python3 tools/build_catalog.py --optery /tmp/optery/data/data-brokers.json --out catalog.json
+          python3 tools/sign_catalog.py catalog.json
+          git config user.name "catalog-bot"
+          git config user.email "catalog-bot@users.noreply.github.com"
+          git add catalog.json catalog.json.sig
+          git commit -m "Publish catalog $(python3 -c 'import json;print(json.load(open("catalog.json"))["version"])')"
+          git push
