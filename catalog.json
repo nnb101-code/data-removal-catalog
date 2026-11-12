@@ -1,7 +1,8 @@
 {
  "attribution": [
   "Optery Data Brokers Directory — https://github.com/optery/optery-data-brokers-directory (CC BY-NC-SA 4.0)",
-  "Big Ass Data Broker Opt-Out List (BADBOOL) — https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List (CC BY-NC-SA)"
+  "Big Ass Data Broker Opt-Out List (BADBOOL) — https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List (CC BY-NC-SA)",
+  "DuckDuckGo Personal Information Removal broker definitions — https://github.com/duckduckgo/Android (Apache License 2.0; search addresses, opt-out pages and form fields, adapted)"
  ],
  "laws": [
   {
@@ -187,7 +188,8 @@
    "email": "privacy@mylife.com",
    "flags": [
     "may_ask_id",
-    "may_require_phone_call"
+    "may_require_phone_call",
+    "search_from_ddg"
    ],
    "id": "mylife",
    "name": "MyLife",
@@ -200,6 +202,7 @@
     "full_name",
     "profile_url"
    ],
+   "searchUrl": "https://www.mylife.com/pub-multisearch.pubview?searchFirstName=${firstName}&searchLastName=${lastName}&searchLocation=${city}%2C+${state|upcase}&whyReg=peoplesearch&whySub=Member+Profile+Sub&pageType=ps",
    "verification": "phone_call",
    "website": "https://www.mylife.com"
   },
@@ -207,6 +210,9 @@
    "category": "people_search",
    "channel": "web_form",
    "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "smartbackgroundchecks",
    "name": "SmartBackgroundChecks",
    "notes": "Removal here likely also removes the PeopleFinders listing.",
@@ -216,6 +222,7 @@
    "requiredFields": [
     "profile_url"
    ],
+   "searchUrl": "https://www.smartbackgroundchecks.com/people/${firstName|hyphenated}-${lastName|hyphenated}/${city|hyphenated}/${state|hyphenated}",
    "sisterSites": [
     "PeopleFinders"
    ],
@@ -227,7 +234,8 @@
    "channel": "web_form",
    "confidence": "untested",
    "flags": [
-    "paid_access"
+    "paid_access",
+    "search_from_ddg"
    ],
    "id": "spokeo",
    "name": "Spokeo",
@@ -239,7 +247,7 @@
     "profile_url",
     "email"
    ],
-   "searchUrl": "https://www.spokeo.com/search",
+   "searchUrl": "https://www.spokeo.com/${firstName}-${lastName}/${state|stateFull}/${city}",
    "verification": "email_link",
    "website": "https://www.spokeo.com"
   },
@@ -348,7 +356,8 @@
    "channel": "web_form",
    "confidence": "untested",
    "flags": [
-    "captcha"
+    "captcha",
+    "search_from_ddg"
    ],
    "id": "fastpeoplesearch",
    "name": "FastPeopleSearch",
@@ -360,7 +369,7 @@
     "email",
     "profile_url"
    ],
-   "searchUrl": "https://www.fastpeoplesearch.com",
+   "searchUrl": "https://www.fastpeoplesearch.com/name/${firstName|hyphenated}-${lastName|hyphenated}_${city|hyphenated}-${state|hyphenated}",
    "verification": "email_link",
    "website": "https://www.fastpeoplesearch.com"
   },
@@ -369,6 +378,9 @@
    "channel": "web_form",
    "confidence": "untested",
    "email": "support+optout@usphonebook.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "usphonebook",
    "name": "USPhoneBook",
    "notes": "If the opt-out page hangs, email the support address.",
@@ -379,21 +391,26 @@
     "phone",
     "profile_url"
    ],
+   "searchUrl": "https://www.usphonebook.com/${firstName|hyphenated}-${lastName|hyphenated}/${state|upcase}/${city|hyphenated}",
    "verification": "none",
    "website": "https://www.usphonebook.com"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@whitepages.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "411-com",
    "name": "411.com",
-   "optOutUrl": "https://www.whitepages.com/suppression-requests",
+   "optOutUrl": "https://whitepagesprivacy.zendesk.com/hc/en-us/requests/new?ticket_form_id=360002296993",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://www.411.com/person-search/${firstName}-${lastName}/${state|upcase}",
    "verification": "none",
    "website": "https://www.411.com/"
   },
@@ -409,7 +426,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://411.info"
   },
   {
@@ -423,7 +440,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.addressscoop.com/"
   },
   {
@@ -438,7 +455,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.addresses.com/"
   },
   {
@@ -451,7 +468,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://addrhistory.com/"
   },
   {
@@ -466,21 +483,31 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://adstradata.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "advancedbackgroundchecks-com",
    "name": "AdvancedBackgroundChecks",
-   "optOutUrl": "https://www.advancedbackgroundchecks.com/removal",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.advancedbackgroundchecks.com/find/name/${firstName|hyphenated|downcase}-${lastName|hyphenated|downcase}/in/${state|upcase}/${city|hyphenated|downcase}",
+   "verification": "email_link",
    "website": "https://www.advancedbackgroundchecks.com/"
   },
   {
@@ -494,7 +521,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://affordablebackgroundchecks.com"
   },
   {
@@ -509,7 +536,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.alabamaarrests.org/"
   },
   {
@@ -524,7 +551,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://alabamacourtrecords.us/"
   },
   {
@@ -539,7 +566,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.alarmscalifornia.org/"
   },
   {
@@ -554,7 +581,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.alaskaarrests.org/"
   },
   {
@@ -569,7 +596,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://alaskacourtrecords.us/"
   },
   {
@@ -583,7 +610,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://allhighschools.com"
   },
   {
@@ -596,20 +623,24 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://alumnius.net/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "americaphonebook-com",
    "name": "AmericaPhonebook",
-   "optOutUrl": "https://www.americaphonebook.com/contact.php",
+   "optOutUrl": "https://www.americaphonebook.com/search.php",
    "relistDays": 90,
    "requiredFields": [
     "full_name"
    ],
+   "searchUrl": "https://www.americaphonebook.com/search.php?first=${firstName}&last=${lastName}&city=${city}&state=${state}",
    "verification": "none",
    "website": "https://www.americaphonebook.com/"
   },
@@ -624,21 +655,36 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://answerlady.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "anywho-com",
    "name": "AnyWho",
-   "optOutUrl": "https://www.intelius.com/suppression-center/",
+   "notes": "Removal goes through Spokeo (spokeo.com); one request there covers this site.",
+   "optOutUrl": "https://spokeo.com/optout",
+   "owner": "Spokeo",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email",
+    "profile_url"
    ],
-   "verification": "none",
+   "searchAgeRanges": [
+    "0-30",
+    "31-60",
+    "61-80",
+    "80+"
+   ],
+   "searchUrl": "https://www.anywho.com/people/${firstName}+${lastName}/${state|stateFull|downcase|hyphenated}/${city|downcase|hyphenated}?age_range=${age|ageRange}",
+   "verification": "email_link",
    "website": "https://www.anywho.com/"
   },
   {
@@ -653,7 +699,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.arizonaarrests.org/"
   },
   {
@@ -668,7 +714,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://arizonacourtrecords.us/"
   },
   {
@@ -683,7 +729,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.arkansasarrests.org/"
   },
   {
@@ -698,7 +744,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://arkansascourtrecords.us/"
   },
   {
@@ -712,7 +758,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://arrests.org/"
   },
   {
@@ -727,7 +773,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://arrestwarrant.org/"
   },
   {
@@ -742,7 +788,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.atdata.com/"
   },
   {
@@ -756,7 +802,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://backgroundalert.com"
   },
   {
@@ -769,7 +815,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://backgroundchecks.org/"
   },
   {
@@ -783,22 +829,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://backgroundhawk.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@backgroundcheckers.net",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "backgroundcheckers-net",
    "name": "BackgroundCheckers",
-   "optOutUrl": "https://www.backgroundcheckers.net/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.backgroundcheckers.net/"
   },
   {
@@ -811,7 +865,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.backgroundcheckme.org/"
   },
   {
@@ -824,7 +878,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://backgroundchecks.me/"
   },
   {
@@ -838,7 +892,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://bayparcels.com/"
   },
   {
@@ -852,7 +906,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://besthistorysites.net"
   },
   {
@@ -867,7 +921,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.bumper.com"
   },
   {
@@ -881,7 +935,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.californiaarrests.org/"
   },
   {
@@ -895,7 +949,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.californiacriminalrecords.org/"
   },
   {
@@ -910,7 +964,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.californiabrokers.org/"
   },
   {
@@ -925,7 +979,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://californiacourtrecords.us/"
   },
   {
@@ -940,7 +994,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://californiaengineering.org/"
   },
   {
@@ -955,7 +1009,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://californialicensing.org/"
   },
   {
@@ -970,7 +1024,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.californianursing.org/"
   },
   {
@@ -985,7 +1039,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.californiapharmacists.org/"
   },
   {
@@ -998,22 +1052,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://census-info.us"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@checksecrets.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "checksecrets-com",
    "name": "Checksecrets",
-   "optOutUrl": "https://www.checksecrets.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.checksecrets.com/"
   },
   {
@@ -1028,7 +1090,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.city-data.com/"
   },
   {
@@ -1041,7 +1103,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://cityzor.com"
   },
   {
@@ -1056,7 +1118,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.classmates.com/"
   },
   {
@@ -1070,7 +1132,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://clicksearch.us/"
   },
   {
@@ -1085,21 +1147,29 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://clustermaps.net/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@clustrmaps.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "clustrmaps-com",
    "name": "ClustrMaps",
-   "optOutUrl": "https://clustrmaps.com/bl/opt-out",
+   "notes": "Removal goes through Neighbor Report (neighbor.report); one request there covers this site.",
+   "optOutUrl": "https://neighbor.report/remove",
+   "owner": "Neighbor Report",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://clustrmaps.com/persons/${firstName|hyphenated}-${lastName|hyphenated}/${state|stateFull|capitalize|hyphenated}/${city|hyphenated}",
    "verification": "none",
    "website": "https://clustrmaps.com/"
   },
@@ -1115,7 +1185,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://cocofinder.net/"
   },
   {
@@ -1130,7 +1200,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.coloradoarrests.org/"
   },
   {
@@ -1145,7 +1215,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://coloradocourtrecords.us/"
   },
   {
@@ -1159,7 +1229,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.coloradoresidentdirectory.com/"
   },
   {
@@ -1174,7 +1244,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ctarrests.org/"
   },
   {
@@ -1188,7 +1258,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.connecticutresidentdirectory.com/"
   },
   {
@@ -1203,7 +1273,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://connecticutcourtrecords.us/"
   },
   {
@@ -1218,7 +1288,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://contractorscalifornia.org/"
   },
   {
@@ -1232,7 +1302,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.corporationwiki.com/"
   },
   {
@@ -1247,21 +1317,29 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://courtcasefinder.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@courtrec.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "courtrec-com",
    "name": "CourtRec.com",
-   "optOutUrl": "https://dashboard.courtrec.com/opt-out",
+   "notes": "Removal goes through PropertyRecord (propertyrecord.com); one request there covers this site.",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "owner": "PropertyRecord",
    "relistDays": 90,
    "requiredFields": [
     "full_name"
    ],
+   "searchUrl": "https://dashboard.courtrec.com/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
    "verification": "none",
    "website": "https://www.courtrec.com/"
   },
@@ -1276,7 +1354,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://courtrecordfinder.com/"
   },
   {
@@ -1291,7 +1369,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://courtrecords.us/"
   },
   {
@@ -1305,7 +1383,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://crimeinformer.com/"
   },
   {
@@ -1320,7 +1398,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://criminal.com/"
   },
   {
@@ -1335,7 +1413,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://criminaldatacheck.com"
   },
   {
@@ -1348,7 +1426,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://new-members.criminalpages.com/customer/login?path=%2Fcustomer"
   },
   {
@@ -1363,7 +1441,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.criminalrecords.com/"
   },
   {
@@ -1377,7 +1455,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://criminalregistry.org/"
   },
   {
@@ -1390,21 +1468,31 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.cuitonline.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "cyberbackgroundchecks-com",
    "name": "CyberBackgroundChecks",
-   "optOutUrl": "https://www.cyberbackgroundchecks.com/removal",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.cyberbackgroundchecks.com/people/${firstName|hyphenated}-${lastName|hyphenated}/${state|hyphenated}/${city|hyphenated}",
+   "verification": "email_link",
    "website": "https://cyberbackgroundchecks.com/"
   },
   {
@@ -1419,7 +1507,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://thedatatrust.com/"
   },
   {
@@ -1433,7 +1521,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.dateas.com/es"
   },
   {
@@ -1448,7 +1536,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.dewarrants.org/"
   },
   {
@@ -1463,7 +1551,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://delawarecourtrecords.us/"
   },
   {
@@ -1478,7 +1566,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.dentistscalifornia.org/"
   },
   {
@@ -1493,7 +1581,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.dexknows.com/"
   },
   {
@@ -1507,7 +1595,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.dobsearch.com/"
   },
   {
@@ -1520,7 +1608,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://downingandlahey.com/"
   },
   {
@@ -1535,7 +1623,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://drunkdrivers.org/"
   },
   {
@@ -1550,7 +1638,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://easybackgroundchecks.com/"
   },
   {
@@ -1564,7 +1652,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.eniro.se/"
   },
   {
@@ -1577,7 +1665,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://facecheck.id/"
   },
   {
@@ -1592,22 +1680,32 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.familysearch.org/en/united-states/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@fastbackgroundcheck.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "fastbackgroundcheck-com",
    "name": "FastBackgroundCheck",
-   "optOutUrl": "https://www.fastbackgroundcheck.com/optout",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.fastbackgroundcheck.com/people/${firstName|hyphenated}-${lastName|hyphenated}/${city|hyphenated}-${state|hyphenated}",
+   "verification": "email_link",
    "website": "https://fastbackgroundcheck.com/"
   },
   {
@@ -1622,7 +1720,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://fastpeoplesearch.io/"
   },
   {
@@ -1637,7 +1735,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://findpeoplefast.net/"
   },
   {
@@ -1652,7 +1750,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.firearmscalifornia.org/"
   },
   {
@@ -1667,7 +1765,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.flarrests.org/"
   },
   {
@@ -1681,7 +1779,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://floridaresidentsdirectory.com/"
   },
   {
@@ -1695,7 +1793,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.floridavoterdirectory.com/"
   },
   {
@@ -1710,36 +1808,51 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://floridacourtrecords.us/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "info@areaplot.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "floridaparcels-com",
    "name": "FloridaParcels.com",
    "optOutUrl": "https://floridaparcels.com/redaction/",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email",
+    "full_name",
+    "profile_url"
    ],
+   "searchUrl": "https://floridaparcels.com/search/voter/name/?n=${lastName|upcase}+${firstName|upcase}",
    "verification": "none",
    "website": "https://floridaparcels.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "freepeopledirectory-com",
    "name": "Free People Directory",
-   "optOutUrl": "https://www.freepeopledirectory.com/optout",
+   "notes": "Removal goes through Spokeo (spokeo.com); one request there covers this site.",
+   "optOutUrl": "https://spokeo.com/optout",
+   "owner": "Spokeo",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email",
+    "profile_url"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.freepeopledirectory.com/name/${firstName|hyphenated}-${lastName|hyphenated}/${state|upcase}/${city|hyphenated}",
+   "verification": "email_link",
    "website": "https://freepeopledirectory.com"
   },
   {
@@ -1754,7 +1867,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://freebackgroundcheck.org/"
   },
   {
@@ -1769,7 +1882,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://freebackgroundchecks.com/"
   },
   {
@@ -1784,7 +1897,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://freepeoplesearch.com/"
   },
   {
@@ -1797,7 +1910,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.freepeople-search.com/"
   },
   {
@@ -1811,7 +1924,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://freepeoplesearch.io"
   },
   {
@@ -1826,7 +1939,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.freephonetracer.com/"
   },
   {
@@ -1840,7 +1953,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.furyforums.com/"
   },
   {
@@ -1853,7 +1966,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://genealogic.review/"
   },
   {
@@ -1868,7 +1981,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.georgiaarrests.org/"
   },
   {
@@ -1883,19 +1996,23 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://georgiacourtrecords.us/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "privacy@gladiknow.com",
+   "flags": [
+    "captcha"
+   ],
    "id": "gladiknow-com",
    "name": "Glad I Know",
    "optOutUrl": "https://gladiknow.com/opt-out",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
     "full_name"
    ],
    "verification": "none",
@@ -1913,7 +2030,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.governmentregistry.org/"
   },
   {
@@ -1927,7 +2044,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.govwarrantsearch.org/"
   },
   {
@@ -1940,7 +2057,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://h1bdata.info/"
   },
   {
@@ -1955,7 +2072,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.hawaiiarrests.org/"
   },
   {
@@ -1969,7 +2086,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.hitta.se/"
   },
   {
@@ -1984,7 +2101,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.har.com/"
   },
   {
@@ -1999,7 +2116,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://hudwayglass.com/"
   },
   {
@@ -2014,7 +2131,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.idahoarrests.org/"
   },
   {
@@ -2029,7 +2146,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://idahocourtrecords.us/"
   },
   {
@@ -2044,7 +2161,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.idcrawl.com/"
   },
   {
@@ -2059,7 +2176,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.idstrong.com/"
   },
   {
@@ -2074,7 +2191,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.illinoisarrests.org/"
   },
   {
@@ -2088,7 +2205,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://illinoisprisontalk.org/"
   },
   {
@@ -2103,7 +2220,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://illinoiscourtrecords.us/"
   },
   {
@@ -2116,7 +2233,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://image-maps.com"
   },
   {
@@ -2131,7 +2248,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.indianaarrests.org/"
   },
   {
@@ -2146,7 +2263,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://indianacourtrecords.us/"
   },
   {
@@ -2160,7 +2277,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.infobel.com/fr/world"
   },
   {
@@ -2175,37 +2292,50 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://information.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "privacy@infotracer.com",
+   "flags": [
+    "captcha",
+    "search_from_ddg"
+   ],
    "id": "infotracer-com",
    "name": "InfoTracer",
-   "optOutUrl": "https://infotracer.com/optout/",
+   "optOutUrl": "https://members.infotracer.com/removeMyData",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
-   "verification": "none",
+   "searchUrl": "https://members.infotracer.com/removeMyData?fname=${firstName}&lname=${lastName}&city=${city}&state=${state|upcase}&multiple=1",
+   "verification": "email_link",
    "website": "https://infotracer.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@inmatessearcher.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "inmatessearcher-com",
    "name": "InmatesSearcher",
-   "optOutUrl": "https://www.inmatessearcher.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.inmatessearcher.com/"
   },
   {
@@ -2220,7 +2350,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.instantcheckmate.com/"
   },
   {
@@ -2235,7 +2365,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://instantcheckspy.com"
   },
   {
@@ -2250,7 +2380,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.iowaarrests.org/"
   },
   {
@@ -2265,7 +2395,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://iowacourtrecords.us/"
   },
   {
@@ -2278,7 +2408,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://jailbase.com"
   },
   {
@@ -2293,7 +2423,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.kansasarrests.org/"
   },
   {
@@ -2308,7 +2438,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://kansascourtrecords.us/"
   },
   {
@@ -2323,7 +2453,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.kentuckyarrests.org/"
   },
   {
@@ -2338,22 +2468,26 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://kentuckycourtrecords.us/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@kidslivesafe.com",
+   "flags": [],
    "id": "kidslivesafe-com",
    "name": "Kids Live Safe",
    "optOutUrl": "https://www.kidslivesafe.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.kidslivesafe.com/"
   },
   {
@@ -2366,7 +2500,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://knsee.com"
   },
   {
@@ -2379,7 +2513,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.lacountyarrestrecords.org/"
   },
   {
@@ -2394,7 +2528,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://lenso.ai/en"
   },
   {
@@ -2408,7 +2542,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://locate-friend.com/"
   },
   {
@@ -2421,7 +2555,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://locatefamily.com/"
   },
   {
@@ -2435,7 +2569,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://locatepeople.org"
   },
   {
@@ -2450,7 +2584,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.louisianaarrests.org/"
   },
   {
@@ -2465,7 +2599,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://louisianacourtrecords.us/"
   },
   {
@@ -2480,7 +2614,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.mainearrests.org/"
   },
   {
@@ -2495,7 +2629,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://mainecourtrecords.us/"
   },
   {
@@ -2509,7 +2643,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://mansionquest.com/"
   },
   {
@@ -2524,7 +2658,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.marylandarrests.org/"
   },
   {
@@ -2539,7 +2673,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://marylandcourtrecords.us/"
   },
   {
@@ -2554,7 +2688,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://massachusettscourtrecords.us/"
   },
   {
@@ -2569,7 +2703,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.maarrests.org/"
   },
   {
@@ -2582,7 +2716,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://massachusettspeoplerecords.org/"
   },
   {
@@ -2597,7 +2731,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.michiganarrests.org/"
   },
   {
@@ -2611,7 +2745,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.michiganresidentdatabase.com/"
   },
   {
@@ -2626,7 +2760,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://michigancourtrecords.us/"
   },
   {
@@ -2641,7 +2775,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.mineralholders.com/"
   },
   {
@@ -2656,7 +2790,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.minnesotaarrests.org/"
   },
   {
@@ -2671,7 +2805,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://minnesotacourtrecords.us/"
   },
   {
@@ -2686,7 +2820,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.msarrests.org/"
   },
   {
@@ -2701,7 +2835,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://mississippipeoplerecords.org/"
   },
   {
@@ -2716,7 +2850,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://mississippicourtrecords.us/"
   },
   {
@@ -2731,7 +2865,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.missouriarrests.org/"
   },
   {
@@ -2746,7 +2880,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://missouricourtrecords.us/"
   },
   {
@@ -2761,7 +2895,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.moneybot5000.com/"
   },
   {
@@ -2776,7 +2910,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.montanaarrests.org/"
   },
   {
@@ -2791,22 +2925,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://montanacourtrecords.us/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@mugshotlook.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "mugshotlook-com",
    "name": "MUGSHOTLOOK",
-   "optOutUrl": "https://www.mugshotlook.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.mugshotlook.com/"
   },
   {
@@ -2819,7 +2961,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://myfunnyprofile.com"
   },
   {
@@ -2833,22 +2975,27 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://namesandfacts.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@nationalpublicdata.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "nationalpublicdata-com",
    "name": "National Public Data",
    "optOutUrl": "https://nationalpublicdata.com/optout.html",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email",
+    "profile_url"
    ],
-   "verification": "none",
+   "searchUrl": "https://nationalpublicdata.com/search/?name=${firstName}%20${lastName}&city=${city}&state=${state}",
+   "verification": "email_link",
    "website": "https://nationalpublicdata.com/"
   },
   {
@@ -2863,7 +3010,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://nativeamericannetroots.net"
   },
   {
@@ -2877,7 +3024,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://ncprofiles.com"
   },
   {
@@ -2892,7 +3039,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.nebraskaarrests.org/"
   },
   {
@@ -2907,37 +3054,49 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://nebraskacourtrecords.us/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "help@neighbor.report",
+   "flags": [
+    "captcha",
+    "search_from_ddg"
+   ],
    "id": "neighbor-report",
    "name": "Neighbor.Report",
    "optOutUrl": "https://neighbor.report/remove",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://neighbor.report/${firstName}-${lastName}/${state|stateFull|hyphenated}/${city|hyphenated}",
    "verification": "none",
    "website": "https://neighbor.report/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@neighborwho.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "neighborwho-com",
    "name": "NeighborWho",
-   "optOutUrl": "https://www.beenverified.com/app/optout/search",
+   "notes": "Removal goes through BeenVerified (beenverified.com); one request there covers this site.",
+   "optOutUrl": "https://www.beenverified.com/svc/optout/search/optouts",
+   "owner": "BeenVerified",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.neighborwho.com/"
   },
   {
@@ -2951,7 +3110,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.nevadaarrests.org/"
   },
   {
@@ -2966,7 +3125,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://nevadacourtrecords.us/"
   },
   {
@@ -2981,7 +3140,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.nharrests.org/"
   },
   {
@@ -2996,7 +3155,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.njarrests.org/"
   },
   {
@@ -3011,7 +3170,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.nmarrests.org/"
   },
   {
@@ -3026,7 +3185,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.nyarrests.org/"
   },
   {
@@ -3041,7 +3200,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://newhampshirecourtrecords.us/"
   },
   {
@@ -3056,7 +3215,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://newjerseycourtrecords.us/"
   },
   {
@@ -3071,7 +3230,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://newmexicocourtrecords.us/"
   },
   {
@@ -3086,7 +3245,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://newyorkcourtrecords.us/"
   },
   {
@@ -3099,7 +3258,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://newyorkpublicrecords.org/"
   },
   {
@@ -3114,7 +3273,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://njpropertyrecords.com/"
   },
   {
@@ -3129,7 +3288,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ncarrests.org/"
   },
   {
@@ -3143,7 +3302,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://northcarolinaresidentdatabase.com/"
   },
   {
@@ -3158,7 +3317,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ndarrests.org/"
   },
   {
@@ -3171,7 +3330,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://northdakotapeoplerecords.org/"
   },
   {
@@ -3186,7 +3345,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://northcarolinacourtrecords.us/"
   },
   {
@@ -3200,7 +3359,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://northcarolinapublicrecords.org"
   },
   {
@@ -3215,7 +3374,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://northdakotacourtrecords.us/"
   },
   {
@@ -3230,7 +3389,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://notariescalifornia.com/"
   },
   {
@@ -3245,7 +3404,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.numberguru.com/"
   },
   {
@@ -3260,36 +3419,49 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.numlookup.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@nuwber.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "nuwber-com",
    "name": "Nuwber",
    "optOutUrl": "https://nuwber.com/removal/link",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email",
+    "profile_url"
    ],
-   "verification": "none",
+   "searchUrl": "https://nuwber.com/search?name=${firstName}%20${lastName}&location=${city}%2C%20${state}",
+   "verification": "email_link",
    "website": "https://nuwber.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@officialusa.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "officialusa-com",
    "name": "OfficialUSA",
-   "optOutUrl": "https://www.officialusa.com/opt-out/",
+   "notes": "Removal goes through Neighbor Report (neighbor.report); one request there covers this site.",
+   "optOutUrl": "https://neighbor.report/remove",
+   "owner": "Neighbor Report",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://officialusa.com/names/${firstName}-${lastName}/",
    "verification": "none",
    "website": "https://www.officialusa.com"
   },
@@ -3305,7 +3477,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ohioarrests.org/"
   },
   {
@@ -3318,7 +3490,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ohioresidentdirectory.com/"
   },
   {
@@ -3332,7 +3504,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ohioresidentdatabase.com/"
   },
   {
@@ -3347,7 +3519,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://ohiocourtrecords.us/"
   },
   {
@@ -3362,7 +3534,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.oklahomaarrests.org/"
   },
   {
@@ -3377,7 +3549,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://oklahomacourtrecords.us/"
   },
   {
@@ -3390,7 +3562,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://old-friends.co/"
   },
   {
@@ -3403,7 +3575,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://oldphonebook.com"
   },
   {
@@ -3417,7 +3589,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://onlinesearches.com"
   },
   {
@@ -3430,7 +3602,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://opendatausa.com/"
   },
   {
@@ -3445,7 +3617,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://openpeoplesearch.com/"
   },
   {
@@ -3459,7 +3631,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.open-public-records.com/"
   },
   {
@@ -3474,7 +3646,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.oregonarrest.org/"
   },
   {
@@ -3489,7 +3661,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://oregoncourtrecords.us/"
   },
   {
@@ -3502,7 +3674,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://oregonpublicrecords.org/"
   },
   {
@@ -3517,7 +3689,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ownerly.com/"
   },
   {
@@ -3530,7 +3702,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://parcellookup.com/"
   },
   {
@@ -3543,7 +3715,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://peeplookup.com"
   },
   {
@@ -3557,7 +3729,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://peepslocator.com/"
   },
   {
@@ -3572,7 +3744,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.pennsylvaniaarrests.org/"
   },
   {
@@ -3587,7 +3759,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://pennsylvaniacourtrecords.us/"
   },
   {
@@ -3600,7 +3772,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.peoplesearchexpert.com/"
   },
   {
@@ -3614,7 +3786,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.people-search.org/"
   },
   {
@@ -3629,7 +3801,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.peoplebyname.com/"
   },
   {
@@ -3644,7 +3816,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://peopleconnect.us/"
   },
   {
@@ -3657,7 +3829,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://peoplefastfind.com/"
   },
   {
@@ -3671,7 +3843,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.peoplefind.com/"
   },
   {
@@ -3686,7 +3858,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.peoplefinder.com/"
   },
   {
@@ -3701,111 +3873,166 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://peoplefinder.info/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "peoplefinders-com",
    "name": "PeopleFinders",
    "optOutUrl": "https://www.peoplefinders.com/opt-out",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.peoplefinders.com/people/${firstName}-${lastName}/${state}/${city}?landing=all",
+   "verification": "email_link",
    "website": "https://www.peoplefinders.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplelooker.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "peoplelooker-com",
    "name": "PeopleLooker",
-   "optOutUrl": "https://www.peoplelooker.com/app/optout/form",
+   "notes": "Removal goes through BeenVerified (beenverified.com); one request there covers this site.",
+   "optOutUrl": "https://www.beenverified.com/svc/optout/search/optouts",
+   "owner": "BeenVerified",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.peoplelooker.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@whitepages.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "peoplesearch-com",
    "name": "PeopleSearch",
-   "optOutUrl": "https://www.whitepages.com/privacy/ccpa",
+   "notes": "Removal goes through 411 (411.com); one request there covers this site.",
+   "optOutUrl": "https://whitepagesprivacy.zendesk.com/hc/en-us/requests/new?ticket_form_id=360002296993",
+   "owner": "411",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://peoplesearch.com/search?s_name=${firstName}%20${lastName}&s_loc=${state|upcase}",
    "verification": "none",
    "website": "https://peoplesearch.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplesearch123.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "peoplesearch123-com",
    "name": "PeopleSearch123",
-   "optOutUrl": "https://www.peoplesearch123.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.peoplesearch123.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplesearcher.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "peoplesearcher-com",
    "name": "PeopleSearcher",
-   "optOutUrl": "https://www.peoplesearcher.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.peoplesearcher.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplesearchnow.zendesk.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "peoplesearchnow-com",
    "name": "PeopleSearchNow",
-   "optOutUrl": "https://www.peoplesearchnow.com/opt-out",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://peoplesearchnow.com/person/${firstName}-${lastName}_${city}_${state}/",
+   "verification": "email_link",
    "website": "https://www.peoplesearchnow.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplesearchUSA.org",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "peoplesearchusa-org",
    "name": "PeopleSearchUSA",
-   "optOutUrl": "https://www.peoplesearchusa.org/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.peoplesearchusa.org/"
   },
   {
@@ -3820,36 +4047,47 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.peoplesmart.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplewhiz.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "peoplewhiz-com",
    "name": "PeopleWhiz.com",
-   "optOutUrl": "https://www.peoplewhiz.com/optout",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://www.peoplewhiz.com/optout/email/${firstName|downcase}/~/${lastName|downcase}/${city|downcase}/${state|upcase}/~",
    "verification": "none",
    "website": "https://www.peoplewhiz.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@peoplewhizr.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "peoplewhizr-com",
    "name": "peoplewhizr.com",
-   "optOutUrl": "https://www.peoplewhizr.com/optout",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email"
    ],
+   "searchUrl": "https://www.peoplewhizr.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
    "verification": "none",
    "website": "https://www.peoplewhizr.com/"
   },
@@ -3864,22 +4102,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://peoplewin.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@personsearchers.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "personsearchers-com",
    "name": "PersonSearchers",
-   "optOutUrl": "https://www.personsearchers.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.personsearchers.com/"
   },
   {
@@ -3894,22 +4140,27 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://persopo.com"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@phonebooks.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "phonebooks-com",
    "name": "PhoneBooks.com",
    "optOutUrl": "https://www.phonebooks.com/opt-out",
    "relistDays": 90,
    "requiredFields": [
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.phonebooks.com/employee-results?name=${firstName}%20${lastName}&location=${city}%20${state|upcase}",
+   "verification": "email_link",
    "website": "https://www.phonebooks.com/"
   },
   {
@@ -3924,7 +4175,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://phonenumberinfo.us/"
   },
   {
@@ -3937,7 +4188,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://pininthemap.com/"
   },
   {
@@ -3951,7 +4202,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://plcom.net/"
   },
   {
@@ -3964,7 +4215,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://pplchecker.com/"
   },
   {
@@ -3979,7 +4230,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.privateeye.com/"
   },
   {
@@ -3994,37 +4245,50 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.privatenumberchecker.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@privaterecords.net",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "privaterecords-net",
    "name": "PrivateRecords",
-   "optOutUrl": "https://www.privaterecords.net/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://privaterecords.net"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@privatereports.com",
+   "flags": [
+    "captcha"
+   ],
    "id": "privatereports-com",
    "name": "PrivateReports",
    "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.privatereports.com/"
   },
   {
@@ -4037,7 +4301,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://profile.systems/"
   },
   {
@@ -4052,7 +4316,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://propertychecker.com/"
   },
   {
@@ -4067,14 +4331,18 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.propertyreach.com"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "andy@Propertyrecord.com",
+   "flags": [
+    "captcha",
+    "search_from_ddg"
+   ],
    "id": "propertyrecord-com",
    "name": "PropertyRecord.com",
    "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
@@ -4082,22 +4350,27 @@
    "requiredFields": [
     "full_name"
    ],
+   "searchUrl": "https://dashboard.propertyrecord.com/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
    "verification": "none",
    "website": "https://www.propertyrecord.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@publicdatacheck.com",
+   "flags": [],
    "id": "publicdatacheck-com",
    "name": "Public Data Check",
    "optOutUrl": "https://www.publicdatacheck.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.publicdatacheck.com/"
   },
   {
@@ -4112,7 +4385,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.publicinfoservices.com/"
   },
   {
@@ -4127,22 +4400,26 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publiclibraries.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@publicrecordreports.com",
+   "flags": [],
    "id": "publicrecordreports-com",
    "name": "Public Record Reports",
    "optOutUrl": "https://www.publicrecordreports.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.publicrecordreports.com/"
   },
   {
@@ -4157,7 +4434,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publicdatausa.com/"
   },
   {
@@ -4171,7 +4448,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.publicrecordcenter.com/"
   },
   {
@@ -4186,35 +4463,52 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publicrecords.com/"
   },
   {
    "category": "people_search",
-   "channel": "email",
-   "confidence": "listed",
+   "channel": "web_form",
+   "confidence": "untested",
    "email": "support@publicrecords.info",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "publicrecords-info",
    "name": "PublicRecords.info",
+   "notes": "Removal goes through PropertyRecord (propertyrecord.com); one request there covers this site.",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "owner": "PropertyRecord",
    "relistDays": 90,
    "requiredFields": [
     "full_name"
    ],
+   "searchUrl": "https://dashboard.publicrecords.info/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
    "verification": "none",
    "website": "https://www.publicrecords.info/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@publicrecords.us",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "publicrecords-us",
    "name": "PublicRecords.us",
-   "optOutUrl": "https://dashboard.publicrecords.us/opt-out",
+   "notes": "Removal goes through PropertyRecord (propertyrecord.com); one request there covers this site.",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "owner": "PropertyRecord",
    "relistDays": 90,
    "requiredFields": [
     "full_name"
    ],
+   "searchUrl": "https://dashboard.publicrecords.us/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
    "verification": "none",
    "website": "https://www.publicrecords.us/"
   },
@@ -4228,7 +4522,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publicrecordscenter.org/"
   },
   {
@@ -4242,7 +4536,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.publicrecordsnow.com/"
   },
   {
@@ -4255,7 +4549,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.publicrecordsreviews.com/"
   },
   {
@@ -4269,22 +4563,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publicrecordssearcher.com"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@publicsearcher.com",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "publicsearcher-com",
    "name": "PublicSearcher",
-   "optOutUrl": "https://www.publicsearcher.com/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.publicsearcher.com/"
   },
   {
@@ -4297,21 +4599,32 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publicsrecords.com/"
   },
   {
    "category": "people_search",
-   "channel": "email",
-   "confidence": "listed",
+   "channel": "web_form",
+   "confidence": "untested",
    "email": "clients@quickpeopletrace.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "quickpeopletrace-com",
    "name": "Quick People Trace",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.quickpeopletrace.com/search/?addresssearch=1&tabid=1&teaser-firstname=${firstName}&teaser-middlename=&teaser-lastname=${lastName}&teaser-city=${city}&teaser-state=${state|upcase}&teaser-submitted=Search",
+   "verification": "email_link",
    "website": "https://www.quickpeopletrace.com/"
   },
   {
@@ -4326,7 +4639,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.quickpublicrecords.com/"
   },
   {
@@ -4341,7 +4654,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://radaris.com/"
   },
   {
@@ -4355,7 +4668,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://radaris.de/"
   },
   {
@@ -4370,7 +4683,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://rain-street.org/"
   },
   {
@@ -4385,7 +4698,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://realpeoplesearch.com/"
   },
   {
@@ -4400,7 +4713,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.realtyhop.com/"
   },
   {
@@ -4413,7 +4726,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://realtyverify.com/"
   },
   {
@@ -4428,7 +4741,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://recordsfinder.com/"
   },
   {
@@ -4442,7 +4755,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://recordspage.org/"
   },
   {
@@ -4457,7 +4770,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://recordsquarry.com/public-records/"
   },
   {
@@ -4472,7 +4785,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://rehold.com/"
   },
   {
@@ -4485,7 +4798,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://reunion.com"
   },
   {
@@ -4500,7 +4813,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.reversephone.com/"
   },
   {
@@ -4515,7 +4828,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.riarrests.org/"
   },
   {
@@ -4530,7 +4843,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://rhodeislandcourtrecords.us/"
   },
   {
@@ -4545,22 +4858,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://rhodeislandpeoplerecords.org/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@sealedrecords.net",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "sealedrecords-net",
    "name": "SealedRecords",
-   "optOutUrl": "https://www.sealedrecords.net/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.sealedrecords.net/"
   },
   {
@@ -4575,7 +4896,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.searchquarry.com/"
   },
   {
@@ -4590,21 +4911,31 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.searchbug.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "searchpeoplefree-com",
    "name": "SearchPeopleFree",
-   "optOutUrl": "https://www.searchpeoplefree.com/opt-out",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://searchpeoplefree.com/find/${firstName|hyphenated}-${lastName|hyphenated}/${state|hyphenated}/${city|hyphenated}",
+   "verification": "email_link",
    "website": "https://www.searchpeoplefree.com"
   },
   {
@@ -4619,22 +4950,26 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://searchpeoplefree.net/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@searchpublicrecords.com",
+   "flags": [],
    "id": "searchpublicrecords-com",
    "name": "SearchPublicRecords.com",
    "optOutUrl": "https://www.searchpublicrecords.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.searchpublicrecords.com/"
   },
   {
@@ -4649,7 +4984,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://publicrecords.searchsystems.net/"
   },
   {
@@ -4663,7 +4998,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://searchusapeople.com"
   },
   {
@@ -4678,22 +5013,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://searqle.com"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@secretinfo.org",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "secretinfo-org",
    "name": "Secretinfo",
-   "optOutUrl": "https://www.secretinfo.org/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.secretinfo.org/"
   },
   {
@@ -4708,7 +5051,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.seekhd.com/"
   },
   {
@@ -4722,7 +5065,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://opengovny.com/"
   },
   {
@@ -4737,7 +5080,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://sheriffsdepartment.net"
   },
   {
@@ -4752,7 +5095,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.simplecontacts.com/"
   },
   {
@@ -4766,7 +5109,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ukphonebook.com/"
   },
   {
@@ -4781,7 +5124,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://snoopstation.com/"
   },
   {
@@ -4796,7 +5139,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://socialcatfish.com/"
   },
   {
@@ -4811,7 +5154,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.scarrests.org/"
   },
   {
@@ -4826,7 +5169,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.sdarrests.org/"
   },
   {
@@ -4841,7 +5184,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://southcarolinacourtrecords.us/"
   },
   {
@@ -4855,7 +5198,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://southcarolinapublicrecords.com"
   },
   {
@@ -4870,7 +5213,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://southdakotacourtrecords.us/"
   },
   {
@@ -4884,22 +5227,26 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://spydialer.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "deletemyinfo@spyfly.com",
+   "flags": [],
    "id": "spyfly-com",
    "name": "SpyFly",
    "optOutUrl": "https://www.spyfly.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.spyfly.com/"
   },
   {
@@ -4912,7 +5259,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://stage-research.net/"
   },
   {
@@ -4926,7 +5273,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://statecourts.org/"
   },
   {
@@ -4941,7 +5288,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://staterecords.org/"
   },
   {
@@ -4956,7 +5303,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://sync.me/"
   },
   {
@@ -4970,7 +5317,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.sysoon.com/"
   },
   {
@@ -4985,7 +5332,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.telephonedirectories.us/"
   },
   {
@@ -5000,7 +5347,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.tennesseearrests.org/"
   },
   {
@@ -5015,7 +5362,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://tennesseecourtrecords.us/"
   },
   {
@@ -5029,7 +5376,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://texasarrestwarrants.org/"
   },
   {
@@ -5043,7 +5390,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.texasarrests.org/"
   },
   {
@@ -5058,7 +5405,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://texascourtrecords.us/"
   },
   {
@@ -5073,7 +5420,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://texaswarrantroundup.org/"
   },
   {
@@ -5087,7 +5434,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://thegeorgiagazette.com/"
   },
   {
@@ -5102,7 +5449,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://thepublicindex.org/"
   },
   {
@@ -5115,7 +5462,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.top4backgroundchecks.com/"
   },
   {
@@ -5129,22 +5476,32 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://transparentnevada.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@truepeoplesearch.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "truepeoplesearch-com",
    "name": "TruePeopleSearch",
-   "optOutUrl": "https://www.truepeoplesearch.com/removal",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.truepeoplesearch.com/results?name=${firstName}%20${lastName}&citystatezip=${city|capitalize},${state|upcase}",
+   "verification": "email_link",
    "website": "https://truepeoplesearch.com/"
   },
   {
@@ -5159,7 +5516,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://truepeoplesearch.net/"
   },
   {
@@ -5174,22 +5531,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.truthfinder.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@truthrecord.org",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "truthrecord-org",
    "name": "TruthRecord",
-   "optOutUrl": "https://www.truthrecord.org/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.truthrecord.org/"
   },
   {
@@ -5203,7 +5568,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.truthviewer.com/"
   },
   {
@@ -5218,20 +5583,24 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://ufind.name/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "unitedstatesphonebook-com",
    "name": "UnitedStatesPhonebook.com",
-   "optOutUrl": "https://www.unitedstatesphonebook.com/contact.php",
+   "optOutUrl": "https://www.unitedstatesphonebook.com/search.php",
    "relistDays": 90,
    "requiredFields": [
     "full_name"
    ],
+   "searchUrl": "https://www.unitedstatesphonebook.com/search.php?first=${firstName}&last=${lastName}&city=${city}&state=${state}",
    "verification": "none",
    "website": "https://www.unitedstatesphonebook.com/"
   },
@@ -5247,7 +5616,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://unmask.com/"
   },
   {
@@ -5261,7 +5630,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://uspeoplesearch.com/"
   },
   {
@@ -5276,21 +5645,31 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.ussearch.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "usa-people-search-com",
    "name": "USA People Search",
-   "optOutUrl": "https://www.usa-people-search.com/removal",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://usa-people-search.com/name/${firstName|downcase|hyphenated}-${lastName|downcase|hyphenated}/${city|downcase|hyphenated}-${state|stateFull|downcase|hyphenated}",
+   "verification": "email_link",
    "website": "https://usa-people-search.com"
   },
   {
@@ -5305,7 +5684,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://usa-official.com/"
   },
   {
@@ -5318,22 +5697,32 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.usaphonesbook.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "research@usatrace.com",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
    "id": "usatrace-com",
    "name": "USATrace",
-   "optOutUrl": "https://www.usatrace.com/contact-us/",
+   "notes": "Removal goes through PeopleFinders (peoplefinders.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplefinders.com/opt-out",
+   "owner": "PeopleFinders",
    "relistDays": 90,
    "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "searchUrl": "https://www.usatrace.com/people-search/${firstName|replaceWhitespace:_}-${lastName|replaceWhitespace:_}/${city|hyphenated}-${state|upcase}",
+   "verification": "email_link",
    "website": "https://usatrace.com/"
   },
   {
@@ -5346,7 +5735,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://usawhitepages.com/"
   },
   {
@@ -5361,7 +5750,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.user-searcher.com/"
   },
   {
@@ -5375,7 +5764,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.usrecords.net/"
   },
   {
@@ -5389,7 +5778,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.uswarrants.org/"
   },
   {
@@ -5404,7 +5793,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.utaharrests.org/"
   },
   {
@@ -5419,7 +5808,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://utahcourtrecords.us/"
   },
   {
@@ -5433,7 +5822,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://verifypublicrecords.com/"
   },
   {
@@ -5448,22 +5837,37 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://verifyrecords.com/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@veripages.com",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "veripages-com",
    "name": "Veripages",
-   "optOutUrl": "https://veripages.com/inner/control-privacy",
+   "optOutUrl": "https://veripages.com/inner/removal-service",
    "relistDays": 90,
    "requiredFields": [
-    "full_name"
+    "email",
+    "full_name",
+    "profile_url"
    ],
-   "verification": "none",
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://veripages.com/inner/profile/search?fname=${firstName}&lname=${lastName}&fage=${age|ageRange}&state=${state}&city=${city}",
+   "verification": "email_link",
    "website": "https://veripages.com/"
   },
   {
@@ -5478,7 +5882,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.vtarrests.org/"
   },
   {
@@ -5493,7 +5897,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://vermontcourtrecords.us/"
   },
   {
@@ -5508,7 +5912,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.virginiaarrests.org/"
   },
   {
@@ -5523,7 +5927,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://virginiacourtrecords.us/"
   },
   {
@@ -5538,7 +5942,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://voterrecords.com/"
   },
   {
@@ -5553,7 +5957,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.washingtonarrests.org/"
   },
   {
@@ -5568,7 +5972,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.dcarrests.org/"
   },
   {
@@ -5583,22 +5987,30 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://washingtoncourtrecords.us/"
   },
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
    "email": "support@weinform.org",
+   "flags": [
+    "captcha",
+    "removal_via_parent"
+   ],
    "id": "weinform-org",
    "name": "WeInform",
-   "optOutUrl": "https://www.weinform.org/api/helper/optOutLight/search",
+   "notes": "Removal goes through PrivateReports (privatereports.com); one request there covers this site.",
+   "optOutUrl": "https://www.privatereports.com/api/helper/optOutLight/search",
+   "owner": "PrivateReports",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "none",
+   "verification": "email_link",
    "website": "https://www.weinform.org/"
   },
   {
@@ -5613,7 +6025,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.wvarrests.org/"
   },
   {
@@ -5628,7 +6040,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://westvirginiacourtrecords.us/"
   },
   {
@@ -5643,7 +6055,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.wisconsinarrests.org/"
   },
   {
@@ -5658,7 +6070,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://wisconsincourtrecords.us/"
   },
   {
@@ -5673,7 +6085,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.wyomingarrests.org/"
   },
   {
@@ -5687,7 +6099,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://wyomingcourtrecords.us/"
   },
   {
@@ -5702,7 +6114,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.wyty.com/"
   },
   {
@@ -5717,7 +6129,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://x-ray.contact/"
   },
   {
@@ -5731,7 +6143,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.yellowpagesdirectory.com/"
   },
   {
@@ -5745,7 +6157,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://yellowbook.com"
   },
   {
@@ -5760,7 +6172,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.zabasearch.com/"
   },
   {
@@ -5775,7 +6187,7 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://www.zlookup.com/"
   },
   {
@@ -5789,9 +6201,809 @@
    "requiredFields": [
     "full_name"
    ],
-   "verification": "none",
+   "verification": "unknown",
    "website": "https://zosearch.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "backgroundcheck-run",
+   "name": "backgroundcheck.run",
+   "optOutUrl": "https://backgroundcheck.run/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchUrl": "https://backgroundcheck.run/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}",
+   "verification": "email_link",
+   "website": "https://backgroundcheck.run"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "search_from_ddg"
+   ],
+   "id": "centeda-com",
+   "name": "Centeda",
+   "optOutUrl": "https://centeda.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://centeda.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://centeda.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "clubset-com",
+   "name": "Clubset",
+   "optOutUrl": "https://clubset.com/private/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://clubset.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state|upcase}&city=${city|capitalize}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://clubset.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "councilon-com",
+   "name": "Councilon",
+   "optOutUrl": "https://councilon.com/ex/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://councilon.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://councilon.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "search_from_ddg"
+   ],
+   "id": "curadvisor-com",
+   "name": "CurAdvisor",
+   "optOutUrl": "https://curadvisor.com/nada/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://curadvisor.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://curadvisor.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "dataveria-com",
+   "name": "Dataveria",
+   "optOutUrl": "https://dataveria.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://dataveria.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://dataveria.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "inforver-com",
+   "name": "Inforver",
+   "optOutUrl": "https://persontrust.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://inforver.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://inforver.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "kwold-com",
+   "name": "Kwold",
+   "optOutUrl": "https://kwold.com/ns/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://kwold.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://kwold.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "newenglandfacts-com",
+   "name": "New England Facts",
+   "optOutUrl": "https://newenglandfacts.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://newenglandfacts.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://newenglandfacts.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "people-background-check-com",
+   "name": "People Background Check",
+   "optOutUrl": "https://people-background-check.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchUrl": "https://people-background-check.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}",
+   "verification": "email_link",
+   "website": "https://people-background-check.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "people-wizard-com",
+   "name": "People-Wizard.com",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.people-wizard.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://people-wizard.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peopleswhizr-com",
+   "name": "PeoplesWhizr",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peopleswhizr.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peopleswhizr.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peopleswiz-com",
+   "name": "PeoplesWiz",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peopleswiz.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peopleswiz.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peopleswizard-com",
+   "name": "PeoplesWizard",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peopleswizard.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peopleswizard.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewhiz-net",
+   "name": "PeopleWhiz.net",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewhiz.net/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewhiz.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewhized-com",
+   "name": "PeopleWhized.com",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewhized.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewhized.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewhized-net",
+   "name": "PeopleWhized.net",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewhized.net/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewhized.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewhizr-net",
+   "name": "PeopleWhizr.net",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewhizr.net/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewhizr.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewiz-com",
+   "name": "PeopleWiz",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewiz.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewiz.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewizard-net",
+   "name": "PeopleWizard.net",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewizard.net/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewizard.net"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "peoplewizr-com",
+   "name": "PeopleWizr",
+   "notes": "Removal goes through PeopleWhiz.com (peoplewhiz.com); one request there covers this site.",
+   "optOutUrl": "https://www.peoplewhiz.com/remove-my-info",
+   "owner": "PeopleWhiz.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "email"
+   ],
+   "searchUrl": "https://www.peoplewizr.com/flow/results/${firstName}/${middleName|defaultIfEmpty:~}/${lastName}/${city}/${state}/${age}",
+   "verification": "none",
+   "website": "https://peoplewizr.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "propertyrec-com",
+   "name": "PropertyRec",
+   "notes": "Removal goes through PropertyRecord (propertyrecord.com); one request there covers this site.",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "owner": "PropertyRecord",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "searchUrl": "https://dashboard.propertyrec.com/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
+   "verification": "none",
+   "website": "https://propertyrec.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "propertyrecs-com",
+   "name": "PropertyRecs",
+   "notes": "Removal goes through PropertyRecord (propertyrecord.com); one request there covers this site.",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "owner": "PropertyRecord",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "searchUrl": "https://dashboard.propertyrecs.com/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
+   "verification": "none",
+   "website": "https://propertyrecs.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "pub360-com",
+   "name": "Pub360",
+   "optOutUrl": "https://plcom.net/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://pub360.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://pub360.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "publicreports-com",
+   "name": "PublicReports",
+   "notes": "Removal goes through Verecor (verecor.com); one request there covers this site.",
+   "optOutUrl": "https://verecor.com/ng/control/privacy",
+   "owner": "Verecor",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://persontrust.com/ng/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://publicreports.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "captcha",
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "vehiclehistory-us",
+   "name": "VehicleHistory",
+   "notes": "Removal goes through PropertyRecord (propertyrecord.com); one request there covers this site.",
+   "optOutUrl": "https://dashboard.propertyrecord.com/opt-out",
+   "owner": "PropertyRecord",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "searchUrl": "https://dashboard.vehiclehistory.us/opt-out/records?name=${firstName}%20${lastName}&city=${city|downcase}&state=${state|upcase}&cityState=${city},%20${state|upcase}",
+   "verification": "none",
+   "website": "https://vehiclehistory.us"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "removal_via_parent",
+    "search_from_ddg"
+   ],
+   "id": "vehiclerelatedrecords-com",
+   "name": "Vehicle Related Records",
+   "notes": "Removal goes through SpyFly (spyfly.com); one request there covers this site.",
+   "optOutUrl": "https://www.spyfly.com/help-center/privacy-requests",
+   "owner": "SpyFly",
+   "relistDays": 90,
+   "requiredFields": [
+    "birth_year",
+    "city_state",
+    "email",
+    "full_name"
+   ],
+   "searchUrl": "https://vehiclerelatedrecords.com/results.php?sptp=Drivers&sbid=Driving&first=${firstName}&last=${lastName}&city=${city}&state=${state}",
+   "verification": "email_link",
+   "website": "https://vehiclerelatedrecords.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "verecor-com",
+   "name": "Verecor",
+   "optOutUrl": "https://verecor.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://verecor.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://verecor.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "vericora-com",
+   "name": "Vericora",
+   "optOutUrl": "https://vericora.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://vericora.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://vericora.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "veriforia-com",
+   "name": "Veriforia",
+   "optOutUrl": "https://veriforia.com/ng/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://veriforia.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://veriforia.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "virtory-com",
+   "name": "Virtory",
+   "optOutUrl": "https://virtory.com/prvt/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://virtory.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://virtory.com"
+  },
+  {
+   "category": "people_search",
+   "channel": "web_form",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
+   "id": "wellnut-com",
+   "name": "Wellnut",
+   "optOutUrl": "https://wellnut.com/noi/control/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "email",
+    "full_name",
+    "profile_url"
+   ],
+   "searchAgeRanges": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51-60",
+    "61-70",
+    "71-80",
+    "81+"
+   ],
+   "searchUrl": "https://wellnut.com/profile/search?fname=${firstName}&lname=${lastName}&state=${state}&city=${city}&fage=${age|ageRange}",
+   "verification": "email_link",
+   "website": "https://wellnut.com"
   }
  ],
- "version": 202611082142
+ "version": 20261112154118
 }
