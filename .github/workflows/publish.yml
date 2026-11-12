@@ -34,12 +34,18 @@ jobs:
       - name: Fetch the Optery directory
         run: git clone --depth 1 https://github.com/optery/optery-data-brokers-directory /tmp/optery
 
+      # Only the broker definitions folder of DuckDuckGo's Android app (Apache 2.0), not the whole repository.
+      - name: Fetch DuckDuckGo's broker definitions
+        run: |
+          git clone --depth 1 --filter=blob:none --sparse https://github.com/duckduckgo/Android /tmp/ddg
+          git -C /tmp/ddg sparse-checkout set pir/pir-impl/src/main/assets/brokers
+
       - name: Build, compare, sign
         env:
           CATALOG_SIGNING_KEY: ${{ secrets.CATALOG_SIGNING_KEY }}
         run: |
           set -e
-          python3 tools/build_catalog.py --optery /tmp/optery/data/data-brokers.json --out /tmp/new.json --version 0
+          python3 tools/build_catalog.py --optery /tmp/optery/data/data-brokers.json --ddg /tmp/ddg/pir/pir-impl/src/main/assets/brokers --out /tmp/new.json --version 0
           # Same content as the published catalog (ignoring the version number)? Then publish nothing.
           if [ -f catalog.json ] && python3 -c '
           import json, sys
@@ -49,7 +55,7 @@ jobs:
             echo "::notice title=catalog::No content change — nothing to publish."
             exit 0
           fi
-          python3 tools/build_catalog.py --optery /tmp/optery/data/data-brokers.json --out catalog.json
+          python3 tools/build_catalog.py --optery /tmp/optery/data/data-brokers.json --ddg /tmp/ddg/pir/pir-impl/src/main/assets/brokers --out catalog.json
           python3 tools/sign_catalog.py catalog.json
           git config user.name "catalog-bot"
           git config user.email "catalog-bot@users.noreply.github.com"
