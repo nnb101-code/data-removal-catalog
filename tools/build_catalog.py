@@ -5,6 +5,8 @@ Builds catalog.json for the Data Removal app.
 Inputs:
   sources/curated.json   hand-prepared sources (priority sites, channel, fields, notes)
   sources/laws.json      law profiles with request / follow-up / complaint templates
+  sources/overrides.json optional corrections by source id, applied last (for example a search address
+                         checked on a phone: {"spokeo": {"searchUrl": "https://..."}}); null removes a field
   --optery PATH          data-brokers.json from github.com/optery/optery-data-brokers-directory
                          (people-search sites not in the curated list are added as "listed")
   --ddg DIR              broker definitions from DuckDuckGo's Personal Information Removal
@@ -289,6 +291,22 @@ def main():
         seen_domains.add(d)
         sources.append(s)
         ddg_added += 1
+
+    # Corrections found by testing on a real phone win over every other input.
+    try:
+        overrides = json.load(open("sources/overrides.json", encoding="utf-8"))
+    except FileNotFoundError:
+        overrides = {}
+    by_id = {x["id"]: x for x in sources}
+    for sid, changes in overrides.items():
+        if sid not in by_id:
+            fail(f"overrides.json: unknown source {sid}")
+        for k, v in changes.items():
+            if v is None:
+                by_id[sid].pop(k, None)
+            else:
+                by_id[sid][k] = v
+        check_source(by_id[sid])
 
     for law in laws:
         if not 7 <= law["responseDays"] <= 365:
