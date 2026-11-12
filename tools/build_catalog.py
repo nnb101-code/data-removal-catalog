@@ -205,7 +205,9 @@ def apply_ddg(s, facts, ddg, prepared):
         opt_out = parent["optOutUrl"] or opt_out
         s["owner"] = parent["name"]
         s["flags"] = sorted(set(s.get("flags", [])) | {"removal_via_parent"})
-        s["notes"] = f"Removal goes through {parent['name']} ({parent['domain']}); one request there covers this site."
+        # DuckDuckGo sends this site's opt-out to the parent; that it really removes the listing here is
+        # not proven until a re-check shows it, so the note says "offered", not "covers".
+        s["notes"] = f"Opt-out is offered through {parent['name']} ({parent['domain']}). Whether that also removes the listing on this site is not verified yet: re-check this site after."
         fields, verification, flags = parent["fields"], parent["verification"], parent["flags"]
     else:
         fields, verification, flags = facts["fields"], facts["verification"], facts["flags"]
