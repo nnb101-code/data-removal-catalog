@@ -15,7 +15,7 @@
   "templates": {
    "request": {
     "subject": "Personal data deletion and opt-out request — {{full_name}}",
-    "body": "To {{source_name}},\n\nI am a New Jersey resident. Under the New Jersey Data Privacy Act ({{citation}}), I request that you:\n\n1. Delete the personal data you hold about me.\n2. Stop selling my personal data, and stop processing it for targeted advertising and profiling.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nIf you need more information to verify that this request comes from me, please tell me what you need. The law asks for a response within {{response_days}} days of receiving a verified request. If you need more time, please tell me within that period and explain why. If you decline any part of this request, please tell me why and how I can appeal.\n\nPlease confirm in writing when the deletion is complete.\n\nThank you,\n{{full_name}}\n{{date}}"
+    "body": "To {{source_name}},\n\nI am a New Jersey resident. Under the New Jersey Data Privacy Act ({{citation}}), I request that you:\n\n1. Delete the personal data you hold about me.\n2. Stop selling my personal data, and stop processing it for targeted advertising and profiling.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nMy address: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nIf you need more information to verify that this request comes from me, please tell me what you need. The law asks for a response within {{response_days}} days of receiving a verified request. If you need more time, please tell me within that period and explain why. If you decline any part of this request, please tell me why and how I can appeal.\n\nPlease confirm in writing when the deletion is complete.\n\nThank you,\n{{full_name}}\n{{date}}"
    },
    "followUp": {
     "subject": "Follow-up: data deletion request — {{full_name}}",
@@ -41,7 +41,7 @@
   "templates": {
    "request": {
     "subject": "Personal data removal request — {{full_name}}",
-    "body": "To {{source_name}},\n\nUnder your published privacy and opt-out policy, I request that you remove my personal information from your website and records, and stop selling or sharing it.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nAddress shown on your site: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nIf you need more information to verify that this request comes from me, please tell me what you need. Please confirm in writing when the removal is complete.\n\nThank you,\n{{full_name}}\n{{date}}"
+    "body": "To {{source_name}},\n\nUnder your published privacy and opt-out policy, I request that you remove my personal information from your website and records, and stop selling or sharing it.\n\nDetails to identify my record (please use them only for this request):\nName: {{full_name}}\nMy address: {{address}}\nListing on your site: {{profile_url}}\nContact email for this request: {{email}}\n\nIf you need more information to verify that this request comes from me, please tell me what you need. Please confirm in writing when the removal is complete.\n\nThank you,\n{{full_name}}\n{{date}}"
    },
    "followUp": {
     "subject": "Follow-up: removal request — {{full_name}}",
