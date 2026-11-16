@@ -1447,15 +1447,19 @@
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [
+    "search_from_ddg"
+   ],
    "id": "criminalregistry-org",
    "name": "CriminalRegistry.org",
-   "optOutUrl": "https://criminalregistry.org/remove.php?fn=&ln=",
+   "optOutUrl": "https://criminalregistry.org/remove.php",
    "relistDays": 90,
    "requiredFields": [
     "full_name"
    ],
-   "verification": "unknown",
+   "searchUrl": "https://www.criminalregistry.org/removeinfo.php?tid=&firstname=${firstName}&lastname=${lastName}",
+   "verification": "none",
    "website": "https://criminalregistry.org/"
   },
   {
@@ -5219,15 +5223,18 @@
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "listed",
+   "confidence": "untested",
+   "flags": [],
    "id": "spydialer-com",
    "name": "SpyDialer",
-   "optOutUrl": "https://spydialer.com/Consumers/",
+   "optOutUrl": "https://www.spydialer.com/optout",
    "relistDays": 90,
    "requiredFields": [
+    "city_state",
+    "email",
     "full_name"
    ],
-   "verification": "unknown",
+   "verification": "email_link",
    "website": "https://spydialer.com/"
   },
   {
@@ -7005,5 +7012,5 @@
    "website": "https://wellnut.com"
   }
  ],
- "version": 20261112203023
+ "version": 20261116155057
 }
