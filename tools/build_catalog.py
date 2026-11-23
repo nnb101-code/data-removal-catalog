@@ -5,6 +5,8 @@ Builds catalog.json for the Data Removal app.
 Inputs:
   sources/curated.json   hand-prepared sources (priority sites, channel, fields, notes)
   sources/laws.json      law profiles with request / follow-up / complaint templates
+  sources/ca-registry.json optional: brokers registered with California (tools/import_ca_registry.py);
+                         any broker the other inputs do not have becomes an email-only "listed" source
   sources/overrides.json optional corrections by source id, applied last (for example a search address
                          checked on a phone: {"spokeo": {"searchUrl": "https://..."}}); null removes a field
   --optery PATH          data-brokers.json from github.com/optery/optery-data-brokers-directory
@@ -30,7 +32,7 @@ FIELDS = {"full_name", "email", "phone", "address", "city_state", "birth_date", 
 # "unknown": nobody has looked yet. Never shown as "no verification needed".
 VERIFICATIONS = {"none", "unknown", "email_link", "phone_code", "phone_call", "id_document"}
 FLAGS = {"asks_birth_date", "captcha", "may_ask_id", "may_require_phone_call", "needs_account", "one_optout_per_email",
-         "paid_access", "phone_code", "removal_via_parent", "search_from_ddg"}
+         "paid_access", "phone_code", "removal_via_parent", "search_from_ddg", "ca_registry"}
 # Variables and modifiers a search-address template may use (same syntax as DuckDuckGo's definitions).
 SEARCH_VARS = {"firstName", "lastName", "middleName", "city", "state", "age"}
 SEARCH_MODS = {"hyphenated", "upcase", "downcase", "capitalize", "stateFull", "ageRange", "defaultIfEmpty", "replaceWhitespace"}
@@ -294,6 +296,33 @@ def main():
         sources.append(s)
         ddg_added += 1
 
+    # Brokers registered with California that no other input has: a general deletion email to their
+    # official contact address (nothing to search). Same domain or same email as a known site = skipped.
+    try:
+        registry = json.load(open("sources/ca-registry.json", encoding="utf-8")).get("brokers", [])
+    except FileNotFoundError:
+        registry = []
+    known_emails = {x["email"].lower() for x in sources if x.get("email")}
+    ca_added = 0
+    for b in registry:
+        d = b["domain"]
+        sid = slug(d)
+        if d in seen_domains or sid in seen_ids or b["email"].lower() in known_emails:
+            continue
+        s = {"id": sid, "name": b["name"], "website": "https://" + d, "category": "other", "channel": "email",
+             "email": b["email"], "requiredFields": ["full_name"], "verification": "unknown", "confidence": "listed",
+             "relistDays": 90, "flags": ["ca_registry"]}
+        if b.get("privacyPage", "").startswith("https://"):
+            s["notes"] = f"Registered data broker (California Data Broker Registry). Privacy rights page: {b['privacyPage']}"
+        else:
+            s["notes"] = "Registered data broker (California Data Broker Registry)."
+        check_source(s)
+        seen_ids.add(sid)
+        seen_domains.add(d)
+        known_emails.add(b["email"].lower())
+        sources.append(s)
+        ca_added += 1
+
     # Corrections found by testing on a real phone win over every other input.
     try:
         overrides = json.load(open("sources/overrides.json", encoding="utf-8"))
@@ -327,7 +356,7 @@ def main():
         "attribution": [
             "Optery Data Brokers Directory — https://github.com/optery/optery-data-brokers-directory (CC BY-NC-SA 4.0)",
             "Big Ass Data Broker Opt-Out List (BADBOOL) — https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List (CC BY-NC-SA)",
-        ] + (["DuckDuckGo Personal Information Removal broker definitions — https://github.com/duckduckgo/Android (Apache License 2.0; search addresses, opt-out pages and form fields, adapted)"] if ddg else []),
+        ] + (["California Data Broker Registry (CalPrivacy, public data) — https://cppa.ca.gov/data_broker_registry/ (broker names, websites, contact emails)"] if ca_added else []) + (["DuckDuckGo Personal Information Removal broker definitions — https://github.com/duckduckgo/Android (Apache License 2.0; search addresses, opt-out pages and form fields, adapted)"] if ddg else []),
         "laws": laws,
         "sources": sources,
     }
@@ -336,7 +365,7 @@ def main():
         f.write("\n")
     prepared = sum(1 for x in sources if x["confidence"] in ("untested", "tested"))
     searchable = sum(1 for x in sources if "${" in x.get("searchUrl", ""))
-    print(f"catalog v{a.version}: {len(curated)} curated + {added} from Optery + {ddg_added} from DuckDuckGo = {len(sources)} sources; "
+    print(f"catalog v{a.version}: {len(curated)} curated + {added} from Optery + {ddg_added} from DuckDuckGo + {ca_added} from the California registry = {len(sources)} sources; "
           f"{prepared} prepared, {searchable} with a direct search address; {len(laws)} law profiles")
 
 

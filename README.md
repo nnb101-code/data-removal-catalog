@@ -8,6 +8,8 @@ The list of people-search sites and data brokers, and the law profiles, used by 
 | --- | --- |
 | `sources/curated.json` | Priority sites prepared by hand: channel, opt-out URL, fields each site needs, verification, notes |
 | `sources/laws.json` | Law profiles (New Jersey, Generic) with request, follow-up and complaint templates |
+| `sources/ca-registry.json` | Brokers registered with California (CalPrivacy registry, public data): name, website, contact email. Each one the other lists lack gets the app's deletion email |
+| `tools/import_ca_registry.py` | Turns the registry download (registry.csv) into the file above; refreshed weekly |
 | `tools/build_catalog.py` | Builds `catalog.json` from the two files above plus the Optery directory and DuckDuckGo's broker definitions |
 | `tools/sign_catalog.py` | Signs `catalog.json` with the `CATALOG_SIGNING_KEY` secret |
 | `.github/workflows/publish.yml` | Rebuilds and signs on every change and weekly |
@@ -26,6 +28,8 @@ Confidence levels: `tested` (flow checked against the live site, with date) · `
 | --- | --- |
 | `sources/curated.json` | אתרים בעדיפות שהוכנו ידנית: ערוץ, קישור הסרה, השדות שכל אתר צריך, אימות, הערות |
 | `sources/laws.json` | פרופילי חוק (ניו ג'רזי, כללי) עם תבניות בקשה, תזכורת ותלונה |
+| `sources/ca-registry.json` | ברוקרים הרשומים בקליפורניה (מרשם CalPrivacy, מידע ציבורי): שם, אתר, אימייל ליצירת קשר. כל אחד שאין ברשימות האחרות מקבל את אימייל המחיקה של האפליקציה |
+| `tools/import_ca_registry.py` | ממיר את קובץ המרשם (registry.csv) לקובץ למעלה; מתעדכן כל שבוע |
 | `tools/build_catalog.py` | בונה את `catalog.json` משני הקבצים למעלה מהמאגר של Optery ומהגדרות הברוקרים של DuckDuckGo |
 | `tools/sign_catalog.py` | חותם על `catalog.json` עם הסוד `CATALOG_SIGNING_KEY` |
 | `.github/workflows/publish.yml` | בונה וחותם מחדש בכל שינוי ופעם בשבוע |
