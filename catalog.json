@@ -3,6 +3,7 @@
   "Optery Data Brokers Directory — https://github.com/optery/optery-data-brokers-directory (CC BY-NC-SA 4.0)",
   "Big Ass Data Broker Opt-Out List (BADBOOL) — https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List (CC BY-NC-SA)",
   "California Data Broker Registry (CalPrivacy, public data) — https://cppa.ca.gov/data_broker_registry/ (broker names, websites, contact emails)",
+  "Texas, Vermont and Oregon data broker registries, merged by Privacy Rights Clearinghouse — https://privacyrights.org/data-brokers (CC BY-NC-SA 4.0; broker names, websites, contact emails)",
   "DuckDuckGo Personal Information Removal broker definitions — https://github.com/duckduckgo/Android (Apache License 2.0; search addresses, opt-out pages and form fields, adapted)"
  ],
  "laws": [
@@ -16965,7 +16966,3445 @@
    ],
    "verification": "unknown",
    "website": "https://zs.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "karl@180bytwo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "180bytwo-com",
+   "name": "180 By Two, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://privacyportal.onetrust.com/webform/e32c5e49-85c5-4969-bfa8-8cde49952e1f/6034339d-69de-41fc-829f-7b8b51d9fabe",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://180bytwo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "eric@4-eyes.ai",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "4-eyes-ai",
+   "name": "4EYES AI Inc",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.4-eyes.ai/privacy-policy?cord_section=privacy_options_dns",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://4-eyes.ai"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "tapster13@gmail.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "4legalleads-com",
+   "name": "ADVERTISE4SALES Inc",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.4legalleads.com/removal/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://4legalleads.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jbalboa@opendealerexchange.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "700credit-com",
+   "name": "700 Credit, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://700credit.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "regulatory.licenses@accenture.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "accenture-com",
+   "name": "Accenture LLP",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.accenture.com/us-en/support/form-do-not-sell-my-personal-information",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://accenture.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "daveafx@gmail.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "activeintel-com",
+   "name": "Active Intel Investigations LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://activeintel.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "admin@acutraq.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "acutraq-com",
+   "name": "ACUTRAQ Background Screening, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://acutraq.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "billing@adadapted.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "adadapted-com",
+   "name": "Adadapted Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.adadapted.com/legal/do-not-sell",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://adadapted.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jenniferv@adrearubin.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "adrearubin-com",
+   "name": "Adrea Rubin Marketing, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://adrearubin.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@advcredit.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "advcredit-com",
+   "name": "Advantage Credit, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://advcredit.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "drieke@executiveenergy.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "agrgroupinc-com",
+   "name": "All Global Resources, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://agrgroupinc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "aps_compliance@aisinfo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "aisinfo-com",
+   "name": "AIS Infosource LP",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.aisinfo.com/privacy?hsLang=en#california-privacy-rights",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://aisinfo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@alloy.us",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "alloy-us",
+   "name": "Alloy",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://alloy.us"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@altisource.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "altisource-com",
+   "name": "Altisource Holdings, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.altisource.com/us-consumer-privacy-notice",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://altisource.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@amerilist.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "amerilist-com",
+   "name": "Amerilist Inc",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.amerilist.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://amerilist.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@andrewswharton.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "andrewswharton-com",
+   "name": "ANDREWS WHARTON Inc",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.andrewswharton.com/your-privacy-choices",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://andrewswharton.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "matt@applecart.co",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "applecart-co",
+   "name": "Project Applecart LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.applecart.co/privacyrights",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://applecart.co"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "swenson@assurance.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "assurance-com",
+   "name": "Assurance Iq, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://assurance.com/assurance-privacy-practices.html#CRPDYourConsumerRightsRightToOptOut",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://assurance.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@atlanticfox.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "atlanticfox-com",
+   "name": "Atlantic Fox Technologies, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://atlanticfox.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jo.bergstrom@attomdata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "attomdata-com",
+   "name": "ATTOM Data Solutions LLC",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.attomdata.com/privacy/ccpa-request-form-7233695024/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://attomdata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "kristin.jones@hireright.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "backgroundchecks-com",
+   "name": "Backgroundchecks.Com LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://backgroundchecks.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "nate.waymire@backgroundsonline.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "backgroundsonline-com",
+   "name": "IQ Data Systems, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://backgroundsonline.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@bestpickreports.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "bestpickreports-com",
+   "name": "Best Pick Reports, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.bestpickreports.com/do-not-sell",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://bestpickreports.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "billing@birchwoodcreditservices.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "birchwoodcreditservices-com",
+   "name": "Birchwood Credit Services Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://birchwoodcreditservices.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@bisi.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "bisi-com",
+   "name": "Background Information Services, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://bisi.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dwayne.landry@bridgevine.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "bridgevine-com",
+   "name": "Bridgevine Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://bridgevine.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jay.burke@brightswipe.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "brightswipe-com",
+   "name": "Brightswipe Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://brightswipe.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "customercare@business.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "business-com",
+   "name": "Business.Com",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.business.com/optout/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://business.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "riskandcompliance@careerbuilder.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "careerbuilder-com",
+   "name": "Careerbuilder, LLC",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://careerbuilder.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "geoff.andrews@carpe.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "carpe-io",
+   "name": "Riv Data Corp",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://carpe.io"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@catalyzeai.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "catalyzeai-com",
+   "name": "Catalyze Ai, Inc",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.catalyzeai.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://catalyzeai.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@cengage.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "cengage-com",
+   "name": "CENGAGE LEARNING Inc",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.cengage.com/repfinder/gale",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://cengage.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dennis.kettler@fisglobal.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "chexsystems-com",
+   "name": "Chex Systems, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://chexsystems.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@ciccredit.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "ciccredit-com",
+   "name": "CIC MORTGAGE CREDIT Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.optoutprescreen.com/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://ciccredit.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@cicreports.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "cicreports-com",
+   "name": "Contemporary Information Corp",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://cicreports.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@cisive.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "cisive-com",
+   "name": "CARCO Group, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://cisive.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jake.london@civitech.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "civitech-io",
+   "name": "Civitech",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.civitech.io/privacy-policy/#section5",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://civitech.io"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@clearbit.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "clearbit-com",
+   "name": "Apihub, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.clearbit.com/ccpa-opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://clearbit.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "rob.fitzgerald@connextdigital.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "connextdigital-com",
+   "name": "Connext Digital, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.connextdigital.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://connextdigital.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacyofficer@consumerdataprotect.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "consumerdataprotect-com",
+   "name": "ROOFTOP DIGITAL LLC",
+   "notes": "Registered data broker (Oregon, Texas data broker registries). Opt-out page: https://www.consumerdataprotect.com/?ref=rooftopdigital.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://consumerdataprotect.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jmlawgroup@yahoo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "cortera-com",
+   "name": "Cortera, Inc.",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://ma.moodys.com/Do-Not-Sell-My-Information.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://cortera.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "ryan@crawlbee.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "crawlbee-com",
+   "name": "CRAWLBEE",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://crawlbee.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "heather@creditinfosystems.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "creditinfosystems-com",
+   "name": "Credit Bureau Of Council Bluff",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://creditinfosystems.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@crosswalknyc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "crosswalknyc-com",
+   "name": "Crosswalk Technologies Inc",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.crosswalknyc.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://crosswalknyc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "ldecastro@data-management.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "data-management-com",
+   "name": "Data Management LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://data-management.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "accounting@databaseusa.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "databaseusa-com",
+   "name": "Databaseusa.Com LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://privacycompliance.biz/databaseusa-california/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://databaseusa.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "contact@datadojo.ai",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "datadojo-ai",
+   "name": "Datadojo CDP Inc.",
+   "notes": "Registered data broker (Texas data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://datadojo.ai"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "johnna@datafacts.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "datafacts-com",
+   "name": "Data Facts, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://datafacts.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@datapluscontent.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "datapluscontent-com",
+   "name": "Data Plus Content LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://datapluscontent.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "britchie-boland@firstam.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "datatree-com",
+   "name": "First American Data Tree LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.firstam.com/privacy-policy/#california",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://datatree.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "nicole.rasbury@deluxe.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "deluxe-com",
+   "name": "Deluxe Corporation",
+   "notes": "Registered data broker (Texas, Vermont data broker registries). Opt-out page: https://www.deluxe.com/policy/donotsell/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://deluxe.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@demystdata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "demyst-com",
+   "name": "DEMYST DATA LTD",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.demystdata.com/data-subject-action-request",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://demyst.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "data@diablomedia.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "diablomedia-com",
+   "name": "DIABLO MEDIA LLC",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://diablomedia.com/privacy-request/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://diablomedia.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "slubin@digdev.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "digdevdirect-com",
+   "name": "Media Direct, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://digdevdirect.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@digicenter.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "digicenter-com",
+   "name": "Digicenter, LLC.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.collectivedata.io/opt-out-do-not-sell-request-process/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://digicenter.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "bschorer@digitalsegment.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "digitalsegment-com",
+   "name": "Digital Segment, LLC",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.digitalsegment.com/about/consumer-opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://digitalsegment.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "albert@driveniq.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "driveniq-com",
+   "name": "Driveniq Corporation",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://driveniq.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dblackman@drobu.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "drobu-com",
+   "name": "Drobu Media LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://drobu.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@dynata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "dynata-com",
+   "name": "Dynata, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://dynata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "ashley.moore2@earlywarning.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "earlywarning-com",
+   "name": "Early Warning Services, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://earlywarning.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@ekata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "ekata-com",
+   "name": "Ekata, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.mastercard.us/public/my-data/dgr-public/personal-data-request.html?locale=en-us&region=NAM#/ekata/request/personalinfo",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://ekata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "azuttah@ubiquitysystemsusa.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "electroniccommerceatoz-com",
+   "name": "Electronic Commerce A To Z",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://electroniccommerceatoz.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "shawn@emerges.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "emerges-com",
+   "name": "Emerges.Com",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.emerges.com/Government-Record-Opt-Out_ep_51-1.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://emerges.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@intalytics.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "esiteanalytics-com",
+   "name": "Esite Analytics, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://esiteanalytics.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@cbc-companies.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "factualdata-com",
+   "name": "Automation Research, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.factualdata.com/privacy/dsar-requests",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://factualdata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@fairscreen.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "fairscreen-com",
+   "name": "Fair Screen, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://fairscreen.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@fanspoko.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "fantasysportsknockout-com",
+   "name": "Fanspoko, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://fantasysportsknockout.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "harmik@propertyownerlookup.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "findtrueowner-com",
+   "name": "Saha Ventures LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://findtrueowner.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "adminsupport@fivestarrated.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "fivestarrated-com",
+   "name": "Home Contractors Review, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.fivestarrated.com/do-not-sell",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://fivestarrated.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@fivestrata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "fivestrata-com",
+   "name": "New Strata Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://fivestrata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal.compliance@forewarn.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "forewarn-com",
+   "name": "Forewarn, LLC",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.forewarn.com/opt-out-policy/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://forewarn.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@freshaddress.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "freshaddress-com",
+   "name": "Freshaddress, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://instantdata.atdata.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://freshaddress.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "greg@fusedleads.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "fusedleads-com",
+   "name": "Fused Leads, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://fusedleads.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "ramtin.taheri@g2risksolutions.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "g2risksolutions-com",
+   "name": "G2 Bankruptcy Risk Solutions, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://g2risksolutions.com/consumer-center/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://g2risksolutions.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "kyle@getivydata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "getivydata-com",
+   "name": "Ivy Tech Re, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://getivydata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dataprivacy@gostrata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "gostrata-com",
+   "name": "Strata Company",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.gostrata.com/opt-out-preferences",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://gostrata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "erin@granitelists.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "granitelists-com",
+   "name": "Granite Lists, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://granitelists.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@gravyanalytics.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "gravyanalytics-com",
+   "name": "Gravy Analytics, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://gravyanalytics.com/mobile-advertising-opt-form/?hsLang=en",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://gravyanalytics.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@grin.co",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "grin-co",
+   "name": "GRIN TECHNOLOGIES Inc",
+   "notes": "Registered data broker (Oregon, Texas data broker registries). Opt-out page: https://www.grin.co/data-privacy-form/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://grin.co"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "talbert@gumgum.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "gumgum-com",
+   "name": "Gumgum, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://gumgum.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jeff@gundir.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "gundersondirect-com",
+   "name": "Gunderson Direct",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://gundir.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://gundersondirect.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@hellofyllo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "hellofyllo-com",
+   "name": "Casters Holdings LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.semasio.com/legal/privacy-choices",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://hellofyllo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dnm@homeownersmarketingservices.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "homeownersmarketingservices-com",
+   "name": "Homeowners Marketing Services Inc",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://homeownersmarketingservices.com/list-removal-request-new/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://homeownersmarketingservices.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "chad@idengine.ai",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "idengine-com",
+   "name": "Idengine LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://idengine.com/dnsmpi/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://idengine.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "bruce.noll@ihsmarkit.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "ihsmarkit-com",
+   "name": "IHS Markit",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://ihsmarkit.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jenwaite@inchecksolutions.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "inchecksolutions-com",
+   "name": "Incheck Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://inchecksolutions.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacyofficer@indivizio.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "indivizio-com",
+   "name": "PATHWAY VENTURES LLC",
+   "notes": "Registered data broker (Oregon data broker registry). Opt-out page: https://www.protectdataprivacy.com/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://indivizio.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@inflection.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "inflection-com",
+   "name": "Inflection Risk Solutions, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://inflection.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "bjupp@infocore.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "infocore-com",
+   "name": "Infocore Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://infocore.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "accounting@infofree.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "infofree-com",
+   "name": "Infofree.com",
+   "notes": "Registered data broker (Texas, Vermont data broker registries). Opt-out page: https://privacycompliance.biz/databaseusa-opt-out-process/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://infofree.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacyteam@infogroup.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "infogroup-com",
+   "name": "Infogroup Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.data-axle.com/do-not-sell-my-data/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://infogroup.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "vtdata@innovis.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "innovis-com",
+   "name": "Innovis Data Solutions, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.innovis.com/personal/optOutOptIn",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://innovis.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@insideview.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "insideview-com",
+   "name": "InsideView, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://insideview.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@intellicorp.net",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "intellicorp-net",
+   "name": "Intellicorp Records, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.intellicorp.net/marketing/Your-California-Privacy-Rights",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://intellicorp.net"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy+vermont@iwave.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "iwave-com",
+   "name": "Iwave Information Systems Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://go.kindsight.io/privacy-opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://iwave.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@jigyasaanalytics.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "jigyasaanalytics-com",
+   "name": "Jigyasa Analytics LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://jigyasaanalytics.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "brian@5x5coop.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "join5x5-com",
+   "name": "5X5 US LLC",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://5x5data.com/opt-out-preferences/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://join5x5.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "admin@jverify.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "jverify-com",
+   "name": "Jverify, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://jverify.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "john.petrillo@wundermandata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "kbmg-com",
+   "name": "KBM GROUP LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://kbmg.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@killi.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "killi-io",
+   "name": "Killi Ltd.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://killi.io"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "soren@klarifi.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "klarifi-io",
+   "name": "Klarifi",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://klarifi.io"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "bbrownson@knowwho.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "knowwho-com",
+   "name": "Knowwho",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://knowwho.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@kochava.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "kochava-com",
+   "name": "Kochava Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.kochava.com/opt-out-do-not-sell-request-process/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://kochava.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@lciinc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "lciinc-com",
+   "name": "Lundquist Consulting, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://g2risksolutions.com/consumer-center/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://lciinc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dave@lead.co",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "lead-co",
+   "name": "The Lead Company, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://lead.co"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "khuntoon@liftengine.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "liftengine-com",
+   "name": "Blue Hill Marketing Solutions, Inc",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.liftbasedata.com/request-to-know/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://liftengine.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacyofficer@listsonline.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "listonline-com",
+   "name": "Listsonline",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://listonline.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "spalilla@listservicedirect.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "listservicedirect-com",
+   "name": "List Service Direct Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://listservicedirect.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://listservicedirect.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "sabira@localblox.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "localblox-com",
+   "name": "Localblox",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://consumer.localblox.com/privacy_policy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://localblox.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dserrano@locateplus.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "locateplus-com",
+   "name": "Search America LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://locateplus.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@logiq.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "logiq-com",
+   "name": "Logiq, Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://logiq.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@lotame.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "lotame-com",
+   "name": "Lotame Solutions, Inc.",
+   "notes": "Registered data broker (Texas, Vermont data broker registries). Opt-out page: https://lotame-optout.com/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://lotame.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@luc.id",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "luc-id",
+   "name": "Lucid Holdings, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://luc.id"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dpo@machintel.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "machintel-com",
+   "name": "Machintel",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://machintel.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "accounting@usinfosearch.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "martin-data-com",
+   "name": "Martin Data LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://martin-data.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "peterlong@mchdata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "mchdata-com",
+   "name": "Mch, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.mchdata.com/about/ccpaemail",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://mchdata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dpous@merkleinc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "merkleinc-com",
+   "name": "Merkle Inc",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://merkleinc.com/en/privacy-policy/data-product-privacy-notice/control-your-personal-information.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://merkleinc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "mfitzpatrick@mfidata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "mfidata-com",
+   "name": "MFI Credit Solutions",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://mfidata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jackson@minervadata.xyz",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "minervadata-xyz",
+   "name": "MINERVA BI Inc",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://realtors.minervadata.xyz/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://minervadata.xyz"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "accounting@modernize.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "modernize-com",
+   "name": "Modernize, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://privacy-central.securiti.ai/#/dsr/1b319101-f00c-470f-a7f0-26aa81f057b8",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://modernize.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "usacompliance@monevo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "monevo-com",
+   "name": "Monevo Inc",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.monevo.us/privacy-portal.",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://monevo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliancemortgagetech@ice.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "mortgagetech-ice-com",
+   "name": "Collateral Analytics, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://mortgagetech.ice.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@mrginc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "mrginc-com",
+   "name": "MEDIA RESOURCE GROUP LLC",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.mrginc.com/opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://mrginc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@nativo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "nativo-com",
+   "name": "NATIVO Inc",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://nativo.com/interest-based-ads#your-rights",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://nativo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "office.privacy@ncr.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "ncr-com",
+   "name": "NCR Corporation",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://ncr.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "ncs.privacy@ncsolutions.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "ncsolutions-com",
+   "name": "NC VENTURES LLC",
+   "notes": "Registered data broker (Oregon data broker registry). Opt-out page: https://ncsolutions.com/do-not-sell-my-information/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://ncsolutions.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "abby@nacmsw.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "nctue-com",
+   "name": "National Consumer Telecom & Utilities Exchange, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://nctue.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@near.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "near-com",
+   "name": "Near Intelligence Holdings, Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://near.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dave@nelists.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "nelists-com",
+   "name": "New England List Services",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://nelists.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "h.paulus@nexxagroup.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "nexxagroup-com",
+   "name": "Nexxa Group, Inc.",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.nexxagroup.com/corporate-overview/consumer-opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://nexxagroup.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@novalist.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "novalist-com",
+   "name": "NOVA List Company, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.novalist.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://novalist.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@nymblr.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "nymblr-com",
+   "name": "Nymblr, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.nymblr.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://nymblr.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "beckere@onemata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "onemata-com",
+   "name": "Onemata Corporation",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://onemata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "danica.shelton@opcity.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "opcity-com",
+   "name": "Msim, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://opcity.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "oracle-datacloud-privacy_us@oracle.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "oracle-com",
+   "name": "Oracle America Inc",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://datacloudoptout.oracle.com/legal/privacy/privacy-choices/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://oracle.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "brenton@outlastdfs.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "outlastdfs-com",
+   "name": "LET IT RIDE SPORTS LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://outlastdfs.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@owneriq.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "owneriq-com",
+   "name": "Inmar-Oiq, LLC",
+   "notes": "Registered data broker (Texas, Vermont data broker registries). Opt-out page: https://optout.owneriq.net/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://owneriq.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jschwartz@parasolleads.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "parasolleads-com",
+   "name": "Parasol Media Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://parasolleads.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@partnerscredit.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "partnerscredit-com",
+   "name": "Partners Credit And Verification Solutions",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://partnerscredit.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "george@plmrkg.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "plmrkg-com",
+   "name": "Plural Marketing Solutions Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://plmrkg.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@polityinc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "polityinc-com",
+   "name": "Polity",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://polityinc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@preferredcommunications.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "preferredcommunications-com",
+   "name": "Preferred Communications",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://preferredcommunications.com/consumer-opt-out/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://preferredcommunications.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "accounting@propstream.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "propstream-com",
+   "name": "Equimine",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.propstream.com/privacy-request",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://propstream.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@prospectordatabase.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "prospectordatabase-com",
+   "name": "Prospector Database, LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.prospectordatabase.com/privacy-center",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://prospectordatabase.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "aleex.de.aybar@outlook.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "proximaplatform-com",
+   "name": "Proxima Platform",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.proximaplatform.com/opt-out-portal",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://proximaplatform.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@pushint.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "pushint-com",
+   "name": "ORIGIN8 Inc",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://pushint.com/manage-my-data",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://pushint.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "us_privacy_office@pwc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "pwc-com",
+   "name": "PricewaterhouseCoopers LLP",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.pwc.com/us/en/site/notice-of-right-to-opt-out.html",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://pwc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "hello@qwoted.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "qwoted-com",
+   "name": "Qwoted, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://qwoted.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@reachdata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "reachdata-com",
+   "name": "FREEMIUM DATA SERVICE LLC",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.reachdata.com/privacy",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://reachdata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "rponsitecompliance@realpage.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "realpage-com",
+   "name": "RP On-Site LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://realpage.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "anubhuti.david@lseg.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "refinitiv-com",
+   "name": "Refinitiv US LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://refinitiv.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "rich@rentrisk.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "rentrisk-com",
+   "name": "Rent Risk LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://rentrisk.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "monica.messer@researchusallc.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "researchusallc-com",
+   "name": "ResearchUSA",
+   "notes": "Registered data broker (Texas data broker registry). Opt-out page: https://privacycompliance.biz/researchusallc-ccpa/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://researchusallc.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "licensing@saferentsolutions.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "saferentsolutions-com",
+   "name": "Saferent Solutions, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://saferentsolutions.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jean.vansoelen@saleseer.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "saleseer-com",
+   "name": "Saleseer, Inc.",
+   "notes": "Registered data broker (Texas data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://saleseer.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "chai.outmezguine@scanbuy.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "scanbuy-com",
+   "name": "Scanbuy, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://scanbuy.com/rights/data",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://scanbuy.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "complianceteam@careerbuilderscreening.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "screen-careerbuilder-com",
+   "name": "Careerbuilder Employment Screening, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://screen.careerbuilder.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@skipsmasher.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "skipsmasher-com",
+   "name": "Skipsmasher, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.skipsmasher.com/Consumers/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://skipsmasher.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@skyhook.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "skyhook-com",
+   "name": "Skyhook Holding, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.skyhook.com/opt-out-of-skyhook-products.",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://skyhook.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "steven@smacomm.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "smacomm-com",
+   "name": "SMA COMMUNICATIONS LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://smacomm.com/do-not-sell/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://smacomm.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@socialgist.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "socialgist-com",
+   "name": "Effyis Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://socialgist.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dataprivacy@sourcescrub.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "sourcescrub-com",
+   "name": "Sourcescrub LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.sourcescrub.com/legal/do-not-sell-my-personal-information",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://sourcescrub.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "phil@spoker.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "spoker-com",
+   "name": "Stratmish, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://spoker.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "info@srv1st.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "srv1st-com",
+   "name": "Service 1St Information Solutions LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://srv1st.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "admin@staircase.co",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "staircase-co",
+   "name": "Staircase, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://staircase.co"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "jdrziak@strategicinfo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "strategicinfo-com",
+   "name": "Strategic Information Resources",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://strategicinfo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "thoran@structure.ac",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "structure-ac",
+   "name": "Structure",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.structure.ac/opt_outs/new",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://structure.ac"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@studentclearinghouse.org",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "studentclearinghouse-org",
+   "name": "NATIONAL STUDENT CLEARINGHOUSE",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://studentclearinghouse.org"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "lcrocker@onboardpartners.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "suus-inc",
+   "name": "Suus, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://suus.inc"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "alex@take5mg.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "take5mg-com",
+   "name": "Advantage Sales & Marketing LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://take5mg.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@tapad.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "tapad-com",
+   "name": "Tapad, Inc.",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://crportal.tapad.com",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://tapad.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dataanalytics@teamdms.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "teamdms-com",
+   "name": "DIRECT MARKETING SOLUTIONS Inc",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.teamdms.com/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://teamdms.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "legal@techtarget.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "techtarget-com",
+   "name": "Techtarget, Inc.",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://techtarget.zendesk.com/hc/en-us/requests/new?ticket_form_id=360004852434",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://techtarget.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "mboyle@throtle.io",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "throtle-io",
+   "name": "THROTLE Inc",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://www.throtle.io/website-privacy-policy/#cookie-id",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://throtle.io"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "hello@tinuiti.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "tinuiti-com",
+   "name": "Tinuiti, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://tinuiti.com/privacy-policy/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://tinuiti.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "hdi_support@hygenicsdata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "totalverify-equifax-com",
+   "name": "HD Information, LLC",
+   "notes": "Registered data broker (Oregon, Vermont data broker registries). Opt-out page: https://myprivacy.equifax.com/opt-in-opt-out/personal-info",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://totalverify.equifax.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@towerdata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "towerdata-com",
+   "name": "Towerdata, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://instantdata.atdata.com/optout",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://towerdata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "compliance@tracersinfo.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "tracersinfo-com",
+   "name": "Tracers Information Specialists, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://tracersinfo.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "bmorgan@twinedata.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "twinedata-com",
+   "name": "Twine Data, Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://twinedata.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "lbrady@unitedone.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "unitedone-com",
+   "name": "United One Resources, Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://unitedone.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "ccasey@universalcredit.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "universalcis-com",
+   "name": "Consolidated Information Services Solutions LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://universalcis.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "lchiodo@v12data.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "v12data-com",
+   "name": "Datamentors LLC",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://www.v12data.com/inbound/do-not-sell-my-personal-information/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://v12data.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@venpath.net",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "venpath-net",
+   "name": "VENPATH Inc",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://www.venpath.net/legal/opt-out",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://venpath.net"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@iix.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "verisk-com",
+   "name": "ISO Claims Services, Inc.",
+   "notes": "Registered data broker (Oregon, Texas, Vermont data broker registries). Opt-out page: https://privacy.infutor.com/s/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://verisk.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "dan@versegaming.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "versefantasysports-com",
+   "name": "Verse Gaming",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://versefantasysports.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "gpineda@vertify.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "vertify-com",
+   "name": "Vertify, Inc",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://vertify.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "support@whoodle.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "whoodle-com",
+   "name": "Whoodle, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://whoodle.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "carolyn.casey@xactus.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "xactus-com",
+   "name": "Xactus, LLC",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://xactus.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "licensing@xome.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "xome-com",
+   "name": "Xome Inc.",
+   "notes": "Registered data broker (Vermont data broker registry).",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://xome.com"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "privacy@yello.co",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "yello-co",
+   "name": "Recsolu Inc.",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://yello.co/do-not-sell-my-personal-information/",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://yello.co"
+  },
+  {
+   "category": "other",
+   "channel": "email",
+   "confidence": "listed",
+   "email": "team.legal@zeotap.com",
+   "flags": [
+    "state_registry"
+   ],
+   "id": "zeotap-com",
+   "name": "Zeotap GmbH",
+   "notes": "Registered data broker (Vermont data broker registry). Opt-out page: https://privacyportal-de.onetrust.com/webform/bdcc4a2f-2458-4e17-96c3-cf88f7115dfc/2c5e70e5-643a-4c1e-b9c2-1e71584d04ad",
+   "relistDays": 90,
+   "requiredFields": [
+    "full_name"
+   ],
+   "verification": "unknown",
+   "website": "https://zeotap.com"
   }
  ],
- "version": 20261123205249
+ "version": 20261123233531
 }
