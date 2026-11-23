@@ -10,13 +10,15 @@ The list of people-search sites and data brokers, and the law profiles, used by 
 | `sources/laws.json` | Law profiles (New Jersey, Generic) with request, follow-up and complaint templates |
 | `sources/ca-registry.json` | Brokers registered with California (CalPrivacy registry, public data): name, website, contact email. Each one the other lists lack gets the app's deletion email |
 | `tools/import_ca_registry.py` | Turns the registry download (registry.csv) into the file above; refreshed weekly |
+| `sources/state-registries.json` | Brokers registered in Texas, Vermont or Oregon (merged by Privacy Rights Clearinghouse, public data): name, website, contact email, states. Each one no other list has gets the deletion email |
+| `tools/import_state_registries.py` | Turns that merged file (xlsx) into the file above; refreshed weekly |
 | `tools/build_catalog.py` | Builds `catalog.json` from the two files above plus the Optery directory and DuckDuckGo's broker definitions |
 | `tools/sign_catalog.py` | Signs `catalog.json` with the `CATALOG_SIGNING_KEY` secret |
 | `.github/workflows/publish.yml` | Rebuilds and signs on every change and weekly |
 
 Confidence levels: `tested` (flow checked against the live site, with date) · `untested` (prepared by hand, not yet checked live) · `listed` (imported, nothing is sent automatically) · `defunct`.
 
-**Licence.** Built on the [Optery Data Brokers Directory](https://github.com/optery/optery-data-brokers-directory) and [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List), both CC BY-NC-SA. This catalog is shared under the same licence, for non-commercial use. Search addresses, opt-out pages and form fields also come from [DuckDuckGo's Personal Information Removal broker definitions](https://github.com/duckduckgo/Android/tree/develop/pir/pir-impl/src/main/assets/brokers) (Apache License 2.0), adapted.
+**Licence.** Built on the [Optery Data Brokers Directory](https://github.com/optery/optery-data-brokers-directory) and [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List), both CC BY-NC-SA, and on the [Privacy Rights Clearinghouse registry data](https://privacyrights.org/data-brokers) (CC BY-NC-SA 4.0). This catalog is shared under the same licence, for non-commercial use. Search addresses, opt-out pages and form fields also come from [DuckDuckGo's Personal Information Removal broker definitions](https://github.com/duckduckgo/Android/tree/develop/pir/pir-impl/src/main/assets/brokers) (Apache License 2.0), adapted.
 
 ---
 
@@ -30,10 +32,12 @@ Confidence levels: `tested` (flow checked against the live site, with date) · `
 | `sources/laws.json` | פרופילי חוק (ניו ג'רזי, כללי) עם תבניות בקשה, תזכורת ותלונה |
 | `sources/ca-registry.json` | ברוקרים הרשומים בקליפורניה (מרשם CalPrivacy, מידע ציבורי): שם, אתר, אימייל ליצירת קשר. כל אחד שאין ברשימות האחרות מקבל את אימייל המחיקה של האפליקציה |
 | `tools/import_ca_registry.py` | ממיר את קובץ המרשם (registry.csv) לקובץ למעלה; מתעדכן כל שבוע |
+| `sources/state-registries.json` | ברוקרים הרשומים בטקסס, ורמונט או אורגון (מאוחד על ידי Privacy Rights Clearinghouse, מידע ציבורי): שם, אתר, אימייל ליצירת קשר, מדינות. כל אחד שאין ברשימה אחרת מקבל את אימייל המחיקה |
+| `tools/import_state_registries.py` | ממיר את הקובץ המאוחד (xlsx) לקובץ למעלה; מתעדכן כל שבוע |
 | `tools/build_catalog.py` | בונה את `catalog.json` משני הקבצים למעלה מהמאגר של Optery ומהגדרות הברוקרים של DuckDuckGo |
 | `tools/sign_catalog.py` | חותם על `catalog.json` עם הסוד `CATALOG_SIGNING_KEY` |
 | `.github/workflows/publish.yml` | בונה וחותם מחדש בכל שינוי ופעם בשבוע |
 
 רמות ביטחון: `tested` (התהליך נבדק מול האתר החי, עם תאריך) · `untested` (הוכן ידנית, עוד לא נבדק חי) · `listed` (יובא, שום דבר לא נשלח אוטומטית) · `defunct` (לא פעיל).
 
-**רישיון.** מבוסס על [המאגר של Optery](https://github.com/optery/optery-data-brokers-directory) ועל [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List), שניהם CC BY-NC-SA. הקטלוג משותף באותו רישיון, לשימוש לא מסחרי. כתובות חיפוש, דפי הסרה ושדות טפסים מגיעים גם מ[הגדרות הברוקרים של DuckDuckGo](https://github.com/duckduckgo/Android/tree/develop/pir/pir-impl/src/main/assets/brokers) (רישיון Apache 2.0), בעיבוד.
+**רישיון.** מבוסס על [המאגר של Optery](https://github.com/optery/optery-data-brokers-directory) ועל [BADBOOL](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List), שניהם CC BY-NC-SA, ועל [נתוני המרשמים של Privacy Rights Clearinghouse](https://privacyrights.org/data-brokers) (CC BY-NC-SA 4.0). הקטלוג משותף באותו רישיון, לשימוש לא מסחרי. כתובות חיפוש, דפי הסרה ושדות טפסים מגיעים גם מ[הגדרות הברוקרים של DuckDuckGo](https://github.com/duckduckgo/Android/tree/develop/pir/pir-impl/src/main/assets/brokers) (רישיון Apache 2.0), בעיבוד.

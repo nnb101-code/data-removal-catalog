@@ -1,0 +1,4774 @@
+{
+ "brokers": [
+  {
+   "domain": "01advertising.com",
+   "email": "privacy@01advertising.com",
+   "name": "01Advertising Inc.",
+   "privacyPage": "https://app.termly.io/notify/d1321341-0e82-4d8c-afaf-c4940d46c171",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "180bytwo.com",
+   "email": "karl@180bytwo.com",
+   "name": "180 By Two, LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/e32c5e49-85c5-4969-bfa8-8cde49952e1f/6034339d-69de-41fc-829f-7b8b51d9fabe",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "33across.com",
+   "email": "privacy@33across.com",
+   "name": "33Across, Inc.",
+   "privacyPage": "https://udp.33across.com/udp_opt_out/cookie_opt_out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "33mileradius.com",
+   "email": "privacy@33mileradius.com",
+   "name": "33 MILE RADIUS LLC",
+   "privacyPage": "https://remodeling.com/do-not-sell/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "4-eyes.ai",
+   "email": "eric@4-eyes.ai",
+   "name": "4EYES AI Inc",
+   "privacyPage": "https://www.4-eyes.ai/privacy-policy?cord_section=privacy_options_dns",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "4legalleads.com",
+   "email": "tapster13@gmail.com",
+   "name": "ADVERTISE4SALES Inc",
+   "privacyPage": "https://www.4legalleads.com/removal/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "6sense.com",
+   "email": "datasubjectrequests@6sense.com",
+   "name": "6SENSE INSIGHTS Inc",
+   "privacyPage": "https://6sense.com/privacy-center/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "700credit.com",
+   "email": "jbalboa@opendealerexchange.com",
+   "name": "700 Credit, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "accenture.com",
+   "email": "regulatory.licenses@accenture.com",
+   "name": "Accenture LLP",
+   "privacyPage": "https://www.accenture.com/us-en/support/form-do-not-sell-my-personal-information",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "accurateappend.com",
+   "email": "chris@accurateappend.com",
+   "name": "Accurate Append Inc",
+   "privacyPage": "https://clients.accurateappend.com/Public/OptOut",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "achcoop.com",
+   "email": "lisa@achcoop.com",
+   "name": "ACH ADDRESS CLEARING HOUSE LLC",
+   "privacyPage": "https://www.achcoop.com/do-not-sell-my-personal-info",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "acronymix.com",
+   "email": "privacy@acronymix.com",
+   "name": "ACRONYMIX LLC",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "activeintel.com",
+   "email": "daveafx@gmail.com",
+   "name": "Active Intel Investigations LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "activimpact.ai",
+   "email": "privacy@activimpact.ai",
+   "name": "ACTIVIMPACT LLC",
+   "privacyPage": "https://www.activimpact.ai/dsar?hsLang=en",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "acutraq.com",
+   "email": "admin@acutraq.com",
+   "name": "ACUTRAQ Background Screening, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "acxiom.com",
+   "email": "consumeradvo@acxiom.com",
+   "name": "ACXIOM LLC",
+   "privacyPage": "https://www.acxiom.com/what-we-are-thinking/california-consumer-privacy-act/for-consumers/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "adadapted.com",
+   "email": "billing@adadapted.com",
+   "name": "Adadapted Inc.",
+   "privacyPage": "https://www.adadapted.com/legal/do-not-sell",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "adept-id.com",
+   "email": "privacy@adept-id.com",
+   "name": "Adept Id, Inc.",
+   "privacyPage": "https://www.adept-id.com/opt-out-preferences/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "adrearubin.com",
+   "email": "jenniferv@adrearubin.com",
+   "name": "Adrea Rubin Marketing, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "adsquare.com",
+   "email": "legal@adsquare.com",
+   "name": "Adsquare GmbH",
+   "privacyPage": "https://adsquare.com/privacy/us_privacy_supplement/#goto-contact-us",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "adstradata.com",
+   "email": "privacy.officer@adstradata.com",
+   "name": "Adstra LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/3d2d5e0c-bd98-46b8-906c-ede68a6f6a80/f54a1b10-bb5d-4c99-9521-3e08dc527583",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "advcredit.com",
+   "email": "compliance@advcredit.com",
+   "name": "Advantage Credit, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "affinity.solutions",
+   "email": "privacy@affinitysolutions.com",
+   "name": "Affinity Solutions",
+   "privacyPage": "https://affinitysolutions-privacy.my.onetrust.com/webform/a564cfa1-53bf-4c10-bf95-cd907432d7e8/7e4e6bf3-6562-454e-8c73-6a7bd1f4b336",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "affinityanswers.com",
+   "email": "dataprivacy@affinityanswers.com",
+   "name": "AFFINITY ANSWERS CORPORATION",
+   "privacyPage": "https://www.affinityanswers.com/your-privacy-choices/",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "agedleadstore.com",
+   "email": "troy@nextwavemarketingstrategies.com",
+   "name": "Next Wave Marketing Strategies, Inc",
+   "privacyPage": "https://agedleadstore.com/opt-out-share-sale-info-form/",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "agrgroupinc.com",
+   "email": "drieke@executiveenergy.com",
+   "name": "All Global Resources, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "aidentified.com",
+   "email": "privacy@aidentified.com",
+   "name": "Aidentified, Inc.",
+   "privacyPage": "https://www.aidentified.com/delete-my-data",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "aisinfo.com",
+   "email": "aps_compliance@aisinfo.com",
+   "name": "AIS Infosource LP",
+   "privacyPage": "https://www.aisinfo.com/privacy?hsLang=en#california-privacy-rights",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "alescodata.com",
+   "email": "info@alescodata.com",
+   "name": "THE ALESCO GROUP LLC",
+   "privacyPage": "https://alescodata.com/opt-out-request/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "alliantinsight.com",
+   "email": "compliance@alliantdata.com",
+   "name": "Alliant Cooperative Data Solutions, LLC",
+   "privacyPage": "https://privacyportal-cdn.onetrust.com/dsarwebform/591ac1c1-3a1e-496f-9e43-ff4afb5fef85/2b52262e-8ada-4725-b86e-e4b960336f96.html",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "alloy.us",
+   "email": "privacy@alloy.us",
+   "name": "Alloy",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "allwebleads.com",
+   "email": "onlineops@allwebleads.com",
+   "name": "AWL Holdings, LLC",
+   "privacyPage": "https://dnc.allwebleads.com/Unsubscribe",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "altairdata.com",
+   "email": "jsmith@altairci.com",
+   "name": "ALTAIR DATA RESOURCES Inc",
+   "privacyPage": "https://www.altairdata.com/altair-consumer-info/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "altisource.com",
+   "email": "privacy@altisource.com",
+   "name": "Altisource Holdings, LLC",
+   "privacyPage": "https://www.altisource.com/us-consumer-privacy-notice",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "amerilist.com",
+   "email": "info@amerilist.com",
+   "name": "Amerilist Inc",
+   "privacyPage": "https://www.amerilist.com/optout",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "amplemarket.com",
+   "email": "privacy@amplemarket.com",
+   "name": "Tagis, Inc.",
+   "privacyPage": "https://www.amplemarket.com/legal/do-not-sell-my-info",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "analytics-iq.com",
+   "email": "privacy@analyticsiq.com",
+   "name": "ANALYTICSIQ Inc",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/f6a59500-f900-4652-b030-0cd51afe15a5/87ca07e4-e06c-4ad8-9aa6-ccbbaa8750c1",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "anchorcomputer.com",
+   "email": "privacyteam@anchorcomputer.com",
+   "name": "ANCHOR COMPUTER Inc",
+   "privacyPage": "https://ecom2.anchorcomputer.com/privacyrequest",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "andrewswharton.com",
+   "email": "privacy@andrewswharton.com",
+   "name": "ANDREWS WHARTON Inc",
+   "privacyPage": "https://www.andrewswharton.com/your-privacy-choices",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "anteriad.com",
+   "email": "jhiggleton@anteriad.com",
+   "name": "ANTERIAD LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/e32c5e49-85c5-4969-bfa8-8cde49952e1f/6034339d-69de-41fc-829f-7b8b51d9fabe",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "apollointeractive.com",
+   "email": "legal@apollointeractive.com",
+   "name": "APOLLO INTERACTIVE LLC",
+   "privacyPage": "https://www.apollointeractive.com/data-rights.php",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "applecart.co",
+   "email": "matt@applecart.co",
+   "name": "Project Applecart LLC",
+   "privacyPage": "https://www.applecart.co/privacyrights",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "assurance.com",
+   "email": "swenson@assurance.com",
+   "name": "Assurance Iq, Inc.",
+   "privacyPage": "https://assurance.com/assurance-privacy-practices.html#CRPDYourConsumerRightsRightToOptOut",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "atdata.com",
+   "email": "privacysupport@atdata.com",
+   "name": "ATDATA LLC",
+   "privacyPage": "https://instantdata.atdata.com/optout",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "atlanticfox.com",
+   "email": "privacy@atlanticfox.com",
+   "name": "Atlantic Fox Technologies, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "attomdata.com",
+   "email": "jo.bergstrom@attomdata.com",
+   "name": "ATTOM Data Solutions LLC",
+   "privacyPage": "https://www.attomdata.com/privacy/ccpa-request-form-7233695024/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "attribits.com",
+   "email": "marwan@attribits.com",
+   "name": "ALL GOOD MEDIA",
+   "privacyPage": "https://attribits.com/do-not-sell",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "audienceacuity.com",
+   "email": "chris.alewine@audienceacuity.com",
+   "name": "AUDIENCE ACUITY Inc",
+   "privacyPage": "https://www.audienceacuity.com/opt-out-of-database",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "audigent.com",
+   "email": "shane@audigent.com",
+   "name": "PREDICTIVE POP Inc",
+   "privacyPage": "https://www.audigent.com/?optout=1",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "autoweb.com",
+   "email": "autolegal@autoweb.com",
+   "name": "Autoweb, Inc.",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/27aa5d67-8136-4a08-ae4b-9860992e2375/f84362ef-6901-4a8c-9a52-e7b06dbb4e6b",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "azerion.com",
+   "email": "dpo_hybridtheory@azerion.com",
+   "name": "Azerion US Inc.",
+   "privacyPage": "https://www.hybridtheory.com/do-not-sell/",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "azira.com",
+   "email": "legal@azira.com",
+   "name": "AZIRA LLC",
+   "privacyPage": "https://submit-irm.trustarc.com/services/validation/0a80503b-1d56-4d50-a898-4377a0227dab",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "backgroundchecks.com",
+   "email": "kristin.jones@hireright.com",
+   "name": "Backgroundchecks.Com LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "backgroundsonline.com",
+   "email": "nate.waymire@backgroundsonline.com",
+   "name": "IQ Data Systems, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "bbdirect.com",
+   "email": "brianberg@bbdirect.com",
+   "name": "BB Direct Inc",
+   "privacyPage": "https://www.bbdirect.com/privacy-compliance.html",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "bdex.com",
+   "email": "privacy@bdex.com",
+   "name": "Bdex, LLC",
+   "privacyPage": "https://www.bdex.com/privacy-policy/data-sharing-opt-out/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "beenverified.com",
+   "email": "nberman@beenverified.com",
+   "name": "BEEN VERIFIED LLC",
+   "privacyPage": "https://www.beenverified.com/svc/optout/search/optouts",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "bestpickreports.com",
+   "email": "support@bestpickreports.com",
+   "name": "Best Pick Reports, LLC",
+   "privacyPage": "https://www.bestpickreports.com/do-not-sell",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "bigdbm.com",
+   "email": "brad@bigdbm.com",
+   "name": "Publicnsa LLC",
+   "privacyPage": "https://optout.bigdbm.com/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "birchwoodcreditservices.com",
+   "email": "billing@birchwoodcreditservices.com",
+   "name": "Birchwood Credit Services Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "biscred.com",
+   "email": "rob@biscred.com",
+   "name": "Biscred",
+   "privacyPage": "https://www.biscred.com/do-not-sell-my-information",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "bisi.com",
+   "email": "compliance@bisi.com",
+   "name": "Background Information Services, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "blackbaud.com",
+   "email": "privacy@blackbaud.com",
+   "name": "Blackbaud, Inc.",
+   "privacyPage": "https://www.blackbaud.com/company/data-subject-rights-request",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "blackpearl.com",
+   "email": "legal@blackpearl.com",
+   "name": "BLACK PEARL GROUP LLC",
+   "privacyPage": "https://www.blackpearl.com/privacy-opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "blis.com",
+   "email": "privacy@blis.com",
+   "name": "BLIS Usa, Inc.",
+   "privacyPage": "https://blis.com/ccpa-opt-out/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "brandwatch.com",
+   "email": "dpo@cision.com",
+   "name": "CISION US Inc",
+   "privacyPage": "https://www.cision.com/contact-us/opt-out/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "bridg.com",
+   "email": "legalnotices@cardlytics.com",
+   "name": "Cardlytics, Inc.",
+   "privacyPage": "https://datagrail.cardlytics.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "bridgevine.com",
+   "email": "dwayne.landry@bridgevine.com",
+   "name": "Bridgevine Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "brightswipe.com",
+   "email": "jay.burke@brightswipe.com",
+   "name": "Brightswipe Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "buildertrend.com",
+   "email": "privacy@buildertrend.com",
+   "name": "BUILDERTREND SOLUTIONS Inc",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "business.com",
+   "email": "customercare@business.com",
+   "name": "Business.Com",
+   "privacyPage": "https://www.business.com/optout/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "buxtonco.com",
+   "email": "mthomas@buxtonco.com",
+   "name": "Buxton Company, LLC",
+   "privacyPage": "https://www.buxtonco.com/privacy/opt-out",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "buyerlink.com",
+   "email": "legal@buyerlink.com",
+   "name": "Buyerlink Inc.",
+   "privacyPage": "https://www.buyerlink.com/do-not-sell-or-share-my-personal-information",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "cadent.tv",
+   "email": "cmarcos@cadent.tv",
+   "name": "Cadent, LLC",
+   "privacyPage": "https://cadent.tv/your-privacy-choices/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "captifytechnologies.com",
+   "email": "dpo@captify.co.uk",
+   "name": "Captify Technologies",
+   "privacyPage": "https://www.captifytechnologies.com/data-subject-rights-request/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "careerbuilder.com",
+   "email": "riskandcompliance@careerbuilder.com",
+   "name": "Careerbuilder, LLC",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "carneydirect.com",
+   "email": "privacy@carneydirect.com",
+   "name": "GUIDESTAR DIRECT CORP",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "carpe.io",
+   "email": "geoff.andrews@carpe.io",
+   "name": "Riv Data Corp",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "catalina.com",
+   "email": "privacyteam@catalina.com",
+   "name": "CATALINA MARKETING CORPORATION",
+   "privacyPage": "https://www.catalina.com/#privacy",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "catalist.us",
+   "email": "ggruver@catalist.us",
+   "name": "CATALIST LLC",
+   "privacyPage": "https://catalist.us/your-privacy-choices/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "catalyzeai.com",
+   "email": "privacy@catalyzeai.com",
+   "name": "Catalyze Ai, Inc",
+   "privacyPage": "https://www.catalyzeai.com/opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "cdkglobal.com",
+   "email": "james.kinzer@cdk.com",
+   "name": "CDK Global, LLC",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "cengage.com",
+   "email": "privacy@cengage.com",
+   "name": "CENGAGE LEARNING Inc",
+   "privacyPage": "https://www.cengage.com/repfinder/gale",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "censia.com",
+   "email": "tgotowka@censia.com",
+   "name": "Censia",
+   "privacyPage": "https://www.censia.com/privacy-policy/#your-rights-and-choices",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "checksecrets.com",
+   "email": "support@checksecrets.com",
+   "name": "TRUTH NOW LLC",
+   "privacyPage": "https://www.checksecrets.com/optOut/name/landing.",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "chexsystems.com",
+   "email": "dennis.kettler@fisglobal.com",
+   "name": "Chex Systems, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "choreograph.com",
+   "email": "adam.little@choreograph.com",
+   "name": "Choreograph LLC",
+   "privacyPage": "https://amer-cpp.choreograph.com/manage-your-data/do-not-sell",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "ciccredit.com",
+   "email": "compliance@ciccredit.com",
+   "name": "CIC MORTGAGE CREDIT Inc.",
+   "privacyPage": "https://www.optoutprescreen.com/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "cicreports.com",
+   "email": "compliance@cicreports.com",
+   "name": "Contemporary Information Corp",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "cisive.com",
+   "email": "compliance@cisive.com",
+   "name": "CARCO Group, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "civisanalytics.com",
+   "email": "dataprotection@civisanalytics.com",
+   "name": "CIVIS ANALYTICS Inc",
+   "privacyPage": "https://www.civisanalytics.com/privacy-policy/#ccpa",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "civitech.io",
+   "email": "jake.london@civitech.io",
+   "name": "Civitech",
+   "privacyPage": "https://www.civitech.io/privacy-policy/#section5",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "claritas.com",
+   "email": "privacyinfo@claritas.com",
+   "name": "Claritas LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/68582716-6ce4-4f6e-bf08-78371b5f3292/6c7dc52d-0e2b-481f-9256-0755179e3783",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "clay.com",
+   "email": "friends@clay.com",
+   "name": "CLAY LABS LLC",
+   "privacyPage": "https://docs.google.com/forms/d/e/1FAIpQLSeAsU1U-AJfhqzDx6-6eVcyQ_kBD1J9cw1y0huQiS-HCkRf0Q/viewform?usp=send_form",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "clearbit.com",
+   "email": "privacy@clearbit.com",
+   "name": "Apihub, Inc.",
+   "privacyPage": "https://www.clearbit.com/ccpa-opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "clearcompany.com",
+   "email": "privacy@clearcompany.com",
+   "name": "CLEARCOMPANY LLC",
+   "privacyPage": "https://optout.networkadvertising.org/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "clearview.ai",
+   "email": "legal-requests@clearview.ai",
+   "name": "Clearview Ai, Inc.",
+   "privacyPage": "https://www.clearview.ai/privacy-and-requests",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "clientcommand.com",
+   "email": "legal@clientcommand.com",
+   "name": "Summit Resources, LLC",
+   "privacyPage": "https://privacyportal-cdn.onetrust.com/dsarwebform/555c3377-7eb2-4e7a-bf30-c408de4ab483/70df6685-8289-4d72-a9d7-9a736b3b837f.html",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "cognism.com",
+   "email": "legal@cognism.com",
+   "name": "COGNISM Inc",
+   "privacyPage": "https://cognism.privacy.saymine.io/cognism",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "collectivedata.io",
+   "email": "legal@collectivedata.io",
+   "name": "COLLECTIVE DATA SOLUTIONS LLC",
+   "privacyPage": "https://www.collectivedata.io/opt-out-do-not-sell-request-process/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "completemailinglists.com",
+   "email": "ewoolf@completemailinglists.com",
+   "name": "COMPLETE MAILING LISTS LLC",
+   "privacyPage": "https://www.completemailinglists.com/node/3697",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "completemedicallists.com",
+   "email": "tburnell@completemedicallists.com",
+   "name": "COMPLETE MEDICAL LISTS Inc",
+   "privacyPage": "https://www.completemedicallists.com/ccpa.php",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "connectedinvestors.com",
+   "email": "dataprivacy@connectedinvestors.com",
+   "name": "Connected Investors LLC",
+   "privacyPage": "https://firstam.service-now.com/x_farf2_dp_request_ci_opt_out.do?sysparm_id=6d6e7e8edb3e3158665f182813961985",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "connextdigital.com",
+   "email": "rob.fitzgerald@connextdigital.com",
+   "name": "Connext Digital, LLC",
+   "privacyPage": "https://www.connextdigital.com/opt-out/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "consumercanvas.net",
+   "email": "privacy@consumercanvas.net",
+   "name": "CONSUMER CANVAS LLC",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "consumerdataprotect.com",
+   "email": "privacyofficer@consumerdataprotect.com",
+   "name": "ROOFTOP DIGITAL LLC",
+   "privacyPage": "https://www.consumerdataprotect.com/?ref=rooftopdigital.com",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "convergemarketing.com",
+   "email": "compliance@convergedirect.com",
+   "name": "Converge Direct, LLC",
+   "privacyPage": "https://www.homeservicescompliance.com/infoform.html",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "corp.narvar.com",
+   "email": "legal@narvar.com",
+   "name": "NARVAR Inc",
+   "privacyPage": "https://narvar.my.onetrust.com/webform/04b3731f-2a9a-42ce-bd6b-106d4b4ec3bf/a7c944bf-3cec-4f00-9dc5-dea5bf2b6f4f",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "cortera.com",
+   "email": "jmlawgroup@yahoo.com",
+   "name": "Cortera, Inc.",
+   "privacyPage": "https://ma.moodys.com/Do-Not-Sell-My-Information.html",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "crawlbee.com",
+   "email": "ryan@crawlbee.io",
+   "name": "CRAWLBEE",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "creditinfosystems.com",
+   "email": "heather@creditinfosystems.com",
+   "name": "Credit Bureau Of Council Bluff",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "crexi.com",
+   "email": "pkim@crexi.com",
+   "name": "COMMERCIAL REAL ESTATE EXCHANGE Inc",
+   "privacyPage": "https://crexi.bigidprivacy.cloud/consumer/#/o2TCsG9LJ7",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "crosspixel.net",
+   "email": "apearlstein@crosspixel.net",
+   "name": "Cross Pixel Media, Inc.",
+   "privacyPage": "https://privacy.crsspxl.com/optout",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "crosswalknyc.com",
+   "email": "privacy@crosswalknyc.com",
+   "name": "Crosswalk Technologies Inc",
+   "privacyPage": "https://www.crosswalknyc.com/optout",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "crunchbase.com",
+   "email": "privacy@crunchbase.com",
+   "name": "Crunchbase Inc",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "cuebiq.com",
+   "email": "privacy@cuebiq.com",
+   "name": "CUEBIQ GROUP LLC",
+   "privacyPage": "https://www.cuebiq.com/privacypolicy/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "cybba.com",
+   "email": "privacy@cybba.com",
+   "name": "Cybba Inc.",
+   "privacyPage": "https://cybba-requests.my.onetrust.com/webform/a4a1351e-d293-4305-bde4-b9cf8f5c0989/f89c576a-b5c6-498e-bad5-698f084ffd30",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "data-axle.com",
+   "email": "privacyteam@data-axle.com",
+   "name": "DATA AXLE Inc",
+   "privacyPage": "https://www.data-axle.com/do-not-sell-my-data/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "data-management.com",
+   "email": "ldecastro@data-management.com",
+   "name": "Data Management LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "databaseusa.com",
+   "email": "accounting@databaseusa.com",
+   "name": "Databaseusa.Com LLC",
+   "privacyPage": "https://privacycompliance.biz/databaseusa-california/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "datadecisionsgroup.com",
+   "email": "privacy@datadecisionsgroup.com",
+   "name": "DATA DECISIONS GROUP LLC",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "datadelivers.com",
+   "email": "accounting@datadelivers.com",
+   "name": "CUSTOMER ASSET CONSULTING GROUP Inc",
+   "privacyPage": "https://datadelivers.com/do-not-sell-or-share-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "datadojo.ai",
+   "email": "contact@datadojo.ai",
+   "name": "Datadojo CDP Inc.",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "datafacts.com",
+   "email": "johnna@datafacts.com",
+   "name": "Data Facts, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "datalane.com",
+   "email": "admin@datalane.com",
+   "name": "TASK GENIE Inc",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "datalinedata.com",
+   "email": "psobel@datalinedata.com",
+   "name": "DATALINE Inc",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "datapartners.com",
+   "email": "info@datapartners.com",
+   "name": "DATA PARTNERS Inc",
+   "privacyPage": "https://datapartners.com/donotsellmyinformation",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "datapluscontent.com",
+   "email": "privacy@datapluscontent.com",
+   "name": "Data Plus Content LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "datasys.com",
+   "email": "seth.lubin@datasys.com",
+   "name": "DATASYS GROUP Inc",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "datatree.com",
+   "email": "britchie-boland@firstam.com",
+   "name": "First American Data Tree LLC",
+   "privacyPage": "https://www.firstam.com/privacy-policy/#california",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "date-detective.app",
+   "email": "privacy@date-detective.app",
+   "name": "DATE DETECTIVE Inc",
+   "privacyPage": "https://mobile.date-detective.app/investigate-opt-out?origin=website",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "datonics.com",
+   "email": "accounting@datonics.com",
+   "name": "DATONICS LLC",
+   "privacyPage": "https://www.datonics.com/privacy/privacy-choices",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "dealerx.com",
+   "email": "compliance@dealerx.com",
+   "name": "Dealerx Partners LLC",
+   "privacyPage": "https://www.dealerx.com/privacy-options/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "decide.co",
+   "email": "privacy@decide.co",
+   "name": "DECIDE TECHNOLOGIES Inc",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "deeprootanalytics.com",
+   "email": "info@deeprootanalytics.com",
+   "name": "Deep Root Analytics, LLC",
+   "privacyPage": "https://www.tunnldata.com/ccpa-request-form",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "deepsync.com",
+   "email": "privacy.compliance@deepsync.com",
+   "name": "Compact Information Systems LLC",
+   "privacyPage": "https://privacy.deepsync.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "definitivehc.com",
+   "email": "privacy@definitivehc.com",
+   "name": "DEFINITIVE HEALTHCARE LLC",
+   "privacyPage": "https://preferences.definitivehc.com/privacy",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "deloitte.com",
+   "email": "usprivacyquestions@deloitte.com",
+   "name": "Deloitte Consulting LLP",
+   "privacyPage": "https://www2.deloitte.com/us/en/footerlinks1/do-not-sell-my-personal-information.html?icid=bottom_do-not-sell-my-personal-information",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "deluxe.com",
+   "email": "nicole.rasbury@deluxe.com",
+   "name": "Deluxe Corporation",
+   "privacyPage": "https://www.deluxe.com/policy/donotsell/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "demandbase.com",
+   "email": "privacy@demandbase.com",
+   "name": "DEMANDBASE Inc",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "demyst.com",
+   "email": "privacy@demystdata.com",
+   "name": "DEMYST DATA LTD",
+   "privacyPage": "https://www.demystdata.com/data-subject-action-request",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "diablomedia.com",
+   "email": "data@diablomedia.com",
+   "name": "DIABLO MEDIA LLC",
+   "privacyPage": "https://diablomedia.com/privacy-request/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "digdevdirect.com",
+   "email": "slubin@digdev.com",
+   "name": "Media Direct, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "digicenter.com",
+   "email": "privacy@digicenter.com",
+   "name": "Digicenter, LLC.",
+   "privacyPage": "https://www.collectivedata.io/opt-out-do-not-sell-request-process/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "digitalmediasolutions.com",
+   "email": "legal@dmsgroup.com",
+   "name": "Digital Media Solutions",
+   "privacyPage": "https://dmsunsub.io/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "digitalsegment.com",
+   "email": "bschorer@digitalsegment.com",
+   "name": "Digital Segment, LLC",
+   "privacyPage": "https://www.digitalsegment.com/about/consumer-opt-out/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "digitalvikingmedia.com",
+   "email": "optout@digitalvikingmedia.com",
+   "name": "DIGITAL VIKING MEDIA Inc",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "dnb.com",
+   "email": "privacyofficer@dnb.com",
+   "name": "Dun & Bradstreet, Inc.",
+   "privacyPage": "https://www.dnb.com/utility-pages/privacy-policy.html#article-nineteen-1",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "dresdendirect.com",
+   "email": "phil@dresdendirect.com",
+   "name": "Dresden Direct Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "driveniq.com",
+   "email": "albert@driveniq.com",
+   "name": "Driveniq Corporation",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "drobu.com",
+   "email": "dblackman@drobu.com",
+   "name": "Drobu Media LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "dtn.com",
+   "email": "privacy@dtn.com",
+   "name": "DTN LLC",
+   "privacyPage": "https://www.dtn.com/do-not-sell-my-information-form/",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "dynata.com",
+   "email": "privacy@dynata.com",
+   "name": "Dynata, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "eab.com",
+   "email": "legal@eab.com",
+   "name": "EAB Global, Inc.",
+   "privacyPage": "https://cappex.formstack.com/forms/do_not_sell",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "earlywarning.com",
+   "email": "ashley.moore2@earlywarning.com",
+   "name": "Early Warning Services, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "edvisors.com",
+   "email": "customerservice@edvisors.com",
+   "name": "Edvisors Network, Inc.",
+   "privacyPage": "https://www.edvisors.com/third-party-opt-out/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "ekata.com",
+   "email": "legal@ekata.com",
+   "name": "Ekata, Inc.",
+   "privacyPage": "https://www.mastercard.us/public/my-data/dgr-public/personal-data-request.html?locale=en-us&region=NAM#/ekata/request/personalinfo",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "electroniccommerceatoz.com",
+   "email": "azuttah@ubiquitysystemsusa.com",
+   "name": "Electronic Commerce A To Z",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "eltoro.com",
+   "email": "legal@eltoro.com",
+   "name": "El TORO.COM LLC",
+   "privacyPage": "https://www.eltoro.com/do-not-sell-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "emerges.com",
+   "email": "shawn@emerges.com",
+   "name": "Emerges.Com",
+   "privacyPage": "https://www.emerges.com/Government-Record-Opt-Out_ep_51-1.html",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "enformion.com",
+   "email": "databroker@enformion.com",
+   "name": "Enformion, LLC",
+   "privacyPage": "https://www.enformion.com/do-not-sell/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "enigma.com",
+   "email": "privacy@enigma.com",
+   "name": "ENIGMA TECHNOLOGIES Inc",
+   "privacyPage": "https://enigma.com/company/do-not-share-or-sell-my-personal-information",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "epsilon.com",
+   "email": "privacy@epsilon.com",
+   "name": "Epsilon Data Management, LLC",
+   "privacyPage": "https://legal.epsilon.com/dsr/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "equifax.com",
+   "email": "usprivacy@equifax.com",
+   "name": "EQUIFAX INFORMATION SERVICES LLC",
+   "privacyPage": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "erepublic.com",
+   "email": "privacy@erepublic.com",
+   "name": "EREPUBLIC LLC",
+   "privacyPage": "https://erepublic.secure.force.com/PrivacyRequest/",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "esiteanalytics.com",
+   "email": "privacy@intalytics.com",
+   "name": "Esite Analytics, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "evs7.com",
+   "email": "richard@evs7.com",
+   "name": "ELECTRONIC VOICE SERVICES Inc",
+   "privacyPage": "https://www.evs7.com/personal-information-request",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "exactcustomer.com",
+   "email": "privacy@solarpower-experts.com",
+   "name": "EXACT OPCO LLC",
+   "privacyPage": "https://www.exactcustomer.com/DoNotSell.aspx",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "exactdata.com",
+   "email": "lorgan@exactdata.com",
+   "name": "Consumerbase LLC",
+   "privacyPage": "https://www.data-axle.com/do-not-sell-my-data/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "exlservice.com",
+   "email": "privacy@exlservice.com",
+   "name": "Exlservice.Com",
+   "privacyPage": "https://privacy-central.securiti.ai/#/dsr-universal/4cf95bf6-78ca-4b1a-b55e-7ae4748468e8",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "experian.com",
+   "email": "privacyrequests@experian.com",
+   "name": "Experian Health, Inc.",
+   "privacyPage": "https://www.clarityservices.com/support/opt-out-2/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "explorium.ai",
+   "email": "oshrat@explorium.ai",
+   "name": "EXPLORIUM Inc",
+   "privacyPage": "https://www.explorium.ai/do-not-sell-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "factualdata.com",
+   "email": "legal@cbc-companies.com",
+   "name": "Automation Research, Inc.",
+   "privacyPage": "https://www.factualdata.com/privacy/dsar-requests",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "fairscreen.com",
+   "email": "compliance@fairscreen.com",
+   "name": "Fair Screen, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "familytreenow.com",
+   "email": "privacy@mtalley.zendesk.com",
+   "name": "Mississippi Tornado Alley LLC",
+   "privacyPage": "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "fantasysportsknockout.com",
+   "email": "info@fanspoko.com",
+   "name": "Fanspoko, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "faraday.ai",
+   "email": "privacy@faraday.ai",
+   "name": "Faraday, Inc.",
+   "privacyPage": "https://faraday.ai/privacy-options",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "fideo.ai",
+   "email": "legal@fideo.ai",
+   "name": "FIDEO INTELLIGENCE Inc",
+   "privacyPage": "https://app.fideo.ai/your-privacy-choices",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "findem.ai",
+   "email": "taylor@findem.ai",
+   "name": "Findem Inc",
+   "privacyPage": "https://www.findem.ai/do-not-sell-or-share-my-personal-information",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "findtrueowner.com",
+   "email": "harmik@propertyownerlookup.io",
+   "name": "Saha Ventures LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "finthrive.com",
+   "email": "tsg@finthrive.com",
+   "name": "FINTHRIVE HEALTHCARE Inc",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/e2abd578-6539-47f6-9895-b18d23b76ac4/c3d22390-d038-4464-83d3-3f0c91c76a01",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "firstdirectmarketing.com",
+   "email": "privacy@firstdirectmarketing.com",
+   "name": "First Direct, Inc.",
+   "privacyPage": "https://compliance.firstdirectmarketing.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "firstorion.com",
+   "email": "cdenton@firstorion.com",
+   "name": "First Orion Corp",
+   "privacyPage": "https://privacy.firstorion.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "fivestarrated.com",
+   "email": "adminsupport@fivestarrated.com",
+   "name": "Home Contractors Review, LLC",
+   "privacyPage": "https://www.fivestarrated.com/do-not-sell",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "fivestrata.com",
+   "email": "info@fivestrata.com",
+   "name": "New Strata Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "focus-usa.com",
+   "email": "johnf@focus-usa.com",
+   "name": "FOCUS USA",
+   "privacyPage": "https://www.focus-usa.com/optout-form/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "forager.ai",
+   "email": "legal@forager.ai",
+   "name": "FORAGER.AI LLC",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "forddirect.com",
+   "email": "dprivacy@forddirect.com",
+   "name": "Dealerdirect LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/1d20b685-0942-4b4d-a0af-b799c97f5cf6/2e4928b6-d77a-4f76-9518-1bfb9721669d",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "forewarn.com",
+   "email": "legal.compliance@forewarn.com",
+   "name": "Forewarn, LLC",
+   "privacyPage": "https://www.forewarn.com/opt-out-policy/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "fourleafdata.com",
+   "email": "privacy@fourleafdata.com",
+   "name": "FOURLEAF LLC",
+   "privacyPage": "https://www.fourleafdata.com/privacy-policy",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "foursquare.com",
+   "email": "privacy@foursquare.com",
+   "name": "Foursquare Labs, Inc.",
+   "privacyPage": "https://optout.aboutads.info/?c=2&lang=EN",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "fourthwall.tv",
+   "email": "misrael@fourthwall.tv",
+   "name": "Fourthwall Media, Inc.",
+   "privacyPage": "https://www.fourthwall.tv/donotsellorshare-fourthwall",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "fraiser.org",
+   "email": "privacy@fraiser.org",
+   "name": "Fraiser LLC",
+   "privacyPage": "https://www.fraiser.org/data-request-form",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "freshaddress.com",
+   "email": "privacy@freshaddress.com",
+   "name": "Freshaddress, LLC",
+   "privacyPage": "https://instantdata.atdata.com/optout",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "fullcontact.com",
+   "email": "dpo@fullcontact.com",
+   "name": "Fullcontact, Inc.",
+   "privacyPage": "https://platform.fullcontact.com/your-privacy-choices",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "fusable.com",
+   "email": "stuartmcnair@fusable.com",
+   "name": "Randall-Reilly, LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/49a9a972-547e-4c49-b23c-4cc77554cacb/3aab0bde-ec0c-4ce9-8e6f-cf12a9a950a5",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "fusedleads.com",
+   "email": "greg@fusedleads.com",
+   "name": "Fused Leads, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "fusion92.com",
+   "email": "databroker@fusion92.com",
+   "name": "Virtual Marketing LLC",
+   "privacyPage": "https://www.fusion92.com/privacy-choices",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "g2risksolutions.com",
+   "email": "ramtin.taheri@g2risksolutions.com",
+   "name": "G2 Bankruptcy Risk Solutions, Inc.",
+   "privacyPage": "https://g2risksolutions.com/consumer-center/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "getivydata.com",
+   "email": "kyle@getivydata.com",
+   "name": "Ivy Tech Re, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "giantpartners.com",
+   "email": "nikki@giantpartners.com",
+   "name": "Giant Partners, Inc.",
+   "privacyPage": "https://giantpartners.com/do-not-sell-my-personal-info-all-other-states/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "gostrata.com",
+   "email": "dataprivacy@gostrata.com",
+   "name": "Strata Company",
+   "privacyPage": "https://www.gostrata.com/opt-out-preferences",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "granitelists.com",
+   "email": "erin@granitelists.com",
+   "name": "Granite Lists, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "grassrootsanalytics.com",
+   "email": "compliance@grassrootsanalytics.com",
+   "name": "GRASSROOTS ANALYTICS Inc",
+   "privacyPage": "https://www.grassrootsanalytics.com/california-consumer-privacy-act-ccpa",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "gravyanalytics.com",
+   "email": "privacy@gravyanalytics.com",
+   "name": "Gravy Analytics, Inc.",
+   "privacyPage": "https://gravyanalytics.com/mobile-advertising-opt-form/?hsLang=en",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "grayhairsoftware.com",
+   "email": "privacy@grayhairsoftware.com",
+   "name": "Grayhair Software, LLC",
+   "privacyPage": "https://www.grayhairsoftware.com/privacy-policy/#Do-Not-Sell-My-Personal-Information",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "greenwich.com",
+   "email": "privacy1@crisil.com",
+   "name": "CRISIL Irevna US LLC",
+   "privacyPage": "https://www.crisil.com/content/crisilcom/en/home/crisil-privacy-notice/do-not-sell-my-personal-information.html",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "grin.co",
+   "email": "legal@grin.co",
+   "name": "GRIN TECHNOLOGIES Inc",
+   "privacyPage": "https://www.grin.co/data-privacy-form/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "growbots.com",
+   "email": "privacy@growbots.com",
+   "name": "Growbots Inc.",
+   "privacyPage": "https://www.growbots.com/do-not-sell-my-info/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "gumgum.com",
+   "email": "talbert@gumgum.com",
+   "name": "Gumgum, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "gundersondirect.com",
+   "email": "jeff@gundir.com",
+   "name": "Gunderson Direct",
+   "privacyPage": "https://gundir.com/opt-out/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "healthcare.com",
+   "email": "info@healthcare.com",
+   "name": "Healthcare, Inc.",
+   "privacyPage": "https://www.healthcare.com/data-request/request-form/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "healthlinkdimensions.com",
+   "email": "nlenyszyn@healthlinkdimensions.com",
+   "name": "Healthlink Dimensions, LLC",
+   "privacyPage": "https://www.healthlinkdimensions.com/consumerprivacyrights?hsLang=en",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "healthwisedata.com",
+   "email": "info@healthwisedata.com",
+   "name": "Healthwise Data LLC",
+   "privacyPage": "https://www.healthwisedata.com/compliance-optout",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "heartbeat.ai",
+   "email": "ben@swordfishapp.com",
+   "name": "Heartbeat.Ai Inc",
+   "privacyPage": "https://swordfishapp.com/optout",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "hellofyllo.com",
+   "email": "legal@hellofyllo.com",
+   "name": "Casters Holdings LLC",
+   "privacyPage": "https://www.semasio.com/legal/privacy-choices",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "hightouch.com",
+   "email": "legal@hightouch.com",
+   "name": "CARRY TECHNOLOGIES Inc",
+   "privacyPage": "https://www.hightouch.com/privacy-choices",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "hireez.com",
+   "email": "privacy@hireez.com",
+   "name": "HIRETEAMMATE Inc",
+   "privacyPage": "https://app.hiretual.com/optout",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "homeownersmarketingservices.com",
+   "email": "dnm@homeownersmarketingservices.com",
+   "name": "Homeowners Marketing Services Inc",
+   "privacyPage": "https://homeownersmarketingservices.com/list-removal-request-new/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "i-360.com",
+   "email": "privacy@i-360.com",
+   "name": "I360 LLC",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/77dff651-9f08-40cd-99fe-a7c487b2504d/fd25e566-5931-4987-ae94-13ffd3306913",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "idatabasesolutions.com",
+   "email": "compliance@idatabasesolutions.com",
+   "name": "Innovative Database Solutions, Inc.",
+   "privacyPage": "https://idatabasesolutions.com/do-not-sell-my-personal-info/",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "idengine.com",
+   "email": "chad@idengine.ai",
+   "name": "Idengine LLC",
+   "privacyPage": "https://idengine.com/dnsmpi/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "ididata.com",
+   "email": "privacy@ididata.com",
+   "name": "INTERACTIVE DATA LLC",
+   "privacyPage": "https://ididata.com/idis-privacy-statement#privacy",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "ihsmarkit.com",
+   "email": "bruce.noll@ihsmarkit.com",
+   "name": "IHS Markit",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "inboundinsight.com",
+   "email": "privacy@inboundinsight.com",
+   "name": "Inbound Insight, LLC",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "inchecksolutions.com",
+   "email": "jenwaite@inchecksolutions.com",
+   "name": "Incheck Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "indivizio.com",
+   "email": "privacyofficer@indivizio.com",
+   "name": "PATHWAY VENTURES LLC",
+   "privacyPage": "https://www.protectdataprivacy.com/",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "infillion.com",
+   "email": "privacy@infillion.com",
+   "name": "Paedae, Inc.",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/f7e3f6db-ed65-4759-a3f5-3b5c8b7e9bff/draft/9949a1a8-aa69-4848-a93f-d093d877a981",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "inflection.com",
+   "email": "legal@inflection.com",
+   "name": "Inflection Risk Solutions, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "infocore.com",
+   "email": "bjupp@infocore.com",
+   "name": "Infocore Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "infofree.com",
+   "email": "accounting@infofree.com",
+   "name": "Infofree.com",
+   "privacyPage": "https://privacycompliance.biz/databaseusa-opt-out-process/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "infogroup.com",
+   "email": "privacyteam@infogroup.com",
+   "name": "Infogroup Inc.",
+   "privacyPage": "https://www.data-axle.com/do-not-sell-my-data/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "infopay.com",
+   "email": "compliance@infopay.com",
+   "name": "INFOPAY Inc",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "infutor.com",
+   "email": "compliance@infutor.com",
+   "name": "Infutor Data Solutions LLC",
+   "privacyPage": "https://marketing.verisk.com/privacy-center/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "innovis.com",
+   "email": "vtdata@innovis.com",
+   "name": "Innovis Data Solutions, Inc.",
+   "privacyPage": "https://www.innovis.com/personal/optOutOptIn",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "insideview.com",
+   "email": "privacy@insideview.com",
+   "name": "InsideView, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "instantcheckmate.com",
+   "email": "privacy@instantcheckmate.com",
+   "name": "INSTANT CHECKMATE LLC",
+   "privacyPage": "https://www.instantcheckmate.com/do-not-sell-or-share-my-personal-information",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "instantly.ai",
+   "email": "benjamin.walsh@instantly.ai",
+   "name": "FOO MONK LLC",
+   "privacyPage": "https://help.instantly.ai/en/collections/9392788-instantly-privacy-center",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "intelius.com",
+   "email": "support@mailer.intelius.com",
+   "name": "INTELIUS LLC",
+   "privacyPage": "https://www.intelius.com/privacy-center",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "intellicorp.net",
+   "email": "compliance@intellicorp.net",
+   "name": "Intellicorp Records, Inc.",
+   "privacyPage": "https://www.intellicorp.net/marketing/Your-California-Privacy-Rights",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "intentiq.com",
+   "email": "privacy@intentiq.com",
+   "name": "INTENT IQ LLC",
+   "privacyPage": "https://www.intentiq.com/opt-out/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "intentsify.io",
+   "email": "privacy@intentsify.io",
+   "name": "INTENTSIFY LLC",
+   "privacyPage": "https://app.intentsify.io/opt-out",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "intranetquorum.com",
+   "email": "privacy@leidos.com",
+   "name": "Leidos Digital Solutions, Inc.",
+   "privacyPage": "https://leidosiq.com/privacy-statement/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "ipapi.co",
+   "email": "legal@kloudend.com",
+   "name": "KLOUDEND Inc",
+   "privacyPage": "https://ipapi.co/donotsell/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "iqvia.com",
+   "email": "privacyofficer@iqvia.com",
+   "name": "IQVIA Inc",
+   "privacyPage": "https://www.iqvia.com/about-us/privacy/ccpa/do-not-sell",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "irys.us",
+   "email": "ariyo.noibi@irys.us",
+   "name": "Irys",
+   "privacyPage": "https://www.irys.us/do-not-sell-ccpa",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "issgovernance.com",
+   "email": "dataprotectionofficer@iss-stoxx.com",
+   "name": "INSTITUTIONAL SHAREHOLDER SERVICES",
+   "privacyPage": "https://www.issgovernance.com/privacy-legal/ccpa/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "iwave.com",
+   "email": "privacy+vermont@iwave.com",
+   "name": "Iwave Information Systems Inc.",
+   "privacyPage": "https://go.kindsight.io/privacy-opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "jdmlistservices.com",
+   "email": "chrissy@jdmlistservices.com",
+   "name": "JDM LIST SERVICES LLC",
+   "privacyPage": "https://www.jdmlistservices.com/do-not-sell-my-info",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "jdpower.com",
+   "email": "legal@jdpa.com",
+   "name": "J.D. Power",
+   "privacyPage": "https://www.jdpower.com/privacy/dsar",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "jigyasaanalytics.com",
+   "email": "info@jigyasaanalytics.com",
+   "name": "Jigyasa Analytics LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "jmr-media.com",
+   "email": "jon@jmr-media.com",
+   "name": "JMR MEDIA CONSULTING Inc",
+   "privacyPage": "https://www.jmr-media.com/do-not-sell-my-personal",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "join5x5.com",
+   "email": "brian@5x5coop.com",
+   "name": "5X5 US LLC",
+   "privacyPage": "https://5x5data.com/opt-out-preferences/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "jverify.com",
+   "email": "admin@jverify.com",
+   "name": "Jverify, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "kbmg.com",
+   "email": "john.petrillo@wundermandata.com",
+   "name": "KBM GROUP LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "killi.io",
+   "email": "privacy@killi.io",
+   "name": "Killi Ltd.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "klarifi.io",
+   "email": "soren@klarifi.io",
+   "name": "Klarifi",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "knowwho.com",
+   "email": "bbrownson@knowwho.com",
+   "name": "Knowwho",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "kochava.com",
+   "email": "legal@kochava.com",
+   "name": "Kochava Inc.",
+   "privacyPage": "https://www.kochava.com/opt-out-do-not-sell-request-process/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "kontextdata.com",
+   "email": "info@kontextdata.com",
+   "name": "Kontext",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "l2-data.com",
+   "email": "bruce.willsie@l2political.com",
+   "name": "LABELS & LISTS Inc",
+   "privacyPage": "https://l2political.com/california-privacy-rights-for-california-residents-only/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "lciinc.com",
+   "email": "info@lciinc.com",
+   "name": "Lundquist Consulting, Inc.",
+   "privacyPage": "https://g2risksolutions.com/consumer-center/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "lead.co",
+   "email": "dave@lead.co",
+   "name": "The Lead Company, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "lead411.com",
+   "email": "tom@lead411.io",
+   "name": "LEAD411 CORPORATION",
+   "privacyPage": "https://lead411.com/your-privacy-choices/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "leadiq.com",
+   "email": "privacy@leadiq.com",
+   "name": "LEADIQ Inc",
+   "privacyPage": "https://www.leadiq.com/privacy-center",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "leadmemedia.com",
+   "email": "texasregistry@leadmemedia.com",
+   "name": "LEAD ME MEDIA LLC",
+   "privacyPage": "https://policy.leadmemedia.com/California/californiaform.html",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "leadpost.com",
+   "email": "amanda@leadpost.com",
+   "name": "LEADPOST LLC",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "leadspace.com",
+   "email": "compliance_privacy@leadspace.com",
+   "name": "LEADSPACE Inc",
+   "privacyPage": "https://www.leadspace.com/do-not-sell-form/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "lexisnexis.com",
+   "email": "consumer.documents@lexisnexisrisk.com",
+   "name": "RELX Inc",
+   "privacyPage": "https://solutions.risk.lexisnexis.com/PreferenceCenter",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "liftengine.com",
+   "email": "khuntoon@liftengine.com",
+   "name": "Blue Hill Marketing Solutions, Inc",
+   "privacyPage": "https://www.liftbasedata.com/request-to-know/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "lightboxre.com",
+   "email": "jfranks@lightboxre.com",
+   "name": "Lightbox Parent, L.P.",
+   "privacyPage": "https://www.lightboxre.com/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "lightcast.io",
+   "email": "legal@lightcast.io",
+   "name": "ECONOMIC MODELING LLC",
+   "privacyPage": "https://optout.networkadvertising.org/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "listonline.com",
+   "email": "privacyofficer@listsonline.com",
+   "name": "Listsonline",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "listservicedirect.com",
+   "email": "spalilla@listservicedirect.com",
+   "name": "List Service Direct Inc.",
+   "privacyPage": "https://listservicedirect.com/opt-out/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "liveintent.com",
+   "email": "bhayes@zetaglobal.com",
+   "name": "Disqus, Inc.",
+   "privacyPage": "https://disqus.com/data-sharing-settings/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "liveramp.com",
+   "email": "consumercare@liveramp.com",
+   "name": "LIVERAMP HOLDINGS Inc",
+   "privacyPage": "https://optout.liveramp.com/opt_out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "localblox.com",
+   "email": "sabira@localblox.com",
+   "name": "Localblox",
+   "privacyPage": "https://consumer.localblox.com/privacy_policy",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "locateplus.com",
+   "email": "dserrano@locateplus.com",
+   "name": "Search America LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "logiq.com",
+   "email": "compliance@logiq.com",
+   "name": "Logiq, Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "lookify.io",
+   "email": "support@lookify.io",
+   "name": "LOOKIFY LLC",
+   "privacyPage": "https://www.lookify.io/opt-out",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "loopme.com",
+   "email": "legal@loopme.com",
+   "name": "LOOPME LTD",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "lotame.com",
+   "email": "privacy@lotame.com",
+   "name": "Lotame Solutions, Inc.",
+   "privacyPage": "https://lotame-optout.com/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "luc.id",
+   "email": "privacy@luc.id",
+   "name": "Lucid Holdings, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "lusha.com",
+   "email": "privacy@lusha.com",
+   "name": "Lusha Systems Inc",
+   "privacyPage": "https://dashboard.lusha.co/opt-out?ccpa=true",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "m1-data.com",
+   "email": "gashe@m1-data.com",
+   "name": "M1 Data & Analytics, LLC",
+   "privacyPage": "https://m1-data.com/unsubscribe/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "machintel.com",
+   "email": "dpo@machintel.com",
+   "name": "Machintel",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "magnite.com",
+   "email": "privacy@magnite.com",
+   "name": "MAGNITE Inc",
+   "privacyPage": "https://www.magnite.com/legal/user-choice-portal/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "mailinglists.com",
+   "email": "sheck@mlxp.com",
+   "name": "Infinite Media Concepts Inc",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "marketops.com",
+   "email": "james@marketops.com",
+   "name": "Marketops",
+   "privacyPage": "https://marketops.com/privacy-options/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "martin-data.com",
+   "email": "accounting@usinfosearch.com",
+   "name": "Martin Data LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "matchbookdata.com",
+   "email": "privacy@matchbookdata.com",
+   "name": "MATCHBOOK DATA LLC",
+   "privacyPage": "https://www.matchbookdata.com/opt-out-form/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "maxmind.com",
+   "email": "privacy@maxmind.com",
+   "name": "MAXMIND Inc",
+   "privacyPage": "https://www.maxmind.com/en/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "mchdata.com",
+   "email": "peterlong@mchdata.com",
+   "name": "Mch, Inc.",
+   "privacyPage": "https://www.mchdata.com/about/ccpaemail",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "mediawallah.com",
+   "email": "privacy@mediawallah.com",
+   "name": "MEDIAWALLAH Inc",
+   "privacyPage": "https://mediawallah.com/donotsell/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "melissa.com",
+   "email": "dennis.bedford@melissa.com",
+   "name": "Melissa Data Corporation",
+   "privacyPage": "https://apps.melissa.com/user/consumerprivacy.aspx",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "meltwater.com",
+   "email": "privacy@meltwater.com",
+   "name": "Meltwater News US Inc.",
+   "privacyPage": "https://www.meltwater.com/en/legal",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "merkleinc.com",
+   "email": "dpous@merkleinc.com",
+   "name": "Merkle Inc",
+   "privacyPage": "https://merkleinc.com/en/privacy-policy/data-product-privacy-notice/control-your-personal-information.html",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "messagedigital.com",
+   "email": "privacy@messagedigital.com",
+   "name": "MESSAGE DIGITAL LLC",
+   "privacyPage": "https://www.messagedigital.com/my-data",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "mfidata.com",
+   "email": "mfitzpatrick@mfidata.com",
+   "name": "MFI Credit Solutions",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "milestonemarketingsolutions.com",
+   "email": "mmsprivacy@milestonemarketingsolutions.com",
+   "name": "MILESTONE MARKETING SOLUTIONS",
+   "privacyPage": "https://www.milestonemarketingsolutions.com/do-not-sell-my-information",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "minervadata.xyz",
+   "email": "jackson@minervadata.xyz",
+   "name": "MINERVA BI Inc",
+   "privacyPage": "https://realtors.minervadata.xyz/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "missionwired.com",
+   "email": "info@missionwired.com",
+   "name": "Anne Lewis Strategies, LLC",
+   "privacyPage": "https://optout.networkadvertising.org/?c=1",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "mobilewalla.com",
+   "email": "jclark@mobilewalla.com",
+   "name": "Mobilewalla, Inc.",
+   "privacyPage": "https://www.mobilewalla.com/global-opt-out-request",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "modernize.com",
+   "email": "accounting@modernize.com",
+   "name": "Modernize, Inc.",
+   "privacyPage": "https://privacy-central.securiti.ai/#/dsr/1b319101-f00c-470f-a7f0-26aa81f057b8",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "modfxlabs.com",
+   "email": "mandeep@modfxlabs.com",
+   "name": "Modfx Labs Private Limited",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "mogean.com",
+   "email": "info@mogean.com",
+   "name": "Mogean, Inc.",
+   "privacyPage": "https://www.mogean.com/opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "monevo.com",
+   "email": "usacompliance@monevo.com",
+   "name": "Monevo Inc",
+   "privacyPage": "https://www.monevo.us/privacy-portal.",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "monitorbase.com",
+   "email": "robert.zitting@monitorbase.com",
+   "name": "Lender Feed LC",
+   "privacyPage": "https://my.monitorbase.com/privacypolicy",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "mortgagetech.ice.com",
+   "email": "compliancemortgagetech@ice.com",
+   "name": "Collateral Analytics, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "mrginc.com",
+   "email": "info@mrginc.com",
+   "name": "MEDIA RESOURCE GROUP LLC",
+   "privacyPage": "https://www.mrginc.com/opt-out/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "mrss.com",
+   "email": "privacy@mrs.com",
+   "name": "M & R STRATEGIC SERVICES Inc",
+   "privacyPage": "https://docs.google.com/forms/d/e/1FAIpQLSefr7ccty1bMZza8chUgLe0eWktBpQ_wGhzFpzeUupGlna3CA/viewform?usp=sf_link",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "n-focus.com",
+   "email": "consumer@n-focus.com",
+   "name": "NFOCUS CONSULTING Inc",
+   "privacyPage": "https://www.n-focus.com/do-not-sell-or-share-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "nativo.com",
+   "email": "privacy@nativo.com",
+   "name": "NATIVO Inc",
+   "privacyPage": "https://nativo.com/interest-based-ads#your-rights",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "ncr.com",
+   "email": "office.privacy@ncr.com",
+   "name": "NCR Corporation",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "ncsolutions.com",
+   "email": "ncs.privacy@ncsolutions.com",
+   "name": "NC VENTURES LLC",
+   "privacyPage": "https://ncsolutions.com/do-not-sell-my-information/",
+   "states": [
+    "OR"
+   ]
+  },
+  {
+   "domain": "nctue.com",
+   "email": "abby@nacmsw.com",
+   "name": "National Consumer Telecom & Utilities Exchange, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "near.com",
+   "email": "privacy@near.com",
+   "name": "Near Intelligence Holdings, Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "nelists.com",
+   "email": "dave@nelists.com",
+   "name": "New England List Services",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "nextroll.com",
+   "email": "legal@nextroll.com",
+   "name": "Nextroll, Inc.",
+   "privacyPage": "https://app.adroll.com/optout",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "nexxagroup.com",
+   "email": "h.paulus@nexxagroup.com",
+   "name": "Nexxa Group, Inc.",
+   "privacyPage": "https://www.nexxagroup.com/corporate-overview/consumer-opt-out/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "nexxen.com",
+   "email": "compliance@nexxen.com",
+   "name": "Nexxen Inc",
+   "privacyPage": "https://yourdata.nexxen.com/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "nielsen.com",
+   "email": "privacy.department@nielsen.com",
+   "name": "EXELATE Inc",
+   "privacyPage": "https://www.nielsen.com/legal/optout-page/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "novalist.com",
+   "email": "info@novalist.com",
+   "name": "NOVA List Company, LLC",
+   "privacyPage": "https://www.novalist.com/opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "nuwber.com",
+   "email": "support@nuwber.com",
+   "name": "Nuwber Inc",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "nymblr.com",
+   "email": "privacy@nymblr.com",
+   "name": "Nymblr, Inc.",
+   "privacyPage": "https://www.nymblr.com",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "onaudience.com",
+   "email": "privacy@onaudience.com",
+   "name": "Onaudience Ltd",
+   "privacyPage": "https://onaudience.com/opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "onemata.com",
+   "email": "beckere@onemata.com",
+   "name": "Onemata Corporation",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "opcity.com",
+   "email": "danica.shelton@opcity.com",
+   "name": "Msim, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "openpeoplesearch.com",
+   "email": "info@openpeoplesearch.com",
+   "name": "The Open Data People, Inc.",
+   "privacyPage": "https://www.openpeoplesearch.com/Consumer",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "oracle.com",
+   "email": "oracle-datacloud-privacy_us@oracle.com",
+   "name": "Oracle America Inc",
+   "privacyPage": "https://datacloudoptout.oracle.com/legal/privacy/privacy-choices/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "outlastdfs.com",
+   "email": "brenton@outlastdfs.com",
+   "name": "LET IT RIDE SPORTS LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "outlogic.io",
+   "email": "privacy@outlogic.io",
+   "name": "OUTLOGIC LLC",
+   "privacyPage": "https://outlogic.io/opt-out-form/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "outwardmedia.com",
+   "email": "paula@outwardmedia.com",
+   "name": "Outward Media, Inc.",
+   "privacyPage": "https://www.outwardmedia.com/do-not-sell",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "owneriq.com",
+   "email": "privacy@owneriq.com",
+   "name": "Inmar-Oiq, LLC",
+   "privacyPage": "https://optout.owneriq.net/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "pacificeast.com",
+   "email": "crobinson@pacificeast.com",
+   "name": "PACIFIC EAST RESEARCH Inc",
+   "privacyPage": "https://www.pacificeast.com/contact-us-privacy/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "parasolleads.com",
+   "email": "jschwartz@parasolleads.com",
+   "name": "Parasol Media Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "partnerscredit.com",
+   "email": "support@partnerscredit.com",
+   "name": "Partners Credit And Verification Solutions",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "path2response.com",
+   "email": "finance@path2response.com",
+   "name": "Path2Response LLC",
+   "privacyPage": "https://privacyportal-cdn.onetrust.com/dsarwebform/2de26f06-de6f-45a7-8e1d-7d1148a3f301/draft/7a5dc7d1-cc7e-43a8-9f24-702807deb65b.html",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "peopleconnect.us",
+   "email": "brad.toney@peopleconnect.us",
+   "name": "Peopleconnect, Inc.",
+   "privacyPage": "https://suppression.peopleconnect.us/privacy-center",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "peopledatalabs.com",
+   "email": "privacy@peopledatalabs.com",
+   "name": "People Data Labs",
+   "privacyPage": "https://www.peopledatalabs.com/do-not-sell-or-share",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "peoplefinders.com",
+   "email": "databroker@peoplefinders.com",
+   "name": "PEOPLEFINDERS LLC",
+   "privacyPage": "https://www.peoplefinders.com/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "peoplesearcher.com",
+   "email": "support@peoplesearcher.com",
+   "name": "THE PEOPLE SEARCHERS LLC",
+   "privacyPage": "https://www.peoplesearcher.com/optOut/name/landing",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "persistent.id",
+   "email": "privacy@persistent.id",
+   "name": "Command Precision Inc.",
+   "privacyPage": "https://www.intentwave.com/opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "pipl.com",
+   "email": "legal@pipl.com",
+   "name": "Pipl, Inc.",
+   "privacyPage": "https://pipl.com/resources/privacy-documents/california-privacy-notice-individuals",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "plmrkg.com",
+   "email": "george@plmrkg.com",
+   "name": "Plural Marketing Solutions Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "plungedigital.com",
+   "email": "info@plungedigital.com",
+   "name": "Plunge, LLC",
+   "privacyPage": "https://share.hsforms.com/1erM4FtHJQY2p2JaWuo4YbQ2dsq6",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "polityinc.com",
+   "email": "info@polityinc.com",
+   "name": "Polity",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "porchgroupmedia.com",
+   "email": "lchiodo@porchgroupmedia.com",
+   "name": "DATAMENTORS LLC",
+   "privacyPage": "https://www.porchgroupmedia.com/inbound/do-not-sell-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "possiblenow.com",
+   "email": "bschorer@possiblenow.com",
+   "name": "POSSIBLENOW Inc",
+   "privacyPage": "https://site.possiblenow.com/do-not-sell-my-personal-information-new",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "postie.com",
+   "email": "info@postie.com",
+   "name": "POSTIE Inc",
+   "privacyPage": "https://optout.postie.com/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "postpilot.com",
+   "email": "operations@postpilot.com",
+   "name": "POSTPILOT Inc",
+   "privacyPage": "https://www.postpilot.com/opt-out-of-mailings-form",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "precisely.com",
+   "email": "placeiq.privacy@precisely.com",
+   "name": "PRECISELY SOFTWARE INCORPORATED",
+   "privacyPage": "https://www.precisely.com/your-privacy-choices",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "preferredcommunications.com",
+   "email": "info@preferredcommunications.com",
+   "name": "Preferred Communications",
+   "privacyPage": "https://preferredcommunications.com/consumer-opt-out/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "preqin.com",
+   "email": "dp@preqin.com",
+   "name": "PREQIN Inc",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "privaterecords.net",
+   "email": "support@privaterecords.net",
+   "name": "PRIVATE RECORDS LLC",
+   "privacyPage": "https://www.privaterecords.net/optOut/name/landing.",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "privatereports.com",
+   "email": "llcinfomatics@gmail.com",
+   "name": "INFOMATICS LLC",
+   "privacyPage": "https://www.privatereports.com/optOut/name/landing",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "privco.com",
+   "email": "legal@privco.com",
+   "name": "Privco Media LLC",
+   "privacyPage": "https://www.privco.com/privacy-policy#opt-out",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "propertyradar.com",
+   "email": "privacy@propertyradar.com",
+   "name": "Propertyradar Inc",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/c3eb779a-028a-4045-aefc-ac78be730689/6f6c2bef-b565-4753-adc6-95585d7a9486",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "propertyreach.com",
+   "email": "compliance@propertyreach.com",
+   "name": "PROPERTY REACH L.P.",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "propstream.com",
+   "email": "accounting@propstream.com",
+   "name": "Equimine",
+   "privacyPage": "https://www.propstream.com/privacy-request",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "prospectordatabase.com",
+   "email": "privacy@prospectordatabase.com",
+   "name": "Prospector Database, LLC",
+   "privacyPage": "https://www.prospectordatabase.com/privacy-center",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "proximaplatform.com",
+   "email": "aleex.de.aybar@outlook.com",
+   "name": "Proxima Platform",
+   "privacyPage": "https://www.proximaplatform.com/opt-out-portal",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "pubmatic.com",
+   "email": "privacy@pubmatic.com",
+   "name": "PUBMATIC Inc",
+   "privacyPage": "https://pubmatic.com/legal/opt-out/",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "pushint.com",
+   "email": "compliance@pushint.com",
+   "name": "ORIGIN8 Inc",
+   "privacyPage": "https://pushint.com/manage-my-data",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "pwc.com",
+   "email": "us_privacy_office@pwc.com",
+   "name": "PricewaterhouseCoopers LLP",
+   "privacyPage": "https://www.pwc.com/us/en/site/notice-of-right-to-opt-out.html",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "quad.com",
+   "email": "databroker@quad.com",
+   "name": "Quad/Graphics Inc",
+   "privacyPage": "https://www.quad.com/submit-a-privacy-request/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "qwoted.com",
+   "email": "hello@qwoted.com",
+   "name": "Qwoted, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "rampedup.io",
+   "email": "contact@rampedup.io",
+   "name": "RAMPEDUP",
+   "privacyPage": "https://basic.rampedup.io/app/donotsell",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "rayinsights.com",
+   "email": "info@raycdp.com",
+   "name": "Ray CDP Inc",
+   "privacyPage": "https://www.rayinsights.com/ray-cdp-opt-out-and-delete-request/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "reachdata.com",
+   "email": "compliance@reachdata.com",
+   "name": "FREEMIUM DATA SERVICE LLC",
+   "privacyPage": "https://www.reachdata.com/privacy",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "realeflow.com",
+   "email": "privacy@realeflow.com",
+   "name": "REALEFLOW LLC",
+   "privacyPage": "https://forms.gle/cgg2e2jLT7CL7efM7",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "realintent.co",
+   "email": "contact@realintent.co",
+   "name": "REAL INTENT Inc.",
+   "privacyPage": "https://www.realintent.co/do-not-sell",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "realpage.com",
+   "email": "rponsitecompliance@realpage.com",
+   "name": "RP On-Site LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "realsourcedata.com",
+   "email": "karolyn@realsourcedata.com",
+   "name": "Realsource, Inc",
+   "privacyPage": "https://www.realsourcedata.com/do-not-sell-my-personal-information",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "recruitbot.com",
+   "email": "privacy@recruitbot.com",
+   "name": "Recruitbot, Inc.",
+   "privacyPage": "https://recruitbot.com/removal-request/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "redidata.com",
+   "email": "jlauda@redidirect.com",
+   "name": "Redi-Data Inc.",
+   "privacyPage": "https://www.redidata.com/join-our-mailing-list/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "redmob.io",
+   "email": "privacy@redmob.io",
+   "name": "REDMOB LLC",
+   "privacyPage": "https://www.redmob.io/privacy-policy",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "refinitiv.com",
+   "email": "anubhuti.david@lseg.com",
+   "name": "Refinitiv US LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "reklaimyours.com",
+   "email": "info@reklaimyours.com",
+   "name": "Reklaim Ltd.",
+   "privacyPage": "https://www.reklaimyours.com/optout/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "relpro.com",
+   "email": "info@relpro.com",
+   "name": "RELPRO Inc",
+   "privacyPage": "https://www.relpro.com/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "rentrisk.com",
+   "email": "rich@rentrisk.com",
+   "name": "Rent Risk LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "researchusallc.com",
+   "email": "monica.messer@researchusallc.com",
+   "name": "ResearchUSA",
+   "privacyPage": "https://privacycompliance.biz/researchusallc-ccpa/",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "resonate.com",
+   "email": "privacy@resonate.com",
+   "name": "Resonate",
+   "privacyPage": "https://ds.reson8.com/opt-out.gif?lp=https://www.resonate.com/ccpa-do-not-sell/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "retention.com",
+   "email": "compliance@retention.com",
+   "name": "GETEMAILS LLC",
+   "privacyPage": "https://app.retention.com/optout/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "revealmobile.com",
+   "email": "info@revealmobile.com",
+   "name": "Reveal Mobile",
+   "privacyPage": "https://revealmobile.com/do-not-sell-my-personal-information/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "reveliolabs.com",
+   "email": "hannah@reveliolabs.com",
+   "name": "Revelio Labs, Inc.",
+   "privacyPage": "https://www.reveliolabs.com/do-not-sell-my-personal-information/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "revenuebase.ai",
+   "email": "privacy@revenuebase.ai",
+   "name": "Revenuebase Inc",
+   "privacyPage": "https://revenuebase.ai/do-not-sell-my-info/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "revoptimal.com",
+   "email": "nik@revoptimal.com",
+   "name": "REVOPTIMAL LLC",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "richmediallc.com",
+   "email": "jeff@richmediallc.com",
+   "name": "RICH MEDIA LLC",
+   "privacyPage": "https://richmediallc.com/do-not-sell-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "rocketreach.co",
+   "email": "privacy@rocketreach.co",
+   "name": "Rocketreach LLC",
+   "privacyPage": "https://rocketreach.co/remove-profile",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "roq.ad",
+   "email": "rene@roq.ad",
+   "name": "Roq.Ad Inc",
+   "privacyPage": "https://www.roq.ad/white-papers/#optout",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "rrd.com",
+   "email": "valassisprivacy.request@rrd.com",
+   "name": "VALASSIS COMMUNICATIONS Inc",
+   "privacyPage": "https://www.rrd.com/do-not-sell",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "saferentsolutions.com",
+   "email": "licensing@saferentsolutions.com",
+   "name": "Saferent Solutions, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "saleseer.com",
+   "email": "jean.vansoelen@saleseer.com",
+   "name": "Saleseer, Inc.",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "salesintel.io",
+   "email": "privacy@salesintel.io",
+   "name": "Salesintel Research Inc",
+   "privacyPage": "https://salesintel.io/opt-out/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "salutarydata.com",
+   "email": "info@salutarydata.com",
+   "name": "Salutary Data LLC",
+   "privacyPage": "https://www.salutarydata.com/privacy-opt-out-and-disclosure-form/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "samba.tv",
+   "email": "jagdip.sekhon@samba.tv",
+   "name": "Samba TV, Inc.",
+   "privacyPage": "https://www.samba.tv/users/notice-of-right-to-opt-out",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "scanbuy.com",
+   "email": "chai.outmezguine@scanbuy.com",
+   "name": "Scanbuy, Inc.",
+   "privacyPage": "https://scanbuy.com/rights/data",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "scileads.com",
+   "email": "privacy@scileads.com",
+   "name": "Scileads",
+   "privacyPage": "https://scileads.com/opt-out/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "screen.careerbuilder.com",
+   "email": "complianceteam@careerbuilderscreening.com",
+   "name": "Careerbuilder Employment Screening, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "seamless.ai",
+   "email": "privacy@seamlessleads.com",
+   "name": "Seamless Contacts, Inc.",
+   "privacyPage": "https://login.seamless.ai/personalDataRequest",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "searchbug.com",
+   "email": "support@searchbug.zohodesk.com",
+   "name": "SEARCHBUG Inc",
+   "privacyPage": "https://www.searchbug.com/ccpa.aspx#DoNoSell",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "seekout.com",
+   "email": "privacy@seekout.com",
+   "name": "ZIPSTORM Inc",
+   "privacyPage": "https://www.seekout.com/privacy/choices",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "semasio.com",
+   "email": "info@semasio.com",
+   "name": "SEMASIO Inc",
+   "privacyPage": "https://www.semasio.com/legal/privacy-choices",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "semcasting.com",
+   "email": "accounting@semcasting.com",
+   "name": "Semcasting, Inc.",
+   "privacyPage": "https://www.semcasting.com/privacy-choice",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "sharelocalmedia.com",
+   "email": "legal@sharelocalmedia.com",
+   "name": "SHARE LOCAL MEDIA Inc",
+   "privacyPage": "https://opt-out.sharelocalmedia.com/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "sheerid.com",
+   "email": "greg.damon@sheerid.com",
+   "name": "Sheerid, Inc.",
+   "privacyPage": "https://www.sheerid.com/privacy-notice-for-audience-development-products-services/?_cord_id=6ddcc513-32c1-4799-832f-5c1d99acad88",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "similarweb.com",
+   "email": "legal@similarweb.com",
+   "name": "Similarweb Ltd.",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "simiocloud.com",
+   "email": "privacy@simiocloud.com",
+   "name": "Simio Cloud, LLC",
+   "privacyPage": "https://simiocloud.com/optout/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "skipsmasher.com",
+   "email": "info@skipsmasher.com",
+   "name": "Skipsmasher, Inc.",
+   "privacyPage": "https://www.skipsmasher.com/Consumers/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "skyhook.com",
+   "email": "privacy@skyhook.com",
+   "name": "Skyhook Holding, Inc.",
+   "privacyPage": "https://www.skyhook.com/opt-out-of-skyhook-products.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "smacomm.com",
+   "email": "steven@smacomm.com",
+   "name": "SMA COMMUNICATIONS LLC",
+   "privacyPage": "https://smacomm.com/do-not-sell/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "smartmove.us",
+   "email": "zell@ctam.com",
+   "name": "CTAM Leadshare Corp.",
+   "privacyPage": "https://www.smartmove.us/company/do-not-sell",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "sms-inc.com",
+   "email": "jadams@sms-inc.com",
+   "name": "Specialists Marketing Services, Inc.",
+   "privacyPage": "https://sms-inc.com/do-not-sell-or-share-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "snov.io",
+   "email": "admin@snov.io",
+   "name": "Snovio Inc",
+   "privacyPage": "https://www.snov.io/do-not-sell-my-personal-information",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "socialcatfish.com",
+   "email": "welcome@socialcatfish.com",
+   "name": "Social Catfish, LLC",
+   "privacyPage": "https://www.socialcatfish.com/opt-out/?id=request_optout",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "socialgist.com",
+   "email": "info@socialgist.com",
+   "name": "Effyis Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "sourcescrub.com",
+   "email": "dataprivacy@sourcescrub.com",
+   "name": "Sourcescrub LLC",
+   "privacyPage": "https://www.sourcescrub.com/legal/do-not-sell-my-personal-information",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "speedeondata.com",
+   "email": "accounting@speedeondata.com",
+   "name": "Speedeon Data LLC",
+   "privacyPage": "https://optout.speedeondata.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "spglobal.com",
+   "email": "ccpa@spglobal.com",
+   "name": "S&P GLOBAL Inc",
+   "privacyPage": "https://www.spglobal.com/en/privacy/california-consumer-privacy-act",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  },
+  {
+   "domain": "spokeo.com",
+   "email": "jmatthes@spokeo.com",
+   "name": "Spokeo, Inc.",
+   "privacyPage": "https://www.spokeo.com/optout",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "spoker.com",
+   "email": "phil@spoker.com",
+   "name": "Stratmish, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "spydialer.com",
+   "email": "info@spydialer.com",
+   "name": "Spy Dialer, Inc.",
+   "privacyPage": "https://www.spydialer.com/Consumers/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "srv1st.com",
+   "email": "info@srv1st.com",
+   "name": "Service 1St Information Solutions LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "staircase.co",
+   "email": "admin@staircase.co",
+   "name": "Staircase, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "statara.com",
+   "email": "gerald.allen@statara.com",
+   "name": "STATARA SOLUTIONS LLC",
+   "privacyPage": "https://statara.com/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "statsocial.com",
+   "email": "leigh.walant@statsocial.com",
+   "name": "Statsocial",
+   "privacyPage": "https://www.statsocial.com/optout",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "steppingblocks.com",
+   "email": "andrew@steppingblocks.com",
+   "name": "STEPPINGBLOCKS Inc",
+   "privacyPage": "https://www.steppingblocks.com/personal-information-inquiry",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "sterling.ai",
+   "email": "privacy@sterling.ai",
+   "name": "Sterling Data Company LLC",
+   "privacyPage": "https://sterling.ai/do-not-sell/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "stirista.com",
+   "email": "info@stirista.com",
+   "name": "STIRISTA",
+   "privacyPage": "https://unsubscribe.stirista.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "strategicinfo.com",
+   "email": "jdrziak@strategicinfo.com",
+   "name": "Strategic Information Resources",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "structure.ac",
+   "email": "thoran@structure.ac",
+   "name": "Structure",
+   "privacyPage": "https://www.structure.ac/opt_outs/new",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "studentclearinghouse.org",
+   "email": "legal@studentclearinghouse.org",
+   "name": "NATIONAL STUDENT CLEARINGHOUSE",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "suus.inc",
+   "email": "lcrocker@onboardpartners.com",
+   "name": "Suus, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "taboola.com",
+   "email": "privacy@taboola.com",
+   "name": "TABOOLA Inc",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "take5mg.com",
+   "email": "alex@take5mg.com",
+   "name": "Advantage Sales & Marketing LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "tapad.com",
+   "email": "privacy@tapad.com",
+   "name": "Tapad, Inc.",
+   "privacyPage": "https://crportal.tapad.com",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "targetsmart.com",
+   "email": "gerald.allen@targetsmart.com",
+   "name": "TARGETSMART COMMUNICATIONS LLC",
+   "privacyPage": "https://privacy.targetsmart.com/do-not-sell-my-personal-information",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "teamdms.com",
+   "email": "dataanalytics@teamdms.com",
+   "name": "DIRECT MARKETING SOLUTIONS Inc",
+   "privacyPage": "https://www.teamdms.com/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "techtarget.com",
+   "email": "legal@techtarget.com",
+   "name": "Techtarget, Inc.",
+   "privacyPage": "https://techtarget.zendesk.com/hc/en-us/requests/new?ticket_form_id=360004852434",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "thebridgecorp.com",
+   "email": "privacy@thebridgecorp.com",
+   "name": "Owmn, LTD.",
+   "privacyPage": "https://www.thebridgecorp.com/opt-out/",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "thedatatrust.com",
+   "email": "legal@thedatatrust.com",
+   "name": "DT Client Services, LLC",
+   "privacyPage": "https://thedatatrust.com/do-not-sell-my-personal-information/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "theorg.com",
+   "email": "privacy@theorg.com",
+   "name": "ORGIO Inc",
+   "privacyPage": "https://www.theorg.com/do-not-sell",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "thomsonreuters.com",
+   "email": "clear.pm-compliance@thomsonreuters.com",
+   "name": "West Publishing Corporation",
+   "privacyPage": "https://www.thomsonreuters.com/ccpa-dsar",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "throtle.io",
+   "email": "mboyle@throtle.io",
+   "name": "THROTLE Inc",
+   "privacyPage": "https://www.throtle.io/website-privacy-policy/#cookie-id",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "tinuiti.com",
+   "email": "hello@tinuiti.com",
+   "name": "Tinuiti, Inc.",
+   "privacyPage": "https://tinuiti.com/privacy-policy/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "totalverify.equifax.com",
+   "email": "hdi_support@hygenicsdata.com",
+   "name": "HD Information, LLC",
+   "privacyPage": "https://myprivacy.equifax.com/opt-in-opt-out/personal-info",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "towerdata.com",
+   "email": "privacy@towerdata.com",
+   "name": "Towerdata, Inc.",
+   "privacyPage": "https://instantdata.atdata.com/optout",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "tracersinfo.com",
+   "email": "compliance@tracersinfo.com",
+   "name": "Tracers Information Specialists, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "transunion.com",
+   "email": "privacy@team.neustar",
+   "name": "Neustar, Inc.",
+   "privacyPage": "https://www.optoutprescreen.com/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "trestleiq.com",
+   "email": "kshah@trestleiq.com",
+   "name": "TRESTLE SOLUTIONS Inc",
+   "privacyPage": "https://www.trestleiq.com/do-not-sell-my-personal-information/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "trueblueanalytics.org",
+   "email": "ben@trueblueanalytics.org",
+   "name": "TRUE BLUE ANALYTICS LLC",
+   "privacyPage": "https://www.trueblueanalytics.org/dontsellmydata",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "truedata.co",
+   "email": "cpetersen@truedata.co",
+   "name": "Truedata Solutions, Inc.",
+   "privacyPage": "https://info-prod.truedata.co/opt-out-request",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "truepeoplesearch.com",
+   "email": "privacy@truepeoplesearch.com",
+   "name": "FREE DATA SERVICES LLC",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "truthfinder.com",
+   "email": "help@truthfinder.com",
+   "name": "Truthfinder LLC",
+   "privacyPage": "https://www.truthfinder.com/privacy-center/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "tunnldata.com",
+   "email": "info@tunnldata.com",
+   "name": "Tunnl, LLC",
+   "privacyPage": "https://privacy.tunnldata.com/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "twinedata.com",
+   "email": "bmorgan@twinedata.com",
+   "name": "Twine Data, Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "unacast.com",
+   "email": "privacy@unacast.com",
+   "name": "GA-UC HOLDINGS Inc",
+   "privacyPage": "https://www.unacast.com/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "unearthcampaigns.com",
+   "email": "ap@unearthcampaigns.com",
+   "name": "UNEARTH CAMPAIGNS LLC",
+   "privacyPage": "https://www.unearthcampaigns.com/opt-out/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "unitedone.com",
+   "email": "lbrady@unitedone.com",
+   "name": "United One Resources, Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "universalcis.com",
+   "email": "ccasey@universalcredit.com",
+   "name": "Consolidated Information Services Solutions LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "uplead.com",
+   "email": "techteam@uplead.com",
+   "name": "UPLEAD LLC",
+   "privacyPage": "https://www.uplead.com/opt-out/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "upscapital.com",
+   "email": "upscapitalitprivacy@ups.com",
+   "name": "UPS Capital Corporation",
+   "privacyPage": "https://www.upscapital.com/opt-out/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "usadata.com",
+   "email": "privacy@usadata.com",
+   "name": "Usadata, Inc.",
+   "privacyPage": "https://www.usadata.com/donotsellmyinformation",
+   "states": [
+    "TX"
+   ]
+  },
+  {
+   "domain": "usdatacorporation.com",
+   "email": "abradley@usdatacorporation.com",
+   "name": "US DATA CORPORATION",
+   "privacyPage": "https://www.usdatacorporation.com/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "usmarketinggrp.com",
+   "email": "privacy@usmarketinggrp.com",
+   "name": "BH MARKETING GROUP LLC",
+   "privacyPage": "https://www.usmarketinggrp.com/privacy-policy/#CCPA",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "v12data.com",
+   "email": "lchiodo@v12data.com",
+   "name": "Datamentors LLC",
+   "privacyPage": "https://www.v12data.com/inbound/do-not-sell-my-personal-information/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "veeva.com",
+   "email": "privacy@veeva.com",
+   "name": "Veeva Systems Inc.",
+   "privacyPage": "https://www.veeva.com/privacy/do-not-sell-share/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "venntel.com",
+   "email": "privacy@venntel.com",
+   "name": "Venntel, Inc.",
+   "privacyPage": "https://www.venntel.com/opt-out?hsLang=en",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "venpath.net",
+   "email": "privacy@venpath.net",
+   "name": "VENPATH Inc",
+   "privacyPage": "https://www.venpath.net/legal/opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "ventiveiq.com",
+   "email": "privacy@ventiveiq.com",
+   "name": "VENTIVEIQ LLC",
+   "privacyPage": "https://privacyportal.privacypillar.com/dsar/form?orgid=0c31c814-ea86-461f-8ccb-294f05bc74c3&propid=cc95835d-7719-4336-b0c4-18146e5d000a&formid=4348f332-6917-4566-8c56-6fc9eb57097f&status=publish",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "veraset.com",
+   "email": "accounting@veraset.com",
+   "name": "VERASET LLC",
+   "privacyPage": "https://www.veraset.com/do-not-sell-my-personal-information",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "verisk.com",
+   "email": "support@iix.com",
+   "name": "ISO Claims Services, Inc.",
+   "privacyPage": "https://privacy.infutor.com/s/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "versefantasysports.com",
+   "email": "dan@versegaming.com",
+   "name": "Verse Gaming",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "versium.com",
+   "email": "privacy@versium.com",
+   "name": "VERSIUM ANALYTICS Inc",
+   "privacyPage": "https://versium.com/ccpa-opt-out",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "vertify.com",
+   "email": "gpineda@vertify.com",
+   "name": "Vertify, Inc",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "viantinc.com",
+   "email": "privacy@viantinc.com",
+   "name": "Viant Technology LLC",
+   "privacyPage": "https://www.viantinc.com/privacy-policy/#opt-out",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "videoamp.com",
+   "email": "legal@videoamp.com",
+   "name": "Videoamp, Inc.",
+   "privacyPage": "https://videoamp.com/opt-out/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "visualvisitor.com",
+   "email": "privacy@visualvisitor.com",
+   "name": "VISUAL VISITOR LLC",
+   "privacyPage": "https://www.visualvisitor.com/opt-out/",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "warmly.ai",
+   "email": "vendors@warmly.ai",
+   "name": "WARMLY Inc",
+   "privacyPage": "https://warmly.ai/p/do-not-sell-share-my-data",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "wealthengine.com",
+   "email": "legal@altrata.com",
+   "name": "BOARDEX LLC",
+   "privacyPage": "https://privacyportal-de.onetrust.com/webform/b5218791-ed84-4221-9950-4da103101c75/1a48b9f9-3aa6-4bab-bdad-9ec06710a91c",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "wealthfeed.com",
+   "email": "info@wealthfeed.com",
+   "name": "WEALTHFEED",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "webbula.com",
+   "email": "privacy@webbula.com",
+   "name": "WEBBULA LLC",
+   "privacyPage": "https://webbula.com/opt-out-request/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "weinform.org",
+   "email": "support@weinform.org",
+   "name": "WE INFORM LLC",
+   "privacyPage": "https://www.weinform.org/optOut/name/landing",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "whitepages.com",
+   "email": "legal@whitepages.com",
+   "name": "WHITEPAGES Inc",
+   "privacyPage": "https://www.whitepages.com/privacy/consumer-rights",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "whoodle.com",
+   "email": "support@whoodle.com",
+   "name": "Whoodle, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "wiland.com",
+   "email": "privacy@wiland.com",
+   "name": "Wiland, Inc.",
+   "privacyPage": "https://privacyportal.onetrust.com/webform/7567ece3-2d27-4ee0-a506-1153cb7a62b7/a5485eb1-f1ee-4a9f-9ed4-2b8ee48b550f",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "windfall.com",
+   "email": "privacy@windfall.com",
+   "name": "WINDFALL DATA Inc",
+   "privacyPage": "https://www.windfall.com/do-not-sell-my-info",
+   "states": [
+    "OR",
+    "VT"
+   ]
+  },
+  {
+   "domain": "winrdata.com",
+   "email": "privacy@winrdata.com",
+   "name": "WINR Data B.V.",
+   "privacyPage": "https://privacyportal-au.onetrust.com/webform/ad3cafad-4bf2-4d22-951f-57cc1fd05690/5fa8f2da-0508-42a6-bbc7-9b031898d10c",
+   "states": [
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "xactus.com",
+   "email": "carolyn.casey@xactus.com",
+   "name": "Xactus, LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "xcelerated.com",
+   "email": "privacy@xcelerated.com",
+   "name": "Xcelerated Data LLC",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "xome.com",
+   "email": "licensing@xome.com",
+   "name": "Xome Inc.",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "yello.co",
+   "email": "privacy@yello.co",
+   "name": "Recsolu Inc.",
+   "privacyPage": "https://yello.co/do-not-sell-my-personal-information/",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "zeotap.com",
+   "email": "team.legal@zeotap.com",
+   "name": "Zeotap GmbH",
+   "privacyPage": "https://privacyportal-de.onetrust.com/webform/bdcc4a2f-2458-4e17-96c3-cf88f7115dfc/2c5e70e5-643a-4c1e-b9c2-1e71584d04ad",
+   "states": [
+    "VT"
+   ]
+  },
+  {
+   "domain": "ziffdavis.com",
+   "email": "legal@ziffdavis.com",
+   "name": "J2 GLOBAL CANADA Inc",
+   "privacyPage": "https://dsar.ziffdavis.com/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "zoominfo.com",
+   "email": "bubba.nunnery@zoominfo.com",
+   "name": "Zoominfo Technologies LLC",
+   "privacyPage": "https://www.clickagy.com/privacy-center/no-resell/",
+   "states": [
+    "OR",
+    "TX",
+    "VT"
+   ]
+  },
+  {
+   "domain": "zs.com",
+   "email": "dataprivacy@zs.com",
+   "name": "ZS ASSOCIATES Inc",
+   "privacyPage": "https://www.zs.com/data-request",
+   "states": [
+    "OR",
+    "TX"
+   ]
+  }
+ ],
+ "source": "Texas, Vermont and Oregon data broker registries, merged by Privacy Rights Clearinghouse (CC BY-NC-SA 4.0) — https://privacyrights.org/resources-tools/reports/why-are-hundreds-data-brokers-not-registering-states"
+}

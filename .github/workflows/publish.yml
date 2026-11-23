@@ -29,7 +29,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install signing library
-        run: pip install --quiet "cryptography>=43"
+        run: pip install --quiet "cryptography>=43" "openpyxl>=3.1"
 
       - name: Fetch the Optery directory
         run: git clone --depth 1 https://github.com/optery/optery-data-brokers-directory /tmp/optery
@@ -46,6 +46,14 @@ jobs:
         run: |
           curl -fsSL --max-time 60 -o /tmp/registry.csv https://cppa.ca.gov/data_broker_registry/registry.csv
           python3 tools/import_ca_registry.py /tmp/registry.csv
+
+      # Texas, Vermont and Oregon registries, merged by Privacy Rights Clearinghouse (the state sites only show
+      # results behind reCAPTCHA, or without emails). A failed download keeps the committed copy.
+      - name: Refresh the Texas / Vermont / Oregon registries
+        continue-on-error: true
+        run: |
+          curl -fsSL --max-time 90 -o /tmp/states.xlsx "https://privacyrights.org/sites/default/files/2025-05/Data_Broker_Full_Registry_2025.xlsx.xlsx"
+          python3 tools/import_state_registries.py /tmp/states.xlsx
 
       - name: Build, compare, sign
         env:
@@ -66,6 +74,6 @@ jobs:
           python3 tools/sign_catalog.py catalog.json
           git config user.name "catalog-bot"
           git config user.email "catalog-bot@users.noreply.github.com"
-          git add catalog.json catalog.json.sig sources/ca-registry.json
+          git add catalog.json catalog.json.sig sources/ca-registry.json sources/state-registries.json
           git commit -m "Publish catalog $(python3 -c 'import json;print(json.load(open("catalog.json"))["version"])')"
           git push
