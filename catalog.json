@@ -4361,20 +4361,16 @@
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "untested",
+   "confidence": "listed",
    "email": "support@publicdatacheck.com",
-   "flags": [],
    "id": "publicdatacheck-com",
    "name": "Public Data Check",
    "optOutUrl": "https://www.publicdatacheck.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
-    "birth_year",
-    "city_state",
-    "email",
     "full_name"
    ],
-   "verification": "email_link",
+   "verification": "unknown",
    "website": "https://www.publicdatacheck.com/"
   },
   {
@@ -4410,20 +4406,16 @@
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "untested",
+   "confidence": "listed",
    "email": "support@publicrecordreports.com",
-   "flags": [],
    "id": "publicrecordreports-com",
    "name": "Public Record Reports",
    "optOutUrl": "https://www.publicrecordreports.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
-    "birth_year",
-    "city_state",
-    "email",
     "full_name"
    ],
-   "verification": "email_link",
+   "verification": "unknown",
    "website": "https://www.publicrecordreports.com/"
   },
   {
@@ -4960,20 +4952,16 @@
   {
    "category": "people_search",
    "channel": "web_form",
-   "confidence": "untested",
+   "confidence": "listed",
    "email": "support@searchpublicrecords.com",
-   "flags": [],
    "id": "searchpublicrecords-com",
    "name": "SearchPublicRecords.com",
    "optOutUrl": "https://www.searchpublicrecords.com/help-center/privacy-requests",
    "relistDays": 90,
    "requiredFields": [
-    "birth_year",
-    "city_state",
-    "email",
     "full_name"
    ],
-   "verification": "email_link",
+   "verification": "unknown",
    "website": "https://www.searchpublicrecords.com/"
   },
   {
@@ -6847,30 +6835,6 @@
    "channel": "web_form",
    "confidence": "untested",
    "flags": [
-    "removal_via_parent",
-    "search_from_ddg"
-   ],
-   "id": "vehiclerelatedrecords-com",
-   "name": "Vehicle Related Records",
-   "notes": "Opt-out is offered through SpyFly (spyfly.com). Whether that also removes the listing on this site is not verified yet: re-check this site after.",
-   "optOutUrl": "https://www.spyfly.com/help-center/privacy-requests",
-   "owner": "SpyFly",
-   "relistDays": 90,
-   "requiredFields": [
-    "birth_year",
-    "city_state",
-    "email",
-    "full_name"
-   ],
-   "searchUrl": "https://vehiclerelatedrecords.com/results.php?sptp=Drivers&sbid=Driving&first=${firstName}&last=${lastName}&city=${city}&state=${state}",
-   "verification": "email_link",
-   "website": "https://vehiclerelatedrecords.com"
-  },
-  {
-   "category": "people_search",
-   "channel": "web_form",
-   "confidence": "untested",
-   "flags": [
     "search_from_ddg"
    ],
    "id": "verecor-com",
@@ -7012,5 +6976,5 @@
    "website": "https://wellnut.com"
   }
  ],
- "version": 20261116155057
+ "version": 20261123181427
 }
